@@ -1,0 +1,459 @@
+[
+  {
+   "id": 1, "Section": "La Tête", "Image" : "Tete_section", "Gestes":
+     [
+        {
+            "id": 1,
+            "nomenclature": "Axe Sagital Supérieur",
+            "explication": "L'axe de tête sagital supérieure est le mouvement de la tête qui se dirige vers le haut. C'est une position de hiérarchie supérieure. Présent dans un sentiment de supériorité par rapport à l'autre.",
+            "exemple": "exemple1",
+            "attitude": "Decideur",
+            "image": "Axe_sagital_supérieur"
+        },
+        {
+            "id": 2,
+            "nomenclature": "Axe Latéral Gauche",
+            "explication": "L'axe de tête latéral gauche est le mouvement de la tête qui se dirige vers l'épaule gauche. C'est une position relationnelle positive. Révèle une forme de bien-être dans la relation. Souvent présente entre amoureux. ",
+            "exemple": "exemple2",
+            "attitude": "Relationnel",
+            "image": "Axe_latéral_gauche"
+        },
+        {
+            "id": 3,
+            "nomenclature": "Axe Rotatif Droit",
+            "explication": "L'axe de tête rotatif droit est le mouvement de la tête qui présente le côté droit du visage à son interlocuteur. C'est une position hémisphérique d'analyse d'information. ",
+            "exemple": "exemple3",
+            "attitude": "Vigilant",
+            "image": "Axe_rotatif_droit"
+        },
+        {
+            "id": 4,
+            "nomenclature": "Main au Front",
+            "explication": "Le front est la zone du visage représentant la réflexion. Porter la main au front est révélateur d'une activité cérébrale de réflexion, d'élaboration d'idée. ",
+            "exemple": "exemple3",
+            "attitude": "Vigilant",
+            "image": "Mains_au_front"
+        },
+        {
+            "id": 5,
+            "nomenclature": "Autocontact au Menton",
+            "explication": "Le menton est la zone du visage dubitative. Porter la main au menton est révélateur d'une activité cérébrale de doute, de remise en question ou de simplement se questionner au sujet des propos en question.",
+            "exemple": "exemple3",
+            "attitude": "Vigilant",
+            "image": "Autocontact_au_menton"
+        },
+        {
+            "id": 6,
+            "nomenclature": "Toucher les Cheveux",
+            "explication": "Les cheveux sont à l'image du plumage des oiseaux en mode de séduction. Prendre ses cheveux et les diriger vers la personne devant nous peut exprimer une volonté de raprochement. ",
+            "exemple": "exemple3",
+            "attitude": "Vigilant",
+            "image": "Toucher_les_cheveux"
+        },
+        {
+            "id": 7,
+            "nomenclature": "Bloquer les Oreilles",
+            "explication": "La fonction des oreilles est d'entendre. L'action de bloquer l'oreille cache une volonté de ne pas vouloir entendre. À ne pas confondre avec une caresse du lobe d'oreille qui dévoile un plaisir d'entendre. ",
+            "exemple": "exemple3",
+            "attitude": "Vigilant",
+            "image": "Bloquer_les_oreilles"
+        }
+        ]
+     },
+     {
+      "id": 2, "Section": "La Bouche", "Image" : "Bouche_section", "Gestes":
+        [
+                {
+               "id": 1,
+               "nomenclature": "Bouche en Huîtres",
+               "explication": "La bouche en huître est l'expression pour dire les lèvres vers l'intérieur. Une des fonctions de la bouche est de parler. S'il y a une volonté de retenir des propos, celle-ci se fermera. Plus cette volonté est importante, plus les lèvres se dirigeront vers l'intérieure pour assurer un bloquage des mots. ",
+               "exemple": "exemple1",
+               "attitude": "slow1",
+               "image": "Bouche_en_huitres"
+           },
+           {
+               "id": 2,
+               "nomenclature": "Langue dans la Joue",
+               "explication": "La langue qui s'exprime de l'intérieur et devient visible sur la joue est l'expression d'une communication aux propos durs qui sont retenus.",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Langue_dans_la_joue"
+           },
+           {
+               "id": 3,
+               "nomenclature": "Main sur la Bouche",
+               "explication": "La main sur la bouche a pour objectif d'éviter que celle-ci s'exprime.",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Main_sur_la_bouche"
+           },
+           {
+               "id": 4,
+               "nomenclature": "Micro-caresse sur la lèvre inférieur",
+               "explication": "La lèvre inférieure est la lèvre de la pulsion. Dans un touché de type micro-caresse, cela révèle une pensée lascive.",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Micro-caresse_sur_la_lèvre_inférieure"
+           }
+           ]
+},
+     {
+      "id": 3, "Section": "Les Yeux", "Image" : "Yeux_section", "Gestes":
+        [
+                {
+               "id": 1,
+               "nomenclature": "Regarder vers le Haut",
+               "explication": "Les yeux qui se dirigent vers le haut sont en quête d'informations cognitives.",
+               "exemple": "exemple1",
+               "attitude": "slow1",
+               "image": "Regarder_vers_le_haut"
+           },
+           {
+               "id": 2,
+               "nomenclature": "Regarder vers le Bas",
+               "explication": "Les yeux qui se dirigent vers le bas sont contectés à une pensée émotionnelle.",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Regarder_vers_le_bas"
+           },
+           {
+               "id": 3,
+               "nomenclature": "Yeux de Sanpaku",
+               "explication": "Les yeux de sanpaku est le nom donné à des yeux qui laissent voir le blanc sous l'iris de l'œil. Lorsqu'un malaise survient le muscle orbiculaire entourant l'œil se dillate et systématiquement la paupière inférieure descendra laissant ainsi voire le blanc sous l'iris. ",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Yeux_de_sanpaku"
+           },
+           {
+               "id": 4,
+               "nomenclature": "Fermer les Yeux avec les Doigts",
+               "explication": "Les yeux ont la fonction de voir. Si nous préférons ne pas voir, la logique du corps portera la main à fermer l'œil permettant ainsi une coupure momentané avec l'élément en question.",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Fermer_les_yeux_avec_les_doigts"
+           }
+           ]
+},
+     {
+      "id": 4, "Section": "Micro-expressions", "Image" : "Yeux_section", "Gestes":
+        [
+                {
+               "id": 1,
+               "nomenclature": "Joie",
+               "explication": "Les émotions universelles sont : la joie, la peur, la tristesse, la colère, le dégoût, le mépris et la surprise. La joie est la seule émotion universelle uniquement positive. Voici trois caractéristique pour reconnaitre la joie : les commissures des lèvres relevées, les paupières inférieures relevées, des plis aux coins extérieurs des yeux.",
+               "exemple": "exemple1",
+               "attitude": "slow1",
+               "image": "Joie"
+           },
+           {
+               "id": 2,
+               "nomenclature": "Peur",
+               "explication": "Lorsque que la peur et de la colère sont dirigées vers l'autre, c'est deux émotions sont à risque d'être confondues, car ce sont deux émotions négatives et intenses. La peur est caractérisée par:  les lèvres qui se tendent vers l'arrière, les yeux qui s'ouvrent pour voir et les dents du bas visibles. Souvent un corps qui s'éloingne et des mains qui de braquent en guise de protection.",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Peur"
+           },
+           {
+               "id": 3,
+               "nomenclature": "Tristesse",
+               "explication": "La tristesse est une émotion négative hypotonique donc le corps sera majoritairment affaisé. Les items de tristesse au visage seront les commisures des lèvres descendantes, les sourcils extérieurs descendants aussi et selon l'intensité de l'émotion vécue, le menton pourait participer à travers un léger tremblement. ",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Tristesse"
+           },
+           {
+               "id": 4,
+               "nomenclature": "Colère",
+               "explication": "La colère est une puisante émotion négative qui habite un corps hypertonique. La tension corporelle est visible notamment à travers les mains, le cou, la machoire. Dans la zone du visage, nous pourront remarquer les rides de coèlre entre les sourcils. La bouche souvent très serrée, le regard fixe, les narines dilatées et les sourcils en V, c'est à dire l'intérieur des sourcils vers le bas.",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Colère"
+           },
+           {
+               "id": 5,
+               "nomenclature": "Dégoût",
+               "explication": "Le dégoût, une émotion qui passe souvent sous le silence pourtant si précieuse à repérer. De plus, elle est facilement décryptable par sa particularité qui dirige tout le visage vers son centre.  Les deux côtés de la lèvre supérieure remonteront vers le nez et le front descendra. ",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Dégout"
+           },
+           {
+               "id": 6,
+               "nomenclature": "Mépris",
+               "explication": "Le mépris est plus subtil à repérer. Son seul indice est la remontée d'un seul côté de la lèvre supérieure.",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Mépris"
+           },
+           {
+               "id": 7,
+               "nomenclature": "Surprise",
+               "explication": "La surprise, pour sa part, peut être positive ou négative. Dans les deux cas les yeux s'ouvriront grands et afficheront des sourcils arqués. La bouche s'ouvrira comme si le menton tombait. ",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Surprise"
+           }
+           ]
+},
+     {
+      "id": 5, "Section": "Le Cou", "Image" : "Cou_section", "Gestes":
+        [
+                {
+               "id": 1,
+               "nomenclature": "Mobilité",
+               "explication": "La mobilité du cou est visible à travers un cou qui suivra le rythme de la conversation. Cette mobilité est présente lorsque la personne est dans un état d'aisance et de confiance. ",
+               "exemple": "exemple1",
+               "attitude": "slow1",
+               "image": "Mobilité"
+           },
+           {
+               "id": 2,
+               "nomenclature": "Déglutition",
+               "explication": "La déglutition est l’action d'avaler. Lorsque l’anxiété est présente, l’instinct de survie dictera au corps de redistribuer ses fluides à des endroits plus essentiels pour sa survie.  Cela provoquera des spasmes musculaires de la gorge et un resserrement rendant plus difficile la déglutition et de ce fait, rendra visible son mouvement dans la zone de la gorge. ",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Déglutition"
+           },
+           {
+               "id": 3,
+               "nomenclature": "Auto Contact au Cou",
+               "explication": "L'auto-contact au cou est un touché au dans la zone du cou. Le cou est la symbolique de la communication. S'il y a un enjeu dans la communication, le réflexe portera la main vers le cou.",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Auto_contact_au_cou"
+           }
+           ]
+},
+     {
+      "id": 6, "Section": "Les Bras", "Image" : "Bras_section", "Gestes":
+        [
+                {
+               "id": 1,
+               "nomenclature": "Bras Croisés",
+               "explication": "Le croisement des bras n'est pas systématiquement un indice de fermeture. La lecture du croisement de bras est analytique. Elle est liée à l'individu. Le sens du croisement de bras est à priori toujours le même, quelques soit les situations.",
+               "exemple": "exemple1",
+               "attitude": "slow1",
+               "image": "Croisés"
+           },
+           {
+               "id": 2,
+               "nomenclature": "Bras Appuyés sur la Table",
+               "explication": "Les bras appuyés fermement et largement sur une surface plat, par exemple une table ou un espace de travail est à la fois une poture d'ancrage et d'affirmation de soi.",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Bras_appuyés_sur_la_table"
+           }
+           ]
+},
+     {
+      "id": 7, "Section": "Les Mains", "Image" : "Mains_section", "Gestes":
+        [
+                {
+               "id": 1,
+               "nomenclature": "Mains en V",
+               "explication": "Les mains en V est la figure des mains quand le bout des doigts se touchent et que les poignets s'éloignent. Le bout des doigts peuvent se diriger vers le ciel, vers le sol ou vers la personne devant. Dans les trois postures, il y a une notion de savoir. L'individu a le sentiment qu'il détient une connaissance supplémentaire par rapport à l'autre ou par rapport aux gens devant lui.",
+               "exemple": "exemple1",
+               "attitude": "slow1",
+               "image": "Mains_en_V"
+           },
+           {
+               "id": 2,
+               "nomenclature": "Mains Lavées",
+               "explication": "L'expression les mains lavées est l'action de frotter les mains l'une sur l'autre. Les mains lavées sont un geste qui a pour objectif de rassuer l'individu. Souvent visible avant la prise de parole en public. ",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Mains_lavées"
+           },
+           {
+               "id": 3,
+               "nomenclature": "Mains en Évantail",
+               "explication": "Les mains en éventail, se reconnaissent à des doigts tendus et écartés. Cette configurtion caractérise une personne sous tension. Plus les doigts sont tendus et écartés plus la tension est vive.",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Mains_en_evantail"
+           },
+           {
+               "id": 4,
+               "nomenclature": "Mains d'Engramme",
+               "explication": "Le geste d'emgramme est lorsque le pouce stimule l'index et le majeur par un mouvemnet de va-et-vient. Ce geste a comme objectif d'activer une activité cérébrale lié à la mémoire.",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Mains_dengramme"
+           },
+           {
+               "id": 5,
+               "nomenclature": "Mains Barrière",
+               "explication": "La main en barrière c'est lorsque la paume de la main est présentée face à l'autre.  C'est un signe de barrière, créer une distance entre lui et l'autre. ",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Mains_barrière"
+           },
+           {
+               "id": 6,
+               "nomenclature": "Mains en Berceau",
+               "explication": "Les mains en berceaux c'est lorsqu'une main dépose le dessus de celle-ci dans la paume de l'autre main. Cela exprime une volonté d'aider, de prendre en charge. Il s'agit d'un geste de douceur.",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Mains_en_berceau"
+           },
+           {
+               "id": 7,
+               "nomenclature": "Mains Ouvertes",
+               "explication": "Les mains ouvertes sont des mains détendues et révèle une communication ou un état d'esprit fluide.",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Mains_ouvertes"
+           }
+           
+           ]
+},
+     {
+      "id": 8, "Section": "Les Jambes", "Image" : "Jambes_section", "Gestes":
+        [
+                {
+               "id": 1,
+               "nomenclature": "Jambes Croisées",
+               "explication": "Le croisement des jambes n'est pas systématiquement un indice de fermeture. La lecture du croisement de jambes est systémique. Le sens du croisement varie selon la nature de l'environnement : ouvert ou fermer à l'autre et l'espace.",
+               "exemple": "exemple1",
+               "attitude": "slow1",
+               "image": "Jambes_croisées"
+           },
+           {
+               "id": 2,
+               "nomenclature": "Auto-Contact au Genou",
+               "explication": "Auto-contact au genou est le fait de toucher un genou. Les genoux symbolisent la performance, la capacité de réussir. Si le touché est au genou gauche, la réflexion peu être  J'aimerais performer et si l'auto-contact est au genou droit, la distinction sera Je dois performer.",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Autocontact_au_genou"
+           },
+           {
+               "id": 3,
+               "nomenclature": "Double Croisement de Jambes",
+               "explication": "Le double croisement de jambes se voit à un croisement plus un retour du pied derrière le molet. Une observation plutôt rare, mais révélatrice de l’hyper vigilance. ",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Double_croisement_de_jambes"
+           }
+           ]
+},
+     {
+      "id": 9, "Section": "Assis", "Image" : "Assis_section", "Gestes":
+        [
+                {
+               "id": 1,
+               "nomenclature": "Position Avant Droit",
+               "explication": "La position avant droit sur une chaise se voit lorsque le torse est avancé et dirigé vers le genou droit. Dans cette position, l'individu est davantage dans une posture d'assurance et même de conviction en lui et/ou dans ses propos. ",
+               "exemple": "exemple1",
+               "attitude": "slow1",
+               "image": "Position_avant_droit"
+           },
+           {
+               "id": 2,
+               "nomenclature": "Position Arrière Gauche",
+               "explication": "La position arrière gauche sur une chaise se voit lorsque le torse est reculé dans le fond de la chaise et dirigé à sa gauche. Dans cette position l'individu est davantage dans une posture de fuite. ",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Position_arrière_gauche"
+           },
+           {
+               "id": 3,
+               "nomenclature": "Position au Centre",
+               "explication": "La position centre sur une chaise se voit lorsque le torse est bien ancré au centre de la chaise. Dans cette position l'individu est davantage dans une posture d'indécision.",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Position_au_centre"
+           },
+           {
+               "id": 4,
+               "nomenclature": "Main Derrière la Tête",
+               "explication": "Que ce soit dans une position assise ou debout, lorsque les mains se portent derrière la tête, il y a une volonté de passer à autre chose. ",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Main_derrière_la_tête"
+           },
+           {
+               "id": 5,
+               "nomenclature": "Jambes Écartées",
+               "explication": "Une posture assise ayant les jambes écartées laissant voir l'entre jambe révèle une posture d'esprit de chef, de positon hérarchique dominante. ",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Jambes_écartées"
+           }
+           ]
+},
+     {
+      "id": 10, "Section": "Les Pieds", "Image" : "Pieds_section", "Gestes":
+        [
+            {
+               "id": 1,
+               "nomenclature": "Pieds d'enfants",
+               "explication": "Les pieds d'enfants est le terme utilisé pour exprimer des pieds décallés, non ancrés au sol. Cette postion de pieds dénote un état d'esprit de non combativité. De concilance et d'ouverture.",
+               "exemple": "exemple1",
+               "attitude": "slow1",
+               "image": "Pieds_denfants"
+           },
+           {
+               "id": 2,
+               "nomenclature": "Ancrés au Sol",
+               "explication": "Les pieds ancrés sont des pieds posés à plat et fermement au sol. Cette posture octroie une position d'assurance, de fermeté ou de confiance.",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Ancre_au_sol"
+           },
+           {
+               "id": 3,
+               "nomenclature": "Pied Retrousé",
+               "explication": "Le pied retroussé est reconnaisable aux orteils qui se dirigent vers le haut. Cette position est présente quand nos pensées sont tendues. ",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Pieds_retrouse"
+           }
+           ]
+},
+     {
+      "id": 11, "Section": "Micro-démangeaisons", "Image" : "Jambes_section", "Gestes":
+        [
+                {
+               "id": 1,
+               "nomenclature": "Jambe",
+               "explication": "Les microdémangeasions sur les jambes, sont présentes lorsqu’une partie de nous, souhaite partir, mais que nous ne partons pas.",
+               "exemple": "exemple1",
+               "attitude": "slow1",
+               "image": "Jambe"
+           },
+           {
+               "id": 2,
+               "nomenclature": "Joue",
+               "explication": "Les microdémangeasions sur les joues, sont souvent présentes lors que nous sommes agacés, voire dérangés",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Joue"
+           },
+           {
+               "id": 3,
+               "nomenclature": "Avant Bras",
+               "explication": "Les microdémangeasions sur l'avant-bras dénote une volonter d'agir. Les bras symbolise l'aide, la protection et faire. Le contexte permettra de mieux interpréter la micro-démangeaison à l'avant-bras.",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Avant_bras"
+           },
+           {
+               "id": 4,
+               "nomenclature": "Nez",
+               "explication": "La définition des microdémangeasons sur le nez vont varier selon l'endroit précis de l'auto-contact sur le nez. Le bout du nez est associé à la curiosité, vouloir en savoir plus. L'extérieur des narines sont davatage liées à l'authenticité du message. Narine gauche suis-je vraiment dans l'autenticité ? Narine droite Lautre est-il dans l'authenticité?  Et finalement, sous le nez révèle une volonté de rejeter. Rejeter l'idée de l'autre, une pensée qui nous habite etc. ",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Nez"
+           },
+           {
+               "id": 5,
+               "nomenclature": "Dos",
+               "explication": "Les microdémangeasions au dos sont présentes lorsque nous souhaitons mettre fin à la situation, comme terminer une conversation, quitter un lieux.",
+               "exemple": "concousicont",
+               "attitude": "slow1",
+               "image": "Dos"
+           }
+           ]
+}
+  ]
+
