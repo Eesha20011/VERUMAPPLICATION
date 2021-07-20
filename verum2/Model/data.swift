@@ -23,3 +23,33 @@ struct Type: Codable, Identifiable {
         var image: String
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Models (All your data models, structs/database tables mappings) -> Controllers (Brains of the application)
