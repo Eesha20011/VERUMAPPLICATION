@@ -1,5 +1,5 @@
 //
-//  vm.swift
+//  categoryController
 //  verum2
 //
 //  Created by Eesha Patel on 2021-06-11.
@@ -10,6 +10,8 @@ import WebKit
 import SwiftUI
 
 extension Bundle {
+    //Takes a json file (string) and returns a type []
+    
     func decode(_ file: String) -> [Catégory] {
         // 1. Locate the json file
         guard let url = self.url(forResource: file, withExtension: nil)
@@ -34,27 +36,27 @@ extension Bundle {
 }
 
 var gestes = Bundle.main.decode("Database.json")
-
+//This function takes the index of the type of Category,the index of the gesture in that category and return the name of the gesture
 func Nom (Index1: Int,Index2: Int ) -> String {
     let nom = gestes[Index1].Gestes[Index2].nomenclature
     return nom
 }
-
+//This function takes the index of the type of Category,the index of the gesture in that category and return the explication of the gesture
 func Explication (Index1: Int, Index2: Int) -> String {
     let explication = gestes[Index1].Gestes[Index2].explication
     return explication
 }
-
+//This function takes the index of the type of Category,the index of the gesture in that category and return the exemple of the gesture
 func Exemple(Index1: Int, Index2: Int) -> String {
     let exemple = gestes[Index1].Gestes[Index2].exemple
     return exemple
 }
-
+//This function takes the index of the type of Category,the index of the gesture in that category and return the image of the gesture
 func Images(Index1: Int, Index2: Int) -> String {
     let image = gestes[Index1].Gestes[Index2].image
     return image
 }
-
+//This structure takes an url and returns a web page view
 struct makeUIView: UIViewRepresentable {
 
     let url: URL?
@@ -77,9 +79,9 @@ struct makeUIView: UIViewRepresentable {
         let request = URLRequest(url: myURL)
         uiView.load(request)
     }
-    
 }
 
+//This fuction takes the number of gestures and returns an array of all the (float) values used in the progress sphere
 func progressForEachGesture(Nombre: Int) -> Array<Float> {
     var values: Array<Float> = []
     
@@ -110,7 +112,7 @@ func progressForEachGesture(Nombre: Int) -> Array<Float> {
     }
     return values
 }
-
+//Progress view
 struct ProgressBar: View {
     @Binding var progress: Float
     
@@ -161,9 +163,8 @@ struct ProgressBar: View {
     }
 }
 
-
 class ProgressGestes: ObservableObject {
-    @Published var progress = 0.0
+    @Published var progress: Float = 0.0
 }
 
 

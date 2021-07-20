@@ -13,21 +13,23 @@ struct BlogView: View {
     @State private var email: String = ""
     var body: some View {
         ZStack {
-
+//Setting background color to white
         Color.white
             .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             ScrollView {
             VStack {
+                //Ttitle of the page
             Text("Blogue")
                 .font(.custom("Ruluko-Regular", size: 40))
                 .foregroundColor(Color("verumBleu"))
-                
+                //Subtitle of the page
             Text("Abonnez-vous pour les dernières mises à jour envoyées directement dans votre boîte de réception")
                 .font(.custom("Ruluko-Regular", size: 20))
                 .foregroundColor(Color.gray)
                 .frame(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .padding()
                 .multilineTextAlignment(.center)
+                //Text field that lets the user write their email adresse
                 ZStack {
                     Rectangle()
                         .frame(width: 325, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
@@ -47,6 +49,7 @@ struct BlogView: View {
                 }
             Spacer()
                 .frame(height: 20)
+                //Button that lets the user submit the email adress that they've written
                 ZStack {
             Rectangle()
                     .frame(width: 150, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)

@@ -23,6 +23,7 @@
 		4F6748F8266AC148001E8EEE /* BlogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6748F7266AC148001E8EEE /* BlogView.swift */; };
 		4F6748FA266AC158001E8EEE /* AttitudeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6748F9266AC158001E8EEE /* AttitudeView.swift */; };
 		4F6748FC266AC17E001E8EEE /* GestesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6748FB266AC17E001E8EEE /* GestesView.swift */; };
+		4F773EF926A66A9700EE9AE6 /* categoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F773EF826A66A9700EE9AE6 /* categoryController.swift */; };
 		4F909E812688DD3200F5C0F9 /* TypeGestesBouche.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F909E802688DD3200F5C0F9 /* TypeGestesBouche.swift */; };
 		4F909E832688E05900F5C0F9 /* TypeGestesYeux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F909E822688E05800F5C0F9 /* TypeGestesYeux.swift */; };
 		4F909E852688E1F500F5C0F9 /* TypesGestesMicroExpressions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F909E842688E1F500F5C0F9 /* TypesGestesMicroExpressions.swift */; };
@@ -36,7 +37,6 @@
 		4FA742CD2682D2220049DEA5 /* TypeGestesTete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA742CC2682D2220049DEA5 /* TypeGestesTete.swift */; };
 		4FD553BF2673F3E000506B2F /* Gesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD553BE2673F3E000506B2F /* Gesture.swift */; };
 		4FD553C12674514600506B2F /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD553C02674514600506B2F /* data.swift */; };
-		4FD553C52674645A00506B2F /* vm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD553C42674645A00506B2F /* vm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +58,7 @@
 		4F6748F7266AC148001E8EEE /* BlogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogView.swift; sourceTree = "<group>"; };
 		4F6748F9266AC158001E8EEE /* AttitudeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttitudeView.swift; sourceTree = "<group>"; };
 		4F6748FB266AC17E001E8EEE /* GestesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestesView.swift; sourceTree = "<group>"; };
+		4F773EF826A66A9700EE9AE6 /* categoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoryController.swift; sourceTree = "<group>"; };
 		4F909E802688DD3200F5C0F9 /* TypeGestesBouche.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeGestesBouche.swift; sourceTree = "<group>"; };
 		4F909E822688E05800F5C0F9 /* TypeGestesYeux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeGestesYeux.swift; sourceTree = "<group>"; };
 		4F909E842688E1F500F5C0F9 /* TypesGestesMicroExpressions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesGestesMicroExpressions.swift; sourceTree = "<group>"; };
@@ -71,7 +72,6 @@
 		4FA742CC2682D2220049DEA5 /* TypeGestesTete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeGestesTete.swift; sourceTree = "<group>"; };
 		4FD553BE2673F3E000506B2F /* Gesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gesture.swift; sourceTree = "<group>"; };
 		4FD553C02674514600506B2F /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
-		4FD553C42674645A00506B2F /* vm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +128,6 @@
 		4F07EF442671AF2B008C862B /* View Model */ = {
 			isa = PBXGroup;
 			children = (
-				4FD553C42674645A00506B2F /* vm.swift */,
 			);
 			path = "View Model";
 			sourceTree = "<group>";
@@ -161,6 +160,7 @@
 		4F54AD57265EB70600038514 /* verum2 */ = {
 			isa = PBXGroup;
 			children = (
+				4F773EF726A66A2800EE9AE6 /* Controllers */,
 				4F54AD61265EB70F00038514 /* Info.plist */,
 				4F54AD58265EB70600038514 /* verum2App.swift */,
 				4F07EF422671AEFD008C862B /* Views */,
@@ -177,6 +177,14 @@
 				4F54AD5F265EB70F00038514 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4F773EF726A66A2800EE9AE6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4F773EF826A66A9700EE9AE6 /* categoryController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,7 +262,6 @@
 				4F909E812688DD3200F5C0F9 /* TypeGestesBouche.swift in Sources */,
 				4F6748FA266AC158001E8EEE /* AttitudeView.swift in Sources */,
 				4F6748F42669CC45001E8EEE /* MainView.swift in Sources */,
-				4FD553C52674645A00506B2F /* vm.swift in Sources */,
 				4F54AD5B265EB70600038514 /* ContentView.swift in Sources */,
 				4F909E832688E05900F5C0F9 /* TypeGestesYeux.swift in Sources */,
 				4F909E872688E3D800F5C0F9 /* TypesGestesCou.swift in Sources */,
@@ -270,6 +277,7 @@
 				4F909E852688E1F500F5C0F9 /* TypesGestesMicroExpressions.swift in Sources */,
 				4F2951F4269694C7001A68DD /* ArticleView.swift in Sources */,
 				4F54AD59265EB70600038514 /* verum2App.swift in Sources */,
+				4F773EF926A66A9700EE9AE6 /* categoryController.swift in Sources */,
 				4F909E8D2688E80B00F5C0F9 /* TypesGestesJambes.swift in Sources */,
 				4FD553C12674514600506B2F /* data.swift in Sources */,
 				4FA742CD2682D2220049DEA5 /* TypeGestesTete.swift in Sources */,

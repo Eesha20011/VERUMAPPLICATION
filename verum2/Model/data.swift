@@ -12,7 +12,6 @@ struct Catégory: Codable, Identifiable{
     var Section: String
     var Image: String
     var Gestes: [Type]
-    
 }
 
 struct Type: Codable, Identifiable {

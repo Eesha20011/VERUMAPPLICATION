@@ -51,11 +51,13 @@ struct TypeGestes: View {
                     Image(systemName: "person")
                         .font(.system(size: 20))
                         .foregroundColor(.white)
+                        
+                        Button("Press me") {
+                            progressValue.progress += 0.50
+                        }
+                        .environmentObject(progressValue)
                     }
                     }
-                    .simultaneousGesture(TapGesture().onEnded{
-                        progressValue.progress = 0.50
-                    })
                     }
                 
                 
@@ -280,14 +282,14 @@ struct TypeGestes: View {
         }
         }
         }
-        .environmentObject(progressValue)
+        
     }
 }
 
 
 struct TypeGestes_Previews: PreviewProvider {
     static var previews: some View {
-        TypeGestes().environmentObject(ProgressGestes())
+        TypeGestes()
     }
 }
 
