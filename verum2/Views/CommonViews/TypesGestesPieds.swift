@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct TypesGestesPieds: View {
-    var gestes = Bundle.main.decode("Database.json")
     var number = 0
     var body: some View {
         ZStack {
@@ -24,10 +23,10 @@ struct TypesGestesPieds: View {
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
             VStack(spacing: 20) {
             Text(String(number + 1) + " sur 3")
-            Text(gestes[9].Gestes[0].nomenclature)
+            Text(Pieds1(choice: 1))
                 .font(.custom("Ruluko-Regular", size: 30))
                 .foregroundColor(.black)
-                Image(gestes[9].Gestes[0].image)
+                Image(Pieds1(choice: 2))
                 .resizable()
                 .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -60,10 +59,10 @@ struct TypesGestesPieds: View {
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
             VStack(spacing: 20) {
             Text(String(number + 2) + " sur 3")
-            Text(gestes[9].Gestes[1].nomenclature)
+            Text(Pieds2(choice: 1))
                 .font(.custom("Ruluko-Regular", size: 30))
                 .foregroundColor(.black)
-            Image(gestes[9].Gestes[1].image)
+            Image(Pieds2(choice: 2))
                 .resizable()
                 .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -95,10 +94,10 @@ struct TypesGestesPieds: View {
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
                 VStack(spacing: 20) {
                 Text(String(number + 3) + " sur 3")
-                Text(gestes[9].Gestes[2].nomenclature)
+                Text(Pieds3(choice: 1))
                     .font(.custom("Ruluko-Regular", size: 24))
                     .foregroundColor(.black)
-                Image(gestes[9].Gestes[2].image)
+                Image(Pieds3(choice: 2))
                     .resizable()
                     .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)

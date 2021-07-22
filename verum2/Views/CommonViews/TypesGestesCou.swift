@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct TypesGestesCou: View {
-    var gestes = Bundle.main.decode("Database.json")
     var number = 0
     var body: some View {
         ZStack {
@@ -24,10 +23,10 @@ struct TypesGestesCou: View {
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
             VStack(spacing: 20) {
             Text(String(number + 1) + " sur 3")
-            Text(gestes[4].Gestes[0].nomenclature)
+            Text(Cou1(choice: 1))
                 .font(.custom("Ruluko-Regular", size: 30))
                 .foregroundColor(.black)
-                Image(gestes[4].Gestes[0].image)
+                Image(Cou1(choice: 2))
                 .resizable()
                 .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -60,10 +59,10 @@ struct TypesGestesCou: View {
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
             VStack(spacing: 20) {
             Text(String(number + 2) + " sur 3")
-            Text(gestes[4].Gestes[1].nomenclature)
+            Text(Cou2(choice: 1))
                 .font(.custom("Ruluko-Regular", size: 30))
                 .foregroundColor(.black)
-            Image(gestes[4].Gestes[1].image)
+            Image(Cou2(choice: 2))
                 .resizable()
                 .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -95,10 +94,10 @@ struct TypesGestesCou: View {
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
                 VStack(spacing: 20) {
                 Text(String(number + 3) + " sur 3")
-                Text(gestes[4].Gestes[2].nomenclature)
+                Text(Cou3(choice: 1))
                     .font(.custom("Ruluko-Regular", size: 30))
                     .foregroundColor(.black)
-                Image(gestes[4].Gestes[2].image)
+                Image(Cou3(choice: 2))
                     .resizable()
                     .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)

@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct TypeGestesYeux: View {
-    var gestes = Bundle.main.decode("Database.json")
     var number = 0
     var body: some View {
         ZStack {
@@ -24,10 +23,10 @@ struct TypeGestesYeux: View {
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
             VStack(spacing: 20) {
             Text(String(number + 1) + " sur 4")
-            Text(gestes[2].Gestes[0].nomenclature)
+            Text(yeux1(choice: 1))
                 .font(.custom("Ruluko-Regular", size: 30))
                 .foregroundColor(.black)
-                Image(gestes[2].Gestes[0].image)
+                Image(yeux1(choice: 2))
                 .resizable()
                 .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -60,10 +59,10 @@ struct TypeGestesYeux: View {
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
             VStack(spacing: 20) {
             Text(String(number + 2) + " sur 4")
-            Text(gestes[2].Gestes[1].nomenclature)
+            Text(yeux2(choice: 1))
                 .font(.custom("Ruluko-Regular", size: 30))
                 .foregroundColor(.black)
-            Image(gestes[2].Gestes[1].image)
+            Image(yeux2(choice: 2))
                 .resizable()
                 .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -95,10 +94,10 @@ struct TypeGestesYeux: View {
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
                 VStack(spacing: 20) {
                 Text(String(number + 3) + " sur 4")
-                Text(gestes[2].Gestes[2].nomenclature)
+                Text(yeux3(choice: 1))
                     .font(.custom("Ruluko-Regular", size: 30))
                     .foregroundColor(.black)
-                Image(gestes[2].Gestes[2].image)
+                Image(yeux3(choice: 2))
                     .resizable()
                     .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -130,10 +129,10 @@ struct TypeGestesYeux: View {
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
                 VStack(spacing: 20) {
                 Text(String(number + 4) + " sur 4")
-                Text(gestes[2].Gestes[3].nomenclature)
+                Text(yeux4(choice: 1))
                     .font(.custom("Ruluko-Regular", size: 22))
                     .foregroundColor(.black)
-                Image(gestes[2].Gestes[3].image)
+                Image(yeux4(choice: 2))
                     .resizable()
                     .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)

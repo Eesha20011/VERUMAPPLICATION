@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct TypesGestesBras: View {
-    var gestes = Bundle.main.decode("Database.json")
     var number = 0
     var body: some View {
         ZStack {
@@ -24,10 +23,10 @@ struct TypesGestesBras: View {
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
             VStack(spacing: 20) {
             Text(String(number + 1) + " sur 2")
-            Text(gestes[5].Gestes[0].nomenclature)
+            Text(Bras1(choice: 1))
                 .font(.custom("Ruluko-Regular", size: 30))
                 .foregroundColor(.black)
-                Image(gestes[5].Gestes[0].image)
+                Image(Bras1(choice: 2))
                 .resizable()
                 .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -60,10 +59,10 @@ struct TypesGestesBras: View {
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
             VStack(spacing: 20) {
             Text(String(number + 2) + " sur 2")
-            Text(gestes[5].Gestes[1].nomenclature)
+            Text(Bras2(choice: 1))
                 .font(.custom("Ruluko-Regular", size: 28))
                 .foregroundColor(.black)
-            Image(gestes[5].Gestes[1].image)
+            Image(Bras2(choice: 2))
                 .resizable()
                 .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)

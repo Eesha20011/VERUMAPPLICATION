@@ -31,7 +31,7 @@ struct Topbar<Content: View, Content2: View> : View {
                 .font(.custom("Ruluko-Regular", size: 38))
                 .foregroundColor(Color("verumBleu"))
             Picker("", selection: $selectedTab) {
-                Text("Gestes de " + gestes[number].Section).tag(0)
+                Text("Gestes de " + gestes2[number].Section).tag(0)
                 Text("Parcours").tag(1)
             }
             .pickerStyle(SegmentedPickerStyle())

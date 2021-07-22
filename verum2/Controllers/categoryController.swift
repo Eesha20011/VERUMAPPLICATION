@@ -12,6 +12,8 @@ import SwiftUI
 extension Bundle {
     //Takes a json file (string) and returns a type []
     
+    
+    
     func decode(_ file: String) -> [Catégory] {
         // 1. Locate the json file
         guard let url = self.url(forResource: file, withExtension: nil)
@@ -34,28 +36,30 @@ extension Bundle {
         return loaded
     }
 }
+var gestes2 = Bundle.main.decode("Database.json")
 
-var gestes = Bundle.main.decode("Database.json")
 //This function takes the index of the type of Category,the index of the gesture in that category and return the name of the gesture
 func Nom (Index1: Int,Index2: Int ) -> String {
-    let nom = gestes[Index1].Gestes[Index2].nomenclature
+    let nom = gestes2[Index1].Gestes[Index2].nomenclature
     return nom
 }
 //This function takes the index of the type of Category,the index of the gesture in that category and return the explication of the gesture
 func Explication (Index1: Int, Index2: Int) -> String {
-    let explication = gestes[Index1].Gestes[Index2].explication
+    let explication = gestes2[Index1].Gestes[Index2].explication
     return explication
 }
 //This function takes the index of the type of Category,the index of the gesture in that category and return the exemple of the gesture
 func Exemple(Index1: Int, Index2: Int) -> String {
-    let exemple = gestes[Index1].Gestes[Index2].exemple
+    let exemple = gestes2[Index1].Gestes[Index2].exemple
     return exemple
 }
 //This function takes the index of the type of Category,the index of the gesture in that category and return the image of the gesture
 func Images(Index1: Int, Index2: Int) -> String {
-    let image = gestes[Index1].Gestes[Index2].image
+    let image = gestes2[Index1].Gestes[Index2].image
     return image
 }
+
+
 //This structure takes an url and returns a web page view
 struct makeUIView: UIViewRepresentable {
 
@@ -166,5 +170,6 @@ struct ProgressBar: View {
 class ProgressGestes: ObservableObject {
     @Published var progress: Float = 0.0
 }
+
 
 
