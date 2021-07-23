@@ -6,6 +6,7 @@
 //
 
 import Foundation
+
 public class TypeBoucheViewModel{
     var image : String
     var nomenclature : String
