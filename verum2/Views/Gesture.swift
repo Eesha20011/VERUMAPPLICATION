@@ -13,6 +13,11 @@ struct Gesture: View{
     var explication: String
     var exemple: String
     var images: String
+    var image1 : String
+    var image2: String
+    var image3: String
+    var image4: String
+    var image5: String
  
     
     
@@ -153,19 +158,19 @@ struct Gesture: View{
                     .frame( height: 20, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 ScrollView (.horizontal) {
                 HStack {
-                Image("bras croisés 1")
+                Image(image1)
                     .resizable()
                     .frame(width: 150, height: 120)
-                Image("bras croisés 2")
+                Image(image2)
                     .resizable()
                     .frame(width: 150, height: 120)
-                Image("bras croisés 3")
+                Image(image3)
                     .resizable()
                     .frame(width: 150, height: 120)
-                Image("bras croisés 1")
+                Image(image4)
                     .resizable()
                     .frame(width: 150, height: 120)
-                Image("bras croisés 2")
+                Image(image5)
                     .resizable()
                     .frame(width: 150, height: 120)
                 }
@@ -181,7 +186,9 @@ struct Gesture: View{
 struct Gesture_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            Gesture(nom: Nom(Index1: 3, Index2: 0), explication: Explication(Index1: 3, Index2: 0), exemple: Explication(Index1: 3, Index2: 0), images: Images(Index1: 3, Index2: 0))
+            Gesture(nom: MainsAuFront(choice: 1), explication: MainsAuFront(choice: 2), exemple: MainsAuFront(choice: 3), images: MainsAuFront(choice: 4), image1: MainsAuFront(choice: 5), image2: MainsAuFront(choice: 6), image3: MainsAuFront(choice: 7), image4: MainsAuFront(choice: 8), image5: MainsAuFront(choice: 9))
         }
     }
 }
+
+//Fuctions order: nom, explication, exemple, imagePrincipale, image1, image2, image3, image4, image5
