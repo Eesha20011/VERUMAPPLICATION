@@ -7,12 +7,14 @@
 
 import SwiftUI
 
-struct Gesture: View {
+struct Gesture: View{
     
     var nom: String
     var explication: String
     var exemple: String
     var images: String
+ 
+    
     
     var body: some View {
         ZStack {
@@ -72,16 +74,15 @@ struct Gesture: View {
                         Spacer()
                                 .frame(height: 15, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                             }
-                        ScrollView(/*@START_MENU_TOKEN@*/.vertical/*@END_MENU_TOKEN@*/, showsIndicators: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/) {
-                        Spacer()
-                            .frame(height: 25, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        Text(explication)
-                        .font(.custom("Ruluko-Regular", size: 20))
-                        .padding(.leading, 60)
-                        .padding(.trailing, 60)
-                        .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, idealWidth: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, minHeight: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, idealHeight: 250, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                       
+                    ExpandableText(explication, lineLimit: 6)
+                        .frame(width: 260, height: 300, alignment: .center)
+                        .fixedSize(horizontal: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/, vertical: false)
+                            
+                            
+                        
                         }  
-                    }
+                    
                 
                 }
                 }
@@ -118,15 +119,12 @@ struct Gesture: View {
                         Spacer()
                             .frame(height: 15, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                             }
-                        ScrollView(/*@START_MENU_TOKEN@*/.vertical/*@END_MENU_TOKEN@*/, showsIndicators: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/) {
-                        Spacer()
-                            .frame(height: 25, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        Text(exemple)
-                        .font(.custom("Ruluko-Regular", size: 20))
-                        .padding(.leading, 60)
-                        .padding(.trailing, 60)
-                        .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, idealWidth: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, minHeight: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, idealHeight: 250, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        }
+                
+                     
+                            ExpandableText(exemple, lineLimit: 6)
+                                .frame(width: 260, height: 300, alignment: .center)
+                                .fixedSize(horizontal: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/, vertical: false)
+                        
                     }
                     }
                 }

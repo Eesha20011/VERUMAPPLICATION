@@ -10,7 +10,7 @@ import Foundation
 
 func Bras1(choice: Int) -> String{
     var whatever : String = ""
-    let boucheUn = TypeBoucheViewModel(image: gestes2[5].Gestes[0].image, nomenclature: gestes2[5].Gestes[0].image)
+    let boucheUn = TypeBoucheViewModel(image: gestes2[5].Gestes[0].image, nomenclature: gestes2[5].Gestes[0].nomenclature)
     if choice == 1 {
          whatever = boucheUn.nomenclature
     } else if choice == 2 {
@@ -21,7 +21,7 @@ func Bras1(choice: Int) -> String{
 
 func Bras2(choice: Int) -> String{
     var whatever : String = ""
-    let boucheUn = TypeBoucheViewModel(image: gestes2[5].Gestes[1].image, nomenclature: gestes2[5].Gestes[1].image)
+    let boucheUn = TypeBoucheViewModel(image: gestes2[5].Gestes[1].image, nomenclature: gestes2[5].Gestes[1].nomenclature)
     if choice == 1 {
          whatever = boucheUn.nomenclature
     } else if choice == 2 {

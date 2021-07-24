@@ -10,7 +10,7 @@ import Foundation
 
 func Cou1(choice: Int) -> String{
     var whatever : String = ""
-    let boucheUn = TypeBoucheViewModel(image: gestes2[4].Gestes[0].image, nomenclature: gestes2[4].Gestes[0].image)
+    let boucheUn = TypeBoucheViewModel(image: gestes2[4].Gestes[0].image, nomenclature: gestes2[4].Gestes[0].nomenclature)
     if choice == 1 {
          whatever = boucheUn.nomenclature
     } else if choice == 2 {
@@ -21,7 +21,7 @@ func Cou1(choice: Int) -> String{
 
 func Cou2(choice: Int) -> String{
     var whatever : String = ""
-    let boucheUn = TypeBoucheViewModel(image: gestes2[4].Gestes[1].image, nomenclature: gestes2[4].Gestes[1].image)
+    let boucheUn = TypeBoucheViewModel(image: gestes2[4].Gestes[1].image, nomenclature: gestes2[4].Gestes[1].nomenclature)
     if choice == 1 {
          whatever = boucheUn.nomenclature
     } else if choice == 2 {
@@ -32,7 +32,7 @@ func Cou2(choice: Int) -> String{
 
 func Cou3(choice: Int) -> String{
     var whatever : String = ""
-    let boucheUn = TypeBoucheViewModel(image: gestes2[4].Gestes[2].image, nomenclature: gestes2[4].Gestes[2].image)
+    let boucheUn = TypeBoucheViewModel(image: gestes2[4].Gestes[2].image, nomenclature: gestes2[4].Gestes[2].nomenclature)
     if choice == 1 {
          whatever = boucheUn.nomenclature
     } else if choice == 2 {

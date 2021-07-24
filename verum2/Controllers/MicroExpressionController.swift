@@ -9,7 +9,7 @@ import Foundation
 
 func MicroE1(choice: Int) -> String{
     var whatever : String = ""
-    let boucheUn = TypeBoucheViewModel(image: gestes2[3].Gestes[0].image, nomenclature: gestes2[3].Gestes[0].image)
+    let boucheUn = TypeBoucheViewModel(image: gestes2[3].Gestes[0].image, nomenclature: gestes2[3].Gestes[0].nomenclature)
     if choice == 1 {
          whatever = boucheUn.nomenclature
     } else if choice == 2 {
@@ -20,7 +20,7 @@ func MicroE1(choice: Int) -> String{
 
 func MicroE2(choice: Int) -> String{
     var whatever : String = ""
-    let boucheUn = TypeBoucheViewModel(image: gestes2[3].Gestes[1].image, nomenclature: gestes2[3].Gestes[1].image)
+    let boucheUn = TypeBoucheViewModel(image: gestes2[3].Gestes[1].image, nomenclature: gestes2[3].Gestes[1].nomenclature)
     if choice == 1 {
          whatever = boucheUn.nomenclature
     } else if choice == 2 {
@@ -31,7 +31,7 @@ func MicroE2(choice: Int) -> String{
 
 func MicroE3(choice: Int) -> String{
     var whatever : String = ""
-    let boucheUn = TypeBoucheViewModel(image: gestes2[3].Gestes[2].image, nomenclature: gestes2[3].Gestes[2].image)
+    let boucheUn = TypeBoucheViewModel(image: gestes2[3].Gestes[2].image, nomenclature: gestes2[3].Gestes[2].nomenclature)
     if choice == 1 {
          whatever = boucheUn.nomenclature
     } else if choice == 2 {
@@ -42,7 +42,7 @@ func MicroE3(choice: Int) -> String{
 
 func MicroE4(choice: Int) -> String{
     var whatever : String = ""
-    let boucheUn = TypeBoucheViewModel(image: gestes2[3].Gestes[3].image, nomenclature: gestes2[3].Gestes[3].image)
+    let boucheUn = TypeBoucheViewModel(image: gestes2[3].Gestes[3].image, nomenclature: gestes2[3].Gestes[3].nomenclature)
     if choice == 1 {
          whatever = boucheUn.nomenclature
     } else if choice == 2 {
@@ -53,7 +53,7 @@ func MicroE4(choice: Int) -> String{
 
 func MicroE5(choice: Int) -> String{
     var whatever : String = ""
-    let boucheUn = TypeBoucheViewModel(image: gestes2[3].Gestes[4].image, nomenclature: gestes2[3].Gestes[4].image)
+    let boucheUn = TypeBoucheViewModel(image: gestes2[3].Gestes[4].image, nomenclature: gestes2[3].Gestes[4].nomenclature)
     if choice == 1 {
          whatever = boucheUn.nomenclature
     } else if choice == 2 {
@@ -64,7 +64,7 @@ func MicroE5(choice: Int) -> String{
 
 func MicroE6(choice: Int) -> String{
     var whatever : String = ""
-    let boucheUn = TypeBoucheViewModel(image: gestes2[3].Gestes[5].image, nomenclature: gestes2[3].Gestes[5].image)
+    let boucheUn = TypeBoucheViewModel(image: gestes2[3].Gestes[5].image, nomenclature: gestes2[3].Gestes[5].nomenclature)
     if choice == 1 {
          whatever = boucheUn.nomenclature
     } else if choice == 2 {
@@ -75,7 +75,7 @@ func MicroE6(choice: Int) -> String{
 
 func MicroE7(choice: Int) -> String{
     var whatever : String = ""
-    let boucheUn = TypeBoucheViewModel(image: gestes2[3].Gestes[6].image, nomenclature: gestes2[3].Gestes[6].image)
+    let boucheUn = TypeBoucheViewModel(image: gestes2[3].Gestes[6].image, nomenclature: gestes2[3].Gestes[6].nomenclature)
     if choice == 1 {
          whatever = boucheUn.nomenclature
     } else if choice == 2 {

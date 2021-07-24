@@ -173,3 +173,9 @@ class ProgressGestes: ObservableObject {
 
 
 
+
+
+
+
+
+

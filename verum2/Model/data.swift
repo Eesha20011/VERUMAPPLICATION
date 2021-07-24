@@ -21,6 +21,11 @@ struct Type: Codable, Identifiable {
         var exemple: String
         var attitude: String
         var image: String
+        var image1 : String
+        var image2 : String
+        var image3 : String
+        var image4 : String
+        var image5 : String
 }
 
 

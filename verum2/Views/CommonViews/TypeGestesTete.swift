@@ -49,11 +49,6 @@ struct TypeGestes: View {
                     Image(systemName: "person")
                         .font(.system(size: 20))
                         .foregroundColor(.white)
-                        
-                        Button("Press me") {
-                            progressValue.progress += 0.50
-                        }
-                        .environmentObject(progressValue)
                     }
                     }
                     }
