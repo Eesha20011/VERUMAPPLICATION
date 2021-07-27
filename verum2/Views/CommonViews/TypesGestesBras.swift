@@ -23,10 +23,10 @@ struct TypesGestesBras: View {
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
             VStack(spacing: 20) {
             Text(String(number + 1) + " sur 2")
-            Text(Bras1(choice: 1))
+            Text(BrasCroise(choice: 1))
                 .font(.custom("Ruluko-Regular", size: 30))
                 .foregroundColor(.black)
-                Image(Bras1(choice: 2))
+                Image(BrasCroise(choice: 4))
                 .resizable()
                 .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -36,7 +36,7 @@ struct TypesGestesBras: View {
                 .foregroundColor(Color("verumBleu"))
                 .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .cornerRadius(60)
-                    NavigationLink(destination: Gesture(nom: Nom(Index1: 5, Index2: 0), explication: Explication(Index1: 5, Index2: 0), exemple: Explication(Index1: 5, Index2: 0), images: Images(Index1: 5, Index2: 0))) {
+                    NavigationLink(destination: Gesture(nom: BrasCroise(choice: 1), explication: BrasCroise(choice: 2), exemple: BrasCroise(choice: 3), images: BrasCroise(choice: 4), image1: BrasCroise(choice: 5), image2: BrasCroise(choice: 6), image3: BrasCroise(choice: 7), image4: BrasCroise(choice: 8), image5: BrasCroise(choice: 9))) {
                     HStack {
                     Text("En savoir plus")
                     .font(.custom("Ruluko-Regular", size: 17))
@@ -59,10 +59,10 @@ struct TypesGestesBras: View {
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
             VStack(spacing: 20) {
             Text(String(number + 2) + " sur 2")
-            Text(Bras2(choice: 1))
+            Text(BrasAppuyeSurLaTable(choice: 1))
                 .font(.custom("Ruluko-Regular", size: 28))
                 .foregroundColor(.black)
-            Image(Bras2(choice: 2))
+            Image(BrasAppuyeSurLaTable(choice: 4))
                 .resizable()
                 .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -72,7 +72,7 @@ struct TypesGestesBras: View {
                 .foregroundColor(Color("verumBleu"))
                 .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .cornerRadius(60)
-                    NavigationLink(destination: Gesture(nom: Nom(Index1: 5, Index2: 1), explication: Explication(Index1: 5, Index2: 1), exemple: Explication(Index1: 5, Index2: 1), images: Images(Index1: 5, Index2: 1))) {
+                    NavigationLink(destination: Gesture(nom: BrasAppuyeSurLaTable(choice: 1), explication: BrasAppuyeSurLaTable(choice: 2), exemple: BrasAppuyeSurLaTable(choice: 3), images: BrasAppuyeSurLaTable(choice: 4), image1: BrasAppuyeSurLaTable(choice: 5), image2: BrasAppuyeSurLaTable(choice: 6), image3: BrasAppuyeSurLaTable(choice: 7), image4: BrasAppuyeSurLaTable(choice: 8), image5: BrasAppuyeSurLaTable(choice: 9))) {
                     HStack {
                     Text("En savoir plus")
                     .font(.custom("Ruluko-Regular", size: 17))

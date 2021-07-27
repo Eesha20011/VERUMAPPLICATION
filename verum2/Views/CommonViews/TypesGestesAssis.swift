@@ -23,10 +23,10 @@ struct TypesGestesAssis: View {
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
             VStack(spacing: 20) {
             Text(String(number + 1) + " sur 5")
-            Text(Assis1(choice: 1))
+            Text(PositionAvantDroit(choice: 1))
                 .font(.custom("Ruluko-Regular", size: 30))
                 .foregroundColor(.black)
-                Image(Assis1(choice: 2))
+                Image(PositionAvantDroit(choice: 4))
                 .resizable()
                 .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -36,7 +36,7 @@ struct TypesGestesAssis: View {
                 .foregroundColor(Color("verumBleu"))
                 .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .cornerRadius(60)
-                    NavigationLink(destination: Gesture(nom: Nom(Index1: 8, Index2: 0), explication: Explication(Index1: 8, Index2: 0), exemple: Explication(Index1: 8, Index2: 0), images: Images(Index1: 8, Index2: 0))) {
+                    NavigationLink(destination: Gesture(nom: PositionAvantDroit(choice: 1), explication: PositionAvantDroit(choice: 2), exemple: PositionAvantDroit(choice: 3), images: PositionAvantDroit(choice: 4), image1: PositionAvantDroit(choice: 5), image2: PositionAvantDroit(choice: 6), image3: PositionAvantDroit(choice: 7), image4: PositionAvantDroit(choice: 8), image5: PositionAvantDroit(choice: 9))) {
                         
                     HStack {
                     Text("En savoir plus")
@@ -60,10 +60,10 @@ struct TypesGestesAssis: View {
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
             VStack(spacing: 20) {
             Text(String(number + 2) + " sur 5")
-            Text(Assis2(choice: 1))
+            Text(PositionArriereGauche(choice: 1))
                 .font(.custom("Ruluko-Regular", size: 30))
                 .foregroundColor(.black)
-            Image(Assis2(choice: 2))
+            Image(PositionArriereGauche(choice: 4))
                 .resizable()
                 .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -73,7 +73,7 @@ struct TypesGestesAssis: View {
                 .foregroundColor(Color("verumBleu"))
                 .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .cornerRadius(60)
-                    NavigationLink(destination: Gesture(nom: Nom(Index1: 8, Index2: 1), explication: Explication(Index1: 8, Index2: 1), exemple: Explication(Index1: 8, Index2: 1), images: Images(Index1: 8, Index2: 1))) {
+                    NavigationLink(destination: Gesture(nom: PositionArriereGauche(choice: 1), explication: PositionArriereGauche(choice: 2), exemple: PositionArriereGauche(choice: 3), images: PositionArriereGauche(choice: 4), image1: PositionArriereGauche(choice: 5), image2: PositionArriereGauche(choice: 6), image3: PositionArriereGauche(choice: 7), image4: PositionArriereGauche(choice: 8), image5: PositionArriereGauche(choice: 9))) {
                     HStack {
                     Text("En savoir plus")
                     .font(.custom("Ruluko-Regular", size: 17))
@@ -95,10 +95,10 @@ struct TypesGestesAssis: View {
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
                 VStack(spacing: 20) {
                 Text(String(number + 3) + " sur 5")
-                Text(Assis3(choice: 1))
+                Text(PositionAuCentre(choice: 1))
                     .font(.custom("Ruluko-Regular", size: 30))
                     .foregroundColor(.black)
-                Image(Assis3(choice: 2))
+                Image(PositionAuCentre(choice: 4))
                     .resizable()
                     .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -108,7 +108,7 @@ struct TypesGestesAssis: View {
                     .foregroundColor(Color("verumBleu"))
                     .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .cornerRadius(60)
-                        NavigationLink(destination: Gesture(nom: Nom(Index1: 8, Index2: 2), explication: Explication(Index1: 8, Index2: 2), exemple: Explication(Index1: 8, Index2: 2), images: Images(Index1: 8, Index2: 2))) {
+                        NavigationLink(destination: Gesture(nom: PositionAuCentre(choice: 1), explication: PositionAuCentre(choice: 2), exemple: PositionAuCentre(choice: 3), images: PositionAuCentre(choice: 4), image1: PositionAuCentre(choice: 5), image2: PositionAuCentre(choice: 6), image3: PositionAuCentre(choice: 7), image4: PositionAuCentre(choice: 8), image5: PositionAuCentre(choice: 9))) {
                         HStack {
                         Text("En savoir plus")
                         .font(.custom("Ruluko-Regular", size: 17))
@@ -130,10 +130,10 @@ struct TypesGestesAssis: View {
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
                 VStack(spacing: 20) {
                 Text(String(number + 4) + " sur 5")
-                Text(Assis4(choice: 1))
+                Text(MainsDerriereLaTete(choice: 1))
                     .font(.custom("Ruluko-Regular", size: 30))
                     .foregroundColor(.black)
-                Image(Assis4(choice: 2))
+                Image(MainsDerriereLaTete(choice: 4))
                     .resizable()
                     .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -143,7 +143,7 @@ struct TypesGestesAssis: View {
                     .foregroundColor(Color("verumBleu"))
                     .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .cornerRadius(60)
-                        NavigationLink(destination: Gesture(nom: Nom(Index1: 8, Index2: 3), explication: Explication(Index1: 8, Index2: 3), exemple: Explication(Index1: 8, Index2: 3), images: Images(Index1: 8, Index2: 3))) {
+                        NavigationLink(destination: Gesture(nom: MainsDerriereLaTete(choice: 1), explication: MainsDerriereLaTete(choice: 2), exemple: MainsDerriereLaTete(choice: 3), images: MainsDerriereLaTete(choice: 4), image1: MainsDerriereLaTete(choice: 5), image2: MainsDerriereLaTete(choice: 6), image3: MainsDerriereLaTete(choice: 7), image4: MainsDerriereLaTete(choice: 8), image5: MainsDerriereLaTete(choice: 9))) {
                         HStack {
                         Text("En savoir plus")
                         .font(.custom("Ruluko-Regular", size: 17))
@@ -165,10 +165,10 @@ struct TypesGestesAssis: View {
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
                 VStack(spacing: 20) {
                 Text(String(number + 5) + " sur 5")
-                Text(Assis5(choice: 1))
+                Text(JambesEcartes(choice: 1))
                     .font(.custom("Ruluko-Regular", size: 30))
                     .foregroundColor(.black)
-                Image(Assis5(choice: 2))
+                Image(JambesEcartes(choice: 4))
                     .resizable()
                     .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -178,7 +178,7 @@ struct TypesGestesAssis: View {
                     .foregroundColor(Color("verumBleu"))
                     .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .cornerRadius(60)
-                        NavigationLink(destination: Gesture(nom: Nom(Index1: 8, Index2: 4), explication: Explication(Index1: 8, Index2: 4), exemple: Explication(Index1: 8, Index2: 4), images: Images(Index1: 8, Index2: 4))) {
+                        NavigationLink(destination: Gesture(nom: JambesEcartes(choice: 1), explication: JambesEcartes(choice: 2), exemple: JambesEcartes(choice: 3), images: JambesEcartes(choice: 4), image1: JambesEcartes(choice: 5), image2: JambesEcartes(choice: 6), image3: JambesEcartes(choice: 7), image4: JambesEcartes(choice: 8), image5: JambesEcartes(choice: 9))) {
                         HStack {
                         Text("En savoir plus")
                         .font(.custom("Ruluko-Regular", size: 17))

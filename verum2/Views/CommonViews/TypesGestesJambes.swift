@@ -23,10 +23,10 @@ struct TypesGestesJambes: View {
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
             VStack(spacing: 20) {
             Text(String(number + 1) + " sur 3")
-            Text(Jambes1(choice: 1))
+            Text(JambesCroises(choice: 1))
                 .font(.custom("Ruluko-Regular", size: 30))
                 .foregroundColor(.black)
-                Image(Jambes1(choice: 2))
+                Image(JambesCroises(choice: 4))
                 .resizable()
                 .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -36,7 +36,7 @@ struct TypesGestesJambes: View {
                 .foregroundColor(Color("verumBleu"))
                 .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .cornerRadius(60)
-                    NavigationLink(destination: Gesture(nom: Nom(Index1: 7, Index2: 0), explication: Explication(Index1: 7, Index2: 0), exemple: Explication(Index1: 7, Index2: 0), images: Images(Index1: 7, Index2: 0))) {
+                    NavigationLink(destination: Gesture(nom: JambesCroises(choice: 1), explication: JambesCroises(choice: 2), exemple: JambesCroises(choice: 3), images: JambesCroises(choice: 4), image1: JambesCroises(choice: 5), image2: JambesCroises(choice: 6), image3: JambesCroises(choice: 7), image4: JambesCroises(choice: 8), image5: JambesCroises(choice: 9))) {
                     HStack {
                     Text("En savoir plus")
                     .font(.custom("Ruluko-Regular", size: 17))
@@ -59,10 +59,10 @@ struct TypesGestesJambes: View {
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
             VStack(spacing: 20) {
             Text(String(number + 2) + " sur 3")
-            Text(Jambes2(choice: 1))
+            Text(AutoContactAuGenou(choice: 1))
                 .font(.custom("Ruluko-Regular", size: 30))
                 .foregroundColor(.black)
-            Image(Jambes2(choice: 2))
+            Image(AutoContactAuGenou(choice: 4))
                 .resizable()
                 .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -72,7 +72,7 @@ struct TypesGestesJambes: View {
                 .foregroundColor(Color("verumBleu"))
                 .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .cornerRadius(60)
-                    NavigationLink(destination: Gesture(nom: Nom(Index1: 7, Index2: 1), explication: Explication(Index1: 7, Index2: 1), exemple: Explication(Index1: 7, Index2: 1), images: Images(Index1: 7, Index2: 1))) {
+                    NavigationLink(destination: Gesture(nom: AutoContactAuGenou(choice: 1), explication: AutoContactAuGenou(choice: 2), exemple: AutoContactAuGenou(choice: 3), images: AutoContactAuGenou(choice: 4), image1: AutoContactAuGenou(choice: 5), image2: AutoContactAuGenou(choice: 6), image3: AutoContactAuGenou(choice: 7), image4: AutoContactAuGenou(choice: 8), image5: AutoContactAuGenou(choice: 9))) {
                     HStack {
                     Text("En savoir plus")
                     .font(.custom("Ruluko-Regular", size: 17))
@@ -94,10 +94,10 @@ struct TypesGestesJambes: View {
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
                 VStack(spacing: 20) {
                 Text(String(number + 3) + " sur 3")
-                Text(Jambes3(choice: 1))
+                Text(DoubleCroisementDeJambes(choice: 1))
                     .font(.custom("Ruluko-Regular", size: 24))
                     .foregroundColor(.black)
-                Image(Jambes3(choice: 2))
+                Image(DoubleCroisementDeJambes(choice: 4))
                     .resizable()
                     .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -107,7 +107,7 @@ struct TypesGestesJambes: View {
                     .foregroundColor(Color("verumBleu"))
                     .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .cornerRadius(60)
-                        NavigationLink(destination: Gesture(nom: Nom(Index1: 7, Index2: 2), explication: Explication(Index1: 7, Index2: 2), exemple: Explication(Index1: 7, Index2: 2), images: Images(Index1: 7, Index2: 2))) {
+                        NavigationLink(destination: Gesture(nom: DoubleCroisementDeJambes(choice: 1), explication: DoubleCroisementDeJambes(choice: 2), exemple: DoubleCroisementDeJambes(choice: 3), images: DoubleCroisementDeJambes(choice: 4), image1: DoubleCroisementDeJambes(choice: 5), image2: DoubleCroisementDeJambes(choice: 6), image3: DoubleCroisementDeJambes(choice: 7), image4: DoubleCroisementDeJambes(choice: 8), image5: DoubleCroisementDeJambes(choice: 9))) {
                         HStack {
                         Text("En savoir plus")
                         .font(.custom("Ruluko-Regular", size: 17))

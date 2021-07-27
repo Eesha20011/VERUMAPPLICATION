@@ -3,8 +3,8 @@
 //  verum2
 //
 //  Created by Eesha Patel on 2021-06-27.
-//
 
+//Fuctions order: nom, explication, exemple, imagePrincipale, image1, image2, image3, image4, image5
 import SwiftUI
 struct TypesGestesMicroExpressions: View {
     var number = 0
@@ -22,10 +22,10 @@ struct TypesGestesMicroExpressions: View {
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
             VStack(spacing: 20) {
             Text(String(number + 1) + " sur 7")
-            Text(MicroE1(choice: 1))
+            Text(Joie(choice: 1))
                 .font(.custom("Ruluko-Regular", size: 30))
                 .foregroundColor(.black)
-                Image(MicroE1(choice: 2))
+                Image(Joie(choice: 4))
                 .resizable()
                 .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -35,7 +35,7 @@ struct TypesGestesMicroExpressions: View {
                 .foregroundColor(Color("verumBleu"))
                 .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .cornerRadius(60)
-                    NavigationLink(destination: Gesture(nom: Nom(Index1: 3, Index2: 0), explication: Explication(Index1: 3, Index2: 0), exemple: Explication(Index1: 3, Index2: 0), images: Images(Index1: 3, Index2: 0))) {
+                    NavigationLink(destination: Gesture(nom: Joie(choice: 1), explication: Joie(choice: 2), exemple: Joie(choice: 3), images: Joie(choice: 4), image1: Joie(choice: 5), image2: Joie(choice: 6), image3: Joie(choice: 7), image4: Joie(choice: 8), image5: Joie(choice: 9))) {
                     HStack {
                     Text("En savoir plus")
                     .font(.custom("Ruluko-Regular", size: 17))
@@ -58,10 +58,10 @@ struct TypesGestesMicroExpressions: View {
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
             VStack(spacing: 20) {
             Text(String(number + 2) + " sur 7")
-            Text(MicroE2(choice: 1))
+            Text(Peur(choice: 1))
                 .font(.custom("Ruluko-Regular", size: 30))
                 .foregroundColor(.black)
-            Image(MicroE2(choice: 2))
+            Image(Peur(choice: 4))
                 .resizable()
                 .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -71,7 +71,7 @@ struct TypesGestesMicroExpressions: View {
                 .foregroundColor(Color("verumBleu"))
                 .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .cornerRadius(60)
-                    NavigationLink(destination: Gesture(nom: Nom(Index1: 3, Index2: 1), explication: Explication(Index1: 3, Index2: 1), exemple: Explication(Index1: 3, Index2: 1), images: Images(Index1: 3, Index2: 1))) {
+                    NavigationLink(destination: Gesture(nom: Peur(choice: 1), explication: Peur(choice: 2), exemple: Peur(choice: 3), images: Peur(choice: 4), image1: Peur(choice: 5), image2: Peur(choice: 6), image3: Peur(choice: 7), image4: Peur(choice: 8), image5: Peur(choice: 9))) {
                     HStack {
                     Text("En savoir plus")
                     .font(.custom("Ruluko-Regular", size: 17))
@@ -93,10 +93,10 @@ struct TypesGestesMicroExpressions: View {
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
                 VStack(spacing: 20) {
                 Text(String(number + 3) + " sur 7")
-                Text(MicroE3(choice: 1))
+                Text(Tristesse(choice: 1))
                     .font(.custom("Ruluko-Regular", size: 30))
                     .foregroundColor(.black)
-                Image(MicroE3(choice: 2))
+                Image(Tristesse(choice: 4))
                     .resizable()
                     .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -106,7 +106,7 @@ struct TypesGestesMicroExpressions: View {
                     .foregroundColor(Color("verumBleu"))
                     .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .cornerRadius(60)
-                        NavigationLink(destination: Gesture(nom: Nom(Index1: 3, Index2: 2), explication: Explication(Index1: 3, Index2: 2), exemple: Explication(Index1: 3, Index2: 2), images: Images(Index1: 3, Index2: 2))) {
+                        NavigationLink(destination: Gesture(nom: Tristesse(choice: 1), explication: Tristesse(choice: 2), exemple: Tristesse(choice: 3), images: Tristesse(choice: 4), image1: Tristesse(choice: 5), image2: Tristesse(choice: 6), image3: Tristesse(choice: 7), image4: Tristesse(choice: 8), image5: Tristesse(choice: 9))) {
                         HStack {
                         Text("En savoir plus")
                         .font(.custom("Ruluko-Regular", size: 17))
@@ -128,10 +128,10 @@ struct TypesGestesMicroExpressions: View {
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
                 VStack(spacing: 20) {
                 Text(String(number + 4) + " sur 7")
-                Text(MicroE4(choice: 1))
+                Text(Colere(choice: 1))
                     .font(.custom("Ruluko-Regular", size: 30))
                     .foregroundColor(.black)
-                Image(MicroE4(choice: 2))
+                Image(Colere(choice: 4))
                     .resizable()
                     .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -141,7 +141,7 @@ struct TypesGestesMicroExpressions: View {
                     .foregroundColor(Color("verumBleu"))
                     .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .cornerRadius(60)
-                        NavigationLink(destination: Gesture(nom: Nom(Index1: 3, Index2: 3), explication: Explication(Index1: 3, Index2: 3), exemple: Explication(Index1: 3, Index2: 3), images: Images(Index1: 3, Index2: 3))) {
+                        NavigationLink(destination: Gesture(nom: Colere(choice: 1), explication: Colere(choice: 2), exemple: Colere(choice: 3), images: Colere(choice: 4), image1: Colere(choice: 5), image2: Colere(choice: 6), image3: Colere(choice: 7), image4: Colere(choice: 8), image5: Colere(choice: 9))) {
                         HStack {
                         Text("En savoir plus")
                         .font(.custom("Ruluko-Regular", size: 17))
@@ -163,10 +163,10 @@ struct TypesGestesMicroExpressions: View {
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
                 VStack(spacing: 20) {
                 Text(String(number + 5) + " sur 7")
-                Text(MicroE5(choice: 1))
+                Text(Degout(choice: 1))
                     .font(.custom("Ruluko-Regular", size: 30))
                     .foregroundColor(.black)
-                Image(MicroE5(choice: 2))
+                Image(Degout(choice: 4))
                     .resizable()
                     .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -176,7 +176,7 @@ struct TypesGestesMicroExpressions: View {
                     .foregroundColor(Color("verumBleu"))
                     .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .cornerRadius(60)
-                        NavigationLink(destination: Gesture(nom: Nom(Index1: 3, Index2: 4), explication: Explication(Index1: 3, Index2: 4), exemple: Explication(Index1: 3, Index2: 4), images: Images(Index1: 3, Index2: 4))) {
+                        NavigationLink(destination: Gesture(nom: Degout(choice: 1), explication: Degout(choice: 2), exemple: Degout(choice: 3), images: Degout(choice: 4), image1: Degout(choice: 5), image2: Degout(choice: 6), image3: Degout(choice: 7), image4: Degout(choice: 8), image5: Degout(choice: 9))) {
                         HStack {
                         Text("En savoir plus")
                         .font(.custom("Ruluko-Regular", size: 17))
@@ -198,10 +198,10 @@ struct TypesGestesMicroExpressions: View {
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
                 VStack(spacing: 20) {
                 Text(String(number + 6) + " sur 7")
-                Text(MicroE6(choice: 1))
+                Text(Mepris(choice: 1))
                     .font(.custom("Ruluko-Regular", size: 30))
                     .foregroundColor(.black)
-                Image(MicroE6(choice: 2))
+                Image(Mepris(choice: 4))
                     .resizable()
                     .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -211,7 +211,7 @@ struct TypesGestesMicroExpressions: View {
                     .foregroundColor(Color("verumBleu"))
                     .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .cornerRadius(60)
-                        NavigationLink(destination: Gesture(nom: Nom(Index1: 3, Index2: 5), explication: Explication(Index1: 3, Index2: 5), exemple: Explication(Index1: 3, Index2: 5), images: Images(Index1: 3, Index2: 5))) {
+                        NavigationLink(destination: Gesture(nom: Mepris(choice: 1), explication: Mepris(choice: 2), exemple: Mepris(choice: 3), images: Mepris(choice: 4), image1: Mepris(choice: 5), image2: Mepris(choice: 6), image3: Mepris(choice: 7), image4: Mepris(choice: 8), image5: Mepris(choice: 9))) {
                         HStack {
                         Text("En savoir plus")
                         .font(.custom("Ruluko-Regular", size: 17))
@@ -233,10 +233,10 @@ struct TypesGestesMicroExpressions: View {
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
                 VStack(spacing: 20) {
                 Text(String(number + 7) + " sur 7")
-                Text(MicroE7(choice: 1))
+                Text(Surprise(choice: 1))
                     .font(.custom("Ruluko-Regular", size: 30))
                     .foregroundColor(.black)
-                Image(MicroE7(choice: 2))
+                Image(Surprise(choice: 4))
                     .resizable()
                     .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -246,7 +246,7 @@ struct TypesGestesMicroExpressions: View {
                     .foregroundColor(Color("verumBleu"))
                     .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .cornerRadius(60)
-                        NavigationLink(destination: Gesture(nom: Nom(Index1: 3, Index2: 6), explication: Explication(Index1: 3, Index2: 6), exemple: Explication(Index1: 3, Index2: 6), images: Images(Index1: 3, Index2: 6))) {
+                        NavigationLink(destination: Gesture(nom: Surprise(choice: 1), explication: Surprise(choice: 2), exemple: Surprise(choice: 3), images: Surprise(choice: 4), image1: Surprise(choice: 5), image2: Surprise(choice: 6), image3: Surprise(choice: 7), image4: Surprise(choice: 8), image5: Surprise(choice: 9))) {
                         HStack {
                         Text("En savoir plus")
                         .font(.custom("Ruluko-Regular", size: 17))

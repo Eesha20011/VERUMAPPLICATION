@@ -7,13 +7,13 @@
 
 import Foundation
 
-public class TypeBoucheViewModel{
+public class GestesViewModel{
     var image : String
-    var nomenclature : String
+    var section : String
     
-    init(image: String, nomenclature: String) {
+    init(image: String, section: String) {
         self.image = image
-        self.nomenclature = nomenclature
+        self.section = section
     }
     
 }

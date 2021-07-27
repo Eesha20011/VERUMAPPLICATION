@@ -23,10 +23,10 @@ struct TypesGestesPieds: View {
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
             VStack(spacing: 20) {
             Text(String(number + 1) + " sur 3")
-            Text(Pieds1(choice: 1))
+            Text(PiedsDenfants(choice: 1))
                 .font(.custom("Ruluko-Regular", size: 30))
                 .foregroundColor(.black)
-                Image(Pieds1(choice: 2))
+                Image(PiedsDenfants(choice: 4))
                 .resizable()
                 .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -36,7 +36,7 @@ struct TypesGestesPieds: View {
                 .foregroundColor(Color("verumBleu"))
                 .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .cornerRadius(60)
-                    NavigationLink(destination: Gesture(nom: Nom(Index1: 9, Index2: 0), explication: Explication(Index1: 9, Index2: 0), exemple: Explication(Index1: 9, Index2: 0), images: Images(Index1: 9, Index2: 0))) {
+                    NavigationLink(destination: Gesture(nom: PiedsDenfants(choice: 1), explication: PiedsDenfants(choice: 2), exemple: PiedsDenfants(choice: 3), images: PiedsDenfants(choice: 4), image1: PiedsDenfants(choice: 5), image2: PiedsDenfants(choice: 6), image3: PiedsDenfants(choice: 7), image4: PiedsDenfants(choice: 8), image5: PiedsDenfants(choice: 9))) {
                     HStack {
                     Text("En savoir plus")
                     .font(.custom("Ruluko-Regular", size: 17))
@@ -59,10 +59,10 @@ struct TypesGestesPieds: View {
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
             VStack(spacing: 20) {
             Text(String(number + 2) + " sur 3")
-            Text(Pieds2(choice: 1))
+            Text(AncreAuSol(choice: 1))
                 .font(.custom("Ruluko-Regular", size: 30))
                 .foregroundColor(.black)
-            Image(Pieds2(choice: 2))
+            Image(AncreAuSol(choice: 4))
                 .resizable()
                 .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -72,7 +72,7 @@ struct TypesGestesPieds: View {
                 .foregroundColor(Color("verumBleu"))
                 .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .cornerRadius(60)
-                    NavigationLink(destination: Gesture(nom: Nom(Index1: 9, Index2: 1), explication: Explication(Index1: 9, Index2: 1), exemple: Explication(Index1: 9, Index2: 1), images: Images(Index1: 9, Index2: 1))) {
+                    NavigationLink(destination: Gesture(nom: AncreAuSol(choice: 1), explication: AncreAuSol(choice: 2), exemple: AncreAuSol(choice: 3), images: AncreAuSol(choice: 4), image1: AncreAuSol(choice: 5), image2: AncreAuSol(choice: 6), image3: AncreAuSol(choice: 7), image4: AncreAuSol(choice: 8), image5: AncreAuSol(choice: 9))) {
                     HStack {
                     Text("En savoir plus")
                     .font(.custom("Ruluko-Regular", size: 17))
@@ -94,10 +94,10 @@ struct TypesGestesPieds: View {
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
                 VStack(spacing: 20) {
                 Text(String(number + 3) + " sur 3")
-                Text(Pieds3(choice: 1))
+                Text(PiedsRetrousses(choice: 1))
                     .font(.custom("Ruluko-Regular", size: 24))
                     .foregroundColor(.black)
-                Image(Pieds3(choice: 2))
+                Image(PiedsRetrousses(choice: 4))
                     .resizable()
                     .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -107,7 +107,7 @@ struct TypesGestesPieds: View {
                     .foregroundColor(Color("verumBleu"))
                     .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .cornerRadius(60)
-                        NavigationLink(destination: Gesture(nom: Nom(Index1: 9, Index2: 2), explication: Explication(Index1: 9, Index2: 2), exemple: Explication(Index1: 9, Index2: 2), images: Images(Index1: 9, Index2: 2))) {
+                        NavigationLink(destination: Gesture(nom: PiedsRetrousses(choice: 1), explication: PiedsRetrousses(choice: 2), exemple: PiedsRetrousses(choice: 3), images: PiedsRetrousses(choice: 4), image1: PiedsRetrousses(choice: 5), image2: PiedsRetrousses(choice: 6), image3: PiedsRetrousses(choice: 7), image4: PiedsRetrousses(choice: 8), image5: PiedsRetrousses(choice: 9))) {
                         HStack {
                         Text("En savoir plus")
                         .font(.custom("Ruluko-Regular", size: 17))

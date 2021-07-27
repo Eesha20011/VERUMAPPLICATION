@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class GestureViewModel {
+public class GestureViewModel{
     var nom: String
     var explication: String
     var exemple: String

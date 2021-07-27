@@ -23,10 +23,10 @@ struct TypeGestesYeux: View {
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
             VStack(spacing: 20) {
             Text(String(number + 1) + " sur 4")
-            Text(yeux1(choice: 1))
+            Text(RegarderVersLeHaut(choice: 1))
                 .font(.custom("Ruluko-Regular", size: 30))
                 .foregroundColor(.black)
-                Image(yeux1(choice: 2))
+                Image(RegarderVersLeHaut(choice: 4))
                 .resizable()
                 .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -36,7 +36,7 @@ struct TypeGestesYeux: View {
                 .foregroundColor(Color("verumBleu"))
                 .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .cornerRadius(60)
-                    NavigationLink(destination: Gesture(nom: Nom(Index1: 2, Index2: 0), explication: Explication(Index1: 2, Index2: 0), exemple: Explication(Index1: 2, Index2: 0), images: Images(Index1: 2, Index2: 0))){
+                    NavigationLink(destination: Gesture(nom: RegarderVersLeHaut(choice: 1), explication: RegarderVersLeHaut(choice: 2), exemple: RegarderVersLeHaut(choice: 3), images: RegarderVersLeHaut(choice: 4), image1: RegarderVersLeHaut(choice: 5), image2: RegarderVersLeHaut(choice: 6), image3: RegarderVersLeHaut(choice: 7), image4: RegarderVersLeHaut(choice: 8), image5: RegarderVersLeHaut(choice: 9))){
                     HStack {
                     Text("En savoir plus")
                     .font(.custom("Ruluko-Regular", size: 17))
@@ -59,10 +59,10 @@ struct TypeGestesYeux: View {
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
             VStack(spacing: 20) {
             Text(String(number + 2) + " sur 4")
-            Text(yeux2(choice: 1))
+            Text(RegarderVersLeBas(choice: 1))
                 .font(.custom("Ruluko-Regular", size: 30))
                 .foregroundColor(.black)
-            Image(yeux2(choice: 2))
+            Image(RegarderVersLeBas(choice: 4))
                 .resizable()
                 .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -72,7 +72,7 @@ struct TypeGestesYeux: View {
                 .foregroundColor(Color("verumBleu"))
                 .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .cornerRadius(60)
-                    NavigationLink(destination: Gesture(nom: Nom(Index1: 2, Index2: 1), explication: Explication(Index1: 2, Index2: 1), exemple: Explication(Index1: 2, Index2: 1), images: Images(Index1: 2, Index2: 1))){
+                    NavigationLink(destination: Gesture(nom: RegarderVersLeBas(choice: 1), explication: RegarderVersLeBas(choice: 2), exemple: RegarderVersLeBas(choice: 3), images: RegarderVersLeBas(choice: 4), image1: RegarderVersLeBas(choice: 5), image2: RegarderVersLeBas(choice: 6), image3: RegarderVersLeBas(choice: 7), image4: RegarderVersLeBas(choice: 8), image5: RegarderVersLeBas(choice: 9))){
                     HStack {
                     Text("En savoir plus")
                     .font(.custom("Ruluko-Regular", size: 17))
@@ -94,10 +94,10 @@ struct TypeGestesYeux: View {
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
                 VStack(spacing: 20) {
                 Text(String(number + 3) + " sur 4")
-                Text(yeux3(choice: 1))
+                Text(YeuxDeSanpaku(choice: 1))
                     .font(.custom("Ruluko-Regular", size: 30))
                     .foregroundColor(.black)
-                Image(yeux3(choice: 2))
+                Image(YeuxDeSanpaku(choice: 4))
                     .resizable()
                     .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -107,7 +107,7 @@ struct TypeGestesYeux: View {
                     .foregroundColor(Color("verumBleu"))
                     .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .cornerRadius(60)
-                        NavigationLink(destination: Gesture(nom: Nom(Index1: 2, Index2: 2), explication: Explication(Index1: 2, Index2: 2), exemple: Explication(Index1: 2, Index2: 2), images: Images(Index1: 2, Index2: 2))){
+                        NavigationLink(destination: Gesture(nom: YeuxDeSanpaku(choice: 1), explication: YeuxDeSanpaku(choice: 2), exemple: YeuxDeSanpaku(choice: 3), images: YeuxDeSanpaku(choice: 4), image1: YeuxDeSanpaku(choice: 5), image2: YeuxDeSanpaku(choice: 6), image3: YeuxDeSanpaku(choice: 7), image4: YeuxDeSanpaku(choice: 8), image5: YeuxDeSanpaku(choice:9))){
                         HStack {
                         Text("En savoir plus")
                         .font(.custom("Ruluko-Regular", size: 17))
@@ -129,10 +129,10 @@ struct TypeGestesYeux: View {
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
                 VStack(spacing: 20) {
                 Text(String(number + 4) + " sur 4")
-                Text(yeux4(choice: 1))
+                Text(FermerLesYeuxAvecLesDoights(choice: 1))
                     .font(.custom("Ruluko-Regular", size: 22))
                     .foregroundColor(.black)
-                Image(yeux4(choice: 2))
+                Image(FermerLesYeuxAvecLesDoights(choice: 4))
                     .resizable()
                     .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
@@ -142,7 +142,7 @@ struct TypeGestesYeux: View {
                     .foregroundColor(Color("verumBleu"))
                     .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .cornerRadius(60)
-                        NavigationLink(destination: Gesture(nom: Nom(Index1: 2, Index2: 3), explication: Explication(Index1: 2, Index2: 3), exemple: Explication(Index1: 2, Index2: 3), images: Images(Index1: 2, Index2: 3))){
+                        NavigationLink(destination: Gesture(nom: FermerLesYeuxAvecLesDoights(choice: 1), explication: FermerLesYeuxAvecLesDoights(choice: 2), exemple: FermerLesYeuxAvecLesDoights(choice: 3), images: FermerLesYeuxAvecLesDoights(choice: 4), image1: FermerLesYeuxAvecLesDoights(choice: 5), image2: FermerLesYeuxAvecLesDoights(choice: 6), image3: FermerLesYeuxAvecLesDoights(choice: 7), image4: FermerLesYeuxAvecLesDoights(choice: 8), image5: FermerLesYeuxAvecLesDoights(choice: 9))){
                         HStack {
                         Text("En savoir plus")
                         .font(.custom("Ruluko-Regular", size: 17))

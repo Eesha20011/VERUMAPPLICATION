@@ -38,28 +38,6 @@ extension Bundle {
 }
 var gestes2 = Bundle.main.decode("Database.json")
 
-//This function takes the index of the type of Category,the index of the gesture in that category and return the name of the gesture
-func Nom (Index1: Int,Index2: Int ) -> String {
-    let nom = gestes2[Index1].Gestes[Index2].nomenclature
-    return nom
-}
-//This function takes the index of the type of Category,the index of the gesture in that category and return the explication of the gesture
-func Explication (Index1: Int, Index2: Int) -> String {
-    let explication = gestes2[Index1].Gestes[Index2].explication
-    return explication
-}
-//This function takes the index of the type of Category,the index of the gesture in that category and return the exemple of the gesture
-func Exemple(Index1: Int, Index2: Int) -> String {
-    let exemple = gestes2[Index1].Gestes[Index2].exemple
-    return exemple
-}
-//This function takes the index of the type of Category,the index of the gesture in that category and return the image of the gesture
-func Images(Index1: Int, Index2: Int) -> String {
-    let image = gestes2[Index1].Gestes[Index2].image
-    return image
-}
-
-
 //This structure takes an url and returns a web page view
 struct makeUIView: UIViewRepresentable {
 
