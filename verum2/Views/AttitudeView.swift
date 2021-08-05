@@ -43,10 +43,11 @@ struct AttitudeView: View {
                 .frame(width: 200, height:40)
                 .cornerRadius(40)
                 .shadow(radius: 5)
-                            
+                            NavigationLink(destination: DecideurView()) {
             Text("Voir les gestes")
                 .font(.custom("Ruluko-Regular", size: 20))
                 .foregroundColor(.white)
+                            }
                     }
                     }
           

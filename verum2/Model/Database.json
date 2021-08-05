@@ -315,11 +315,11 @@
                "exemple": "exemple1",
                "attitude": "slow1",
                "image": "Mobilité",
-               "image1": "test",
-               "image2": "test",
-               "image3": "test",
-               "image4": "test",
-               "image5": "test"
+               "image1": "Mobilité1",
+               "image2": "Mobilité2",
+               "image3": "Mobilité3",
+               "image4": "Mobilité4",
+               "image5": "Mobilité5"
            },
            {
                "id": 2,
@@ -341,11 +341,11 @@
                "exemple": "concousicont",
                "attitude": "slow1",
                "image": "Auto_contact_au_cou",
-               "image1": "test",
-               "image2": "test",
-               "image3": "test",
-               "image4": "test",
-               "image5": "test"
+               "image1": "Contact1",
+               "image2": "Contact2",
+               "image3": "Contact3",
+               "image4": "Contact4",
+               "image5": "Contact5"
            }
            ]
 },
@@ -359,11 +359,11 @@
                "exemple": "exemple1",
                "attitude": "slow1",
                "image": "Croisés",
-               "image1": "test",
-               "image2": "test",
-               "image3": "test",
-               "image4": "test",
-               "image5": "test"
+               "image1": "croisé1",
+               "image2": "croisé2",
+               "image3": "croisé3",
+               "image4": "croisé4",
+               "image5": "croisé5"
            },
            {
                "id": 2,
@@ -372,11 +372,11 @@
                "exemple": "concousicont",
                "attitude": "slow1",
                "image": "Bras_appuyés_sur_la_table",
-               "image1": "test",
-               "image2": "test",
-               "image3": "test",
-               "image4": "test",
-               "image5": "test"
+               "image1": "brasA1",
+               "image2": "brasA2",
+               "image3": "brasA3",
+               "image4": "brasA4",
+               "image5": "brasA5"
            }
            ]
 },
