@@ -32,15 +32,17 @@ struct Gesture: View{
             .foregroundColor(Color("verumBleu"))
     
                 ZStack {
-                Image("Bras croisés")
+                Image(images)
+                    .resizable()
+                    .frame(width: 350, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     HStack {
                     Spacer()
                         .frame(width: 300)
                     VStack {
                     Spacer()
-                        .frame(height: 180)
+                        .frame(height: 250)
                     Image(systemName: "mic.circle")
-                    .font(.system(size: 50))
+                    .font(.system(size: 40))
                     }
                     }
                 }

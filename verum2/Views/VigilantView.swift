@@ -1,19 +1,19 @@
 //
-//  RelationelleView.swift
+//  VigilantView.swift
 //  verum2
 //
-//  Created by Eesha Patel on 2021-08-05.
+//  Created by Eesha Patel on 2021-08-06.
 //
 
 import SwiftUI
 
-struct RelationelleView: View {
+struct VigilantView: View {
     var body: some View {
         ZStack {
-            Color.pink
+            Color.yellow
                 .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             VStack {
-        Text("Relationnel")
+        Text("Vigilant")
             .font(.custom("Ruluko-Regular", size: 40))
             .foregroundColor(.white)
                 Spacer()
@@ -28,31 +28,31 @@ struct RelationelleView: View {
                             .frame( height: 10, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                         Group {
                     HStack(spacing: 20) {
-                        Image("Axe_latéral_gauche")
+                        Image("Axe_rotatif_droit")
                             .resizable()
                             .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                             .cornerRadius(10)
-                        Image("cheveux3")
+                        Image("menton4")
                             .resizable()
                             .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                             .cornerRadius(10)
                     }
                     HStack(spacing: 20) {
-                        Image("micro1")
+                        Image("oreille2")
                             .resizable()
                             .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                             .cornerRadius(10)
-                        Image("yeux2")
+                        Image("huitre4")
                             .resizable()
                             .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                             .cornerRadius(10)
                     }
                         HStack(spacing: 20) {
-                            Image("angry1")
+                            Image("Langue_dans_la_joue")
                                 .resizable()
                                 .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                                 .cornerRadius(10)
-                            Image("Dégout")
+                            Image("mainbouche2")
                                 .resizable()
                                 .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                                 .cornerRadius(10)
@@ -82,37 +82,37 @@ struct RelationelleView: View {
                                 .resizable()
                                 .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                                 .cornerRadius(10)
-                            Image("Mobilité1")
+                            Image("Yeux_de_sanpaku")
                                 .resizable()
                                 .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                                 .cornerRadius(10)
                         }
                         HStack(spacing: 20) {
-                            Image("Contact4")
+                            Image("yeux3")
                                 .resizable()
                                 .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                                 .cornerRadius(10)
-                            Image("croisé5")
-                                .resizable()
-                                .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                .cornerRadius(10)
-                        }
-                        HStack(spacing: 20) {
-                            Image("Mains_lavées")
-                                .resizable()
-                                .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                .cornerRadius(10)
-                            Image("Mains_dengramme")
+                            Image("Déglutition")
                                 .resizable()
                                 .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                                 .cornerRadius(10)
                         }
                         HStack(spacing: 20) {
-                            Image("Mains_en_berceau")
+                            Image("Contact5")
                                 .resizable()
                                 .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                                 .cornerRadius(10)
-                            Image("Position_avant_droit")
+                            Image("croisé2")
+                                .resizable()
+                                .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                                .cornerRadius(10)
+                        }
+                        HStack(spacing: 20) {
+                            Image("Mains_barrière")
+                                .resizable()
+                                .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                                .cornerRadius(10)
+                            Image("Mains_ouvertes")
                                 .resizable()
                                 .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                                 .cornerRadius(10)
@@ -120,33 +120,61 @@ struct RelationelleView: View {
                         }
                         Group{
                         HStack(spacing: 20) {
-                            Image("Jambes_croisées")
+                            Image("Mains_dengramme")
                                 .resizable()
                                 .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                                 .cornerRadius(10)
-                            Image("Autocontact_au_genou")
+                            Image("Mains_lavées")
                                 .resizable()
                                 .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                                 .cornerRadius(10)
                         }
                             HStack(spacing: 20) {
-                                Image("Pieds_denfants")
+                                Image("Autocontact_au_genou")
                                     .resizable()
                                     .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                                     .cornerRadius(10)
-                                Image("Jambe")
+                                Image("Double_croisement_de_jambes")
                                     .resizable()
                                     .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                                     .cornerRadius(10)
                             }
-                            
-                            
+                            HStack(spacing: 20) {
+                                Image("Jambes_croisées")
+                                    .resizable()
+                                    .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                                    .cornerRadius(10)
+                                Image("Position_arrière_gauche")
+                                    .resizable()
+                                    .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                                    .cornerRadius(10)
+                            }
+                            HStack(spacing: 20) {
+                                Image("Jambe")
+                                    .resizable()
+                                    .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                                    .cornerRadius(10)
+                                Image("Joue")
+                                    .resizable()
+                                    .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                                    .cornerRadius(10)
+                            }
                             HStack(spacing: 20) {
                                 Image("Avant_bras")
                                     .resizable()
                                     .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                                     .cornerRadius(10)
                                 Image("Nez")
+                                    .resizable()
+                                    .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                                    .cornerRadius(10)
+                            }
+                            HStack(spacing: 20) {
+                                Image("Position_au_centre")
+                                    .resizable()
+                                    .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                                    .cornerRadius(10)
+                                Image("Pieds_retrouse")
                                     .resizable()
                                     .frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                                     .cornerRadius(10)
@@ -160,6 +188,7 @@ struct RelationelleView: View {
                                     .frame(width: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                                 
                             }
+                            
                         }
                         
                     }
@@ -172,8 +201,8 @@ struct RelationelleView: View {
     }
 }
 
-struct RelationelleView_Previews: PreviewProvider {
+struct VigilantView_Previews: PreviewProvider {
     static var previews: some View {
-        RelationelleView()
+        VigilantView()
     }
 }
