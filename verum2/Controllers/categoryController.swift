@@ -8,6 +8,9 @@
 import Foundation
 import WebKit
 import SwiftUI
+import CoreData
+
+
 
 extension Bundle {
     //Takes a json file (string) and returns a type []
@@ -37,6 +40,8 @@ extension Bundle {
     }
 }
 var gestes2 = Bundle.main.decode("Database.json")
+
+
 
 //This structure takes an url and returns a web page view
 struct makeUIView: UIViewRepresentable {
@@ -94,6 +99,39 @@ func progressForEachGesture(Nombre: Int) -> Array<Float> {
     }
     return values
 }
+
+@ViewBuilder func progress(name : String) ->  some View {
+    switch name {
+    case "tete":
+        ParcoursView()
+    case "bouche":
+        ParcoursBouche()
+    case "yeux":
+        ParcoursYeux()
+    case "expression":
+        ParcoursMicroExpression()
+    case "cou":
+        ParcoursCou()
+    case "bras":
+        ParcoursBras()
+    case "mains":
+        ParcoursMains()
+    case "jambes":
+        ParcoursJambes()
+    case "assis":
+        ParcoursAssis()
+    case "pieds":
+        ParcoursPieds()
+    case "demangeaisons":
+        ParcoursMicrodemangeaisons()
+    default:
+        BlogView()
+    }
+}
+
+
+
+
 //Progress view
 struct ProgressBar: View {
     @Binding var progress: Float
@@ -145,9 +183,11 @@ struct ProgressBar: View {
     }
 }
 
-class ProgressGestes: ObservableObject {
-    @Published var progress: Float = 0.0
-}
+
+
+
+
+
 
 
 

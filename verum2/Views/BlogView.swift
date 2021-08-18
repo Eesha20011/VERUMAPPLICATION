@@ -134,5 +134,7 @@ struct BlogView: View {
 struct BlogView_Previews: PreviewProvider {
     static var previews: some View {
         BlogView()
+    
     }
+    
 }

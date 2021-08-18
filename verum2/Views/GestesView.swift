@@ -54,7 +54,7 @@ struct GestesView: View {
                                 VStack {
                         Spacer()
                             .frame( height: 80, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                    NavigationLink(destination: Topbar(destinationView: TypeGestes(), ProgressView: ParcoursView().environmentObject(ProgressGestes()), number: 0)) {
+                                    NavigationLink(destination: Topbar(destinationView: TypeGestes(), nomdugestes: "tete", number: 0)) {
                                     HStack {
                             Spacer()
                                 .frame(width: 160, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
@@ -97,7 +97,7 @@ struct GestesView: View {
                                 VStack {
                         Spacer()
                             .frame( height: 80, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                    NavigationLink(destination: Topbar(destinationView: TypeGestesBouche(), ProgressView: ParcoursView().environmentObject(ProgressGestes()), number: 1)) {
+                                    NavigationLink(destination: Topbar(destinationView: TypeGestesBouche(), nomdugestes: "bouche", number: 1)) {
                                     HStack {
                             Spacer()
                                 .frame(width: 160, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
@@ -140,7 +140,7 @@ struct GestesView: View {
                             VStack {
                                 Spacer()
                                     .frame( height: 80, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                NavigationLink(destination: Topbar(destinationView: TypeGestesYeux(), ProgressView: ParcoursView().environmentObject(ProgressGestes()), number: 2)) {
+                                NavigationLink(destination: Topbar(destinationView: TypeGestesYeux(),nomdugestes: "yeux", number: 2)) {
                                 HStack {
                                     Spacer()
                                         .frame(width: 160, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
@@ -183,7 +183,7 @@ struct GestesView: View {
                                         VStack {
                                             Spacer()
                                                 .frame( height: 90, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                            NavigationLink(destination: Topbar(destinationView: TypesGestesMicroExpressions(), ProgressView: ParcoursView().environmentObject(ProgressGestes()), number: 3)) {
+                                            NavigationLink(destination: Topbar(destinationView: TypesGestesMicroExpressions(), nomdugestes: "expression", number: 3)) {
                                             HStack {
                                                 Spacer()
                                                     .frame(width: 160, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
@@ -225,7 +225,7 @@ struct GestesView: View {
                                         VStack {
                                             Spacer()
                                                 .frame( height: 80, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                            NavigationLink(destination: Topbar(destinationView: TypesGestesCou(), ProgressView: ParcoursView().environmentObject(ProgressGestes()), number: 4)) {
+                                            NavigationLink(destination: Topbar(destinationView: TypesGestesCou(), nomdugestes: "cou", number: 4)) {
                                             HStack {
                                                 Spacer()
                                                     .frame(width: 160, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
@@ -265,7 +265,7 @@ struct GestesView: View {
                                         VStack {
                                             Spacer()
                                                 .frame( height: 80, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                            NavigationLink(destination: Topbar(destinationView: TypesGestesBras(), ProgressView: ParcoursView().environmentObject(ProgressGestes()), number: 5)) {
+                                            NavigationLink(destination: Topbar(destinationView: TypesGestesBras(), nomdugestes: "bras", number: 5)) {
                                             HStack {
                                                 Spacer()
                                                     .frame(width: 160, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
@@ -305,7 +305,7 @@ struct GestesView: View {
                                         VStack {
                                             Spacer()
                                                 .frame( height: 80, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                            NavigationLink(destination: Topbar(destinationView: TypesGestesMains(), ProgressView: ParcoursView().environmentObject(ProgressGestes()), number:6)) {
+                                            NavigationLink(destination: Topbar(destinationView: TypesGestesMains(), nomdugestes: "mains", number: 6)) {
                                             HStack {
                                                 Spacer()
                                                     .frame(width: 160, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
@@ -345,7 +345,7 @@ struct GestesView: View {
                                         VStack {
                                             Spacer()
                                                 .frame( height: 80, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                            NavigationLink(destination: Topbar(destinationView: TypesGestesJambes(), ProgressView: ParcoursView().environmentObject(ProgressGestes()), number:7)) {
+                                            NavigationLink(destination: Topbar(destinationView: TypesGestesJambes(), nomdugestes: "jambes", number: 7)) {
                                             HStack {
                                                 Spacer()
                                                     .frame(width: 160, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
@@ -385,7 +385,7 @@ struct GestesView: View {
                                         VStack {
                                             Spacer()
                                                 .frame( height: 80, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                            NavigationLink(destination: Topbar(destinationView: TypesGestesAssis(), ProgressView: ParcoursView().environmentObject(ProgressGestes()), number:8)) {
+                                            NavigationLink(destination: Topbar(destinationView: TypesGestesAssis(), nomdugestes: "assis", number: 8)) {
                                             HStack {
                                                 Spacer()
                                                     .frame(width: 160, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
@@ -426,7 +426,7 @@ struct GestesView: View {
                                         VStack {
                                             Spacer()
                                                 .frame( height: 80, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                            NavigationLink(destination: Topbar(destinationView: TypesGestesPieds(), ProgressView: ParcoursView().environmentObject(ProgressGestes()), number:9)) {
+                                            NavigationLink(destination: Topbar(destinationView: TypesGestesPieds(), nomdugestes: "pieds", number: 9)) {
                                             HStack {
                                                 Spacer()
                                                     .frame(width: 160, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
@@ -468,7 +468,7 @@ struct GestesView: View {
                                         VStack {
                                             Spacer()
                                                 .frame( height: 100, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                            NavigationLink(destination: Topbar(destinationView: TypesGestesMicroDe_mangeaisons(), ProgressView: ParcoursView().environmentObject(ProgressGestes()), number:10)) {
+                                            NavigationLink(destination: Topbar(destinationView: TypesGestesMicroDe_mangeaisons(), nomdugestes: "demangeaisons", number: 10)) {
                                             HStack {
                                                 Spacer()
                                                     .frame(width: 160, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
