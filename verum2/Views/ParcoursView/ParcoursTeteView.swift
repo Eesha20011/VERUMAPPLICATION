@@ -12,8 +12,8 @@ import CoreData
 struct ParcoursView: View {
     @State var progressValue: Float = 0.0
     
- //   @FetchRequest(entity: ProgressOfEach.entity(), //sortDescriptors: [])
- //   var progress2: FetchedResults<ProgressOfEach>
+  @FetchRequest(entity: ProgressOfEach.entity(),sortDescriptors: [])
+ var progress2: FetchedResults<ProgressOfEach>
     
     
    
@@ -58,6 +58,11 @@ struct ParcoursView: View {
         let randomValue = progressForEachGesture(Nombre: 7).randomElement()!
         self.progressValue += randomValue
         
+        func fetchTete() -> [ProgressOfEach] {
+            for progress in progress2 {
+                return 
+            }
+        }
         
         }
 }
