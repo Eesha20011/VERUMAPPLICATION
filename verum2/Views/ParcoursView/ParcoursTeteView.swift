@@ -57,14 +57,15 @@ struct ParcoursView: View {
     func incrementProgress() {
         let randomValue = progressForEachGesture(Nombre: 7).randomElement()!
         self.progressValue += randomValue
+    }
         
-        func fetchTete() -> [ProgressOfEach] {
-            for progress in progress2 {
-                return 
-            }
-        }
+          //  func fetchTete() -> [ProgressOfEach] {
+            //    for progress in progress2 {
+             //       return
+           //     }
+            
         
-        }
+        
 }
 
 
