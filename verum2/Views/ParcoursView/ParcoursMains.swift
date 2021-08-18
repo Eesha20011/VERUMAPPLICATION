@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct ParcoursMains: View {
-    @State var progressValue: Float = 0.0
+    @State var progressValue: Float = 0.9
     var body: some View {
         ZStack {
                     Color("Color4")
-                        .edgesIgnoringSafeArea(.all)
+            git .edgesIgnoringSafeArea(.all)
             
                         ZStack {
                             Rectangle()
