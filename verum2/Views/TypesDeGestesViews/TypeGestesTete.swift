@@ -10,10 +10,7 @@ import CoreData
 
 struct TypeGestes: View {
     var number = 0
-    
     @Environment(\.managedObjectContext) var managedObjectContext
-    
-    
     
     var body: some View {
         NavigationView {
@@ -62,7 +59,7 @@ struct TypeGestes: View {
                     let prog = ProgressOfEach(context: managedObjectContext)
                     prog.tete += progressForEachGesture(Nombre: 7).randomElement()!
                     PersistanceController.shared.save()
-                                })
+                })
                 
             }
         }
@@ -102,6 +99,7 @@ struct TypeGestes: View {
                         let prog = ProgressOfEach(context: managedObjectContext)
                         prog.tete += progressForEachGesture(Nombre: 7).randomElement()!
                         PersistanceController.shared.save()
+        
                                     })
                 }
                 

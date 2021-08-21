@@ -10,7 +10,7 @@ import WebKit
 
 
 struct BlogView: View {
-    @State private var email: String = ""
+    @Environment(\.managedObjectContext) var managedObjectContext
     var body: some View {
         ZStack {
 //Setting background color to white
@@ -42,7 +42,8 @@ struct BlogView: View {
                     HStack {
                     Spacer()
                         .frame(width: 55)
-                    TextField("Your email here", text: $email)
+                    let email = UserDetails(context: managedObjectContext)
+                        TextField("Your email here", text: Binding(get: { email.email ?? "" }, set: { email.email = $0 }))
                     .font(.custom("Ruluko-Regular", size: 20))
                     }
                 

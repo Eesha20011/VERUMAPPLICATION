@@ -10,6 +10,7 @@ import SwiftUI
 struct ParcoursMicrodemangeaisons: View {
     @FetchRequest(entity: ProgressOfEach.entity(),sortDescriptors: [])
    var progress2: FetchedResults<ProgressOfEach>
+    
     var body: some View {
         ZStack {
                     Color("Color4")
