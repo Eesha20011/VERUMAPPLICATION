@@ -13,7 +13,7 @@ struct SageView: View {
             Color.green
                 .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             VStack {
-        Text("Sa")
+        Text("Sage")
             .font(.custom("Ruluko-Regular", size: 40))
             .foregroundColor(.white)
                 Spacer()
