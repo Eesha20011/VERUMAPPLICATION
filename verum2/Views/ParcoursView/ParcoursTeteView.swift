@@ -11,7 +11,19 @@ import CoreData
 
 struct ParcoursView: View {
   @FetchRequest(entity: ProgressOfEach.entity(),sortDescriptors: [])
- var progress2: FetchedResults<ProgressOfEach>
+    var progress2: FetchedResults<ProgressOfEach>
+
+    
+    
+    
+    func fetchTete() -> Float {
+        var tete: Float = 0.0
+        for progress in progress2 {
+            tete = progress.tete
+        }
+        return tete
+    }
+    
     
     var body: some View {
         ZStack {
@@ -36,13 +48,7 @@ struct ParcoursView: View {
 
             }
     }
-           func fetchTete() -> Float {
-            var tete: Float = 0.0
-               for progress in progress2 {
-                 tete = progress.tete
-              }
-            return tete
-           }
+    
         
 }
 

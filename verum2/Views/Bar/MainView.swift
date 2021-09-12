@@ -30,10 +30,7 @@ struct MainView: View {
                 .tabItem {
                     Label("Blog", systemImage: "newspaper")
                 }
-            AttitudeView()
-                .tabItem {
-                    Label("Attitudes", systemImage: "face.smiling")
-                }
+            
                 
     }
         .accentColor(.white)

@@ -10,6 +10,15 @@ import SwiftUI
 struct ParcoursMicroExpression: View {
     @FetchRequest(entity: ProgressOfEach.entity(),sortDescriptors: [])
    var progress2: FetchedResults<ProgressOfEach>
+//    @State private var progress: Float = 0
+    func fetchExpression() -> Float {
+     var expression: Float = 0.0
+        for progress in progress2 {
+           expression = progress.microExpression
+       }
+     return expression
+}
+   
     var body: some View {
         ZStack {
                     Color("Color4")
@@ -32,13 +41,7 @@ struct ParcoursMicroExpression: View {
 
             }
     }
-    func fetchExpression() -> Float {
-     var expression: Float = 0.0
-        for progress in progress2 {
-           expression = progress.tete
-       }
-     return expression
-}
+  
 }
 
 struct ParcoursMicroExpression_Previews: PreviewProvider {

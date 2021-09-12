@@ -10,6 +10,15 @@ import SwiftUI
 struct ParcoursYeux: View {
     @FetchRequest(entity: ProgressOfEach.entity(),sortDescriptors: [])
    var progress2: FetchedResults<ProgressOfEach>
+  //  @State private var progress: Float = 0
+    func fetchYeux() -> Float {
+     var yeux: Float = 0.0
+        for progress in progress2 {
+           yeux = progress.yeux
+       }
+     return yeux
+}
+    
     var body: some View {
         ZStack {
                     Color("Color4")
@@ -32,13 +41,7 @@ struct ParcoursYeux: View {
 
             }
     }
-    func fetchYeux() -> Float {
-     var yeux: Float = 0.0
-        for progress in progress2 {
-           yeux = progress.tete
-       }
-     return yeux
-}
+   
 }
 
 struct ParcoursYeux_Previews: PreviewProvider {

@@ -49,20 +49,21 @@ struct TypeGestes: View {
                     Text("En savoir plus")
                     .font(.custom("Ruluko-Regular", size: 17))
                     .foregroundColor(.white)
-                    Image(systemName: "person")
-                        .font(.system(size: 20))
-                        .foregroundColor(.white)
-                    }
-                    }
-                    }
-                .simultaneousGesture(TapGesture().onEnded{
-                    let prog = ProgressOfEach(context: managedObjectContext)
-                    prog.tete += progressForEachGesture(Nombre: 7).randomElement()!
-                    PersistanceController.shared.save()
-                })
-                
-            }
-        }
+                        Image(systemName: "person")
+                                        .font(.system(size: 20))
+                                        .foregroundColor(.white)
+                                    }
+                                    }
+                                    }
+                                .simultaneousGesture(TapGesture().onEnded{
+                                    let prog = ProgressOfEach(context: managedObjectContext)
+                                    prog.tete += progressForEachGesture(Nombre: 7).randomElement()!
+                                    print(prog.tete)
+                                    PersistanceController.shared.save()
+                                })
+                                
+                            }
+                        }
                 
                 ZStack {
             Rectangle()
@@ -102,7 +103,6 @@ struct TypeGestes: View {
         
                                     })
                 }
-                
             }
                 }
                     ZStack {
@@ -185,6 +185,9 @@ struct TypeGestes: View {
                     
                 }
                     }
+                    
+                    
+                    
                     ZStack {
                 Rectangle()
                     .foregroundColor(.white)
@@ -222,9 +225,12 @@ struct TypeGestes: View {
                             PersistanceController.shared.save()
                                         })
                     }
-                    
                 }
                     }
+                    
+                    
+                    
+                    
                     ZStack {
                 Rectangle()
                     .foregroundColor(.white)
@@ -241,6 +247,10 @@ struct TypeGestes: View {
                     .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
                     .cornerRadius(10)
+                    
+
+                    
+                    
                     ZStack {
                     Rectangle()
                     .foregroundColor(Color("verumBleu"))
@@ -262,9 +272,8 @@ struct TypeGestes: View {
                             PersistanceController.shared.save()
                                         })
                     }
-                    
-                }
-                    }
+}
+}
                     ZStack {
                 Rectangle()
                     .foregroundColor(.white)

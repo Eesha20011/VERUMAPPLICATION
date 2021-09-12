@@ -10,6 +10,14 @@ import SwiftUI
 struct ParcoursMains: View {
     @FetchRequest(entity: ProgressOfEach.entity(),sortDescriptors: [])
    var progress2: FetchedResults<ProgressOfEach>
+  //  @State private var progress: Float = 0
+    func fetchMains() -> Float {
+     var mains: Float = 0.0
+        for progress in progress2 {
+           mains = progress.mains
+       }
+     return mains
+}
     
     var body: some View {
         ZStack {
@@ -33,13 +41,7 @@ struct ParcoursMains: View {
 
             }
     }
-    func fetchMains() -> Float {
-     var mains: Float = 0.0
-        for progress in progress2 {
-           mains = progress.tete
-       }
-     return mains
-}
+  
 }
 
 struct ParcoursMains_Previews: PreviewProvider {

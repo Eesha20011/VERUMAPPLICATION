@@ -10,6 +10,15 @@ import SwiftUI
 struct ParcoursMicrodemangeaisons: View {
     @FetchRequest(entity: ProgressOfEach.entity(),sortDescriptors: [])
    var progress2: FetchedResults<ProgressOfEach>
+  //  @State private var progress: Float = 0
+    
+    func fetchDemangeaisons() -> Float {
+     var demangeaisons: Float = 0.0
+        for progress in progress2 {
+           demangeaisons = progress.microDemangeaison
+       }
+     return demangeaisons
+}
     
     var body: some View {
         ZStack {
@@ -32,13 +41,7 @@ struct ParcoursMicrodemangeaisons: View {
 
             }
     }
-    func fetchDemangeaisons() -> Float {
-     var demangeaisons: Float = 0.0
-        for progress in progress2 {
-           demangeaisons = progress.tete
-       }
-     return demangeaisons
-}
+  
 }
 
 struct ParcoursMicrodemangeaisons_Previews: PreviewProvider {
