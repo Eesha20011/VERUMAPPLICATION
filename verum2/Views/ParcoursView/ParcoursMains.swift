@@ -19,6 +19,8 @@ struct ParcoursMains: View {
      return mains
 }
     
+    @State var progressValue: Float = 0.0
+
     var body: some View {
         ZStack {
                     Color("Color4")
