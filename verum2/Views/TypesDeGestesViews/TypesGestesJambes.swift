@@ -37,7 +37,7 @@ struct TypesGestesJambes: View {
                 .foregroundColor(Color("verumBleu"))
                 .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .cornerRadius(60)
-                    NavigationLink(destination: Gesture(nom: JambesCroises(choice: 1), explication: JambesCroises(choice: 2), exemple: JambesCroises(choice: 3), images: JambesCroises(choice: 4), image1: JambesCroises(choice: 5), image2: JambesCroises(choice: 6), image3: JambesCroises(choice: 7), image4: JambesCroises(choice: 8), image5: JambesCroises(choice: 9))) {
+                    NavigationLink(destination: Gesture(nom: JambesCroises(choice: 1), explication: JambesCroises(choice: 2), exemple: JambesCroises(choice: 3), images: JambesCroises(choice: 4), image1: JambesCroises(choice: 5), image2: JambesCroises(choice: 6), image3: JambesCroises(choice: 7), image4: JambesCroises(choice: 8), image5: JambesCroises(choice: 9), audio: "croisés des jambes")) {
                     HStack {
                     Text("En savoir plus")
                     .font(.custom("Ruluko-Regular", size: 17))
@@ -78,7 +78,7 @@ struct TypesGestesJambes: View {
                 .foregroundColor(Color("verumBleu"))
                 .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .cornerRadius(60)
-                    NavigationLink(destination: Gesture(nom: AutoContactAuGenou(choice: 1), explication: AutoContactAuGenou(choice: 2), exemple: AutoContactAuGenou(choice: 3), images: AutoContactAuGenou(choice: 4), image1: AutoContactAuGenou(choice: 5), image2: AutoContactAuGenou(choice: 6), image3: AutoContactAuGenou(choice: 7), image4: AutoContactAuGenou(choice: 8), image5: AutoContactAuGenou(choice: 9))) {
+                    NavigationLink(destination: Gesture(nom: AutoContactAuGenou(choice: 1), explication: AutoContactAuGenou(choice: 2), exemple: AutoContactAuGenou(choice: 3), images: AutoContactAuGenou(choice: 4), image1: AutoContactAuGenou(choice: 5), image2: AutoContactAuGenou(choice: 6), image3: AutoContactAuGenou(choice: 7), image4: AutoContactAuGenou(choice: 8), image5: AutoContactAuGenou(choice: 9), audio: "auto-contact au genou")) {
                     HStack {
                     Text("En savoir plus")
                     .font(.custom("Ruluko-Regular", size: 17))
@@ -118,7 +118,7 @@ struct TypesGestesJambes: View {
                     .foregroundColor(Color("verumBleu"))
                     .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .cornerRadius(60)
-                        NavigationLink(destination: Gesture(nom: DoubleCroisementDeJambes(choice: 1), explication: DoubleCroisementDeJambes(choice: 2), exemple: DoubleCroisementDeJambes(choice: 3), images: DoubleCroisementDeJambes(choice: 4), image1: DoubleCroisementDeJambes(choice: 5), image2: DoubleCroisementDeJambes(choice: 6), image3: DoubleCroisementDeJambes(choice: 7), image4: DoubleCroisementDeJambes(choice: 8), image5: DoubleCroisementDeJambes(choice: 9))) {
+                        NavigationLink(destination: Gesture(nom: DoubleCroisementDeJambes(choice: 1), explication: DoubleCroisementDeJambes(choice: 2), exemple: DoubleCroisementDeJambes(choice: 3), images: DoubleCroisementDeJambes(choice: 4), image1: DoubleCroisementDeJambes(choice: 5), image2: DoubleCroisementDeJambes(choice: 6), image3: DoubleCroisementDeJambes(choice: 7), image4: DoubleCroisementDeJambes(choice: 8), image5: DoubleCroisementDeJambes(choice: 9), audio: "double croisement des jambes")) {
                         HStack {
                         Text("En savoir plus")
                         .font(.custom("Ruluko-Regular", size: 17))

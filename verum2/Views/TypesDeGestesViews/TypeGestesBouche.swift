@@ -37,7 +37,7 @@ struct TypeGestesBouche: View {
                 .foregroundColor(Color("verumBleu"))
                 .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .cornerRadius(60)
-                    NavigationLink(destination: Gesture(nom: BoucheEnHuitres(choice: 1), explication:BoucheEnHuitres(choice: 2), exemple: BoucheEnHuitres(choice: 3), images: BoucheEnHuitres(choice: 4), image1: BoucheEnHuitres(choice: 5), image2: BoucheEnHuitres(choice: 6), image3: BoucheEnHuitres(choice: 7), image4: BoucheEnHuitres(choice: 8), image5: BoucheEnHuitres(choice: 9))){
+                    NavigationLink(destination: Gesture(nom: BoucheEnHuitres(choice: 1), explication:BoucheEnHuitres(choice: 2), exemple: BoucheEnHuitres(choice: 3), images: BoucheEnHuitres(choice: 4), image1: BoucheEnHuitres(choice: 5), image2: BoucheEnHuitres(choice: 6), image3: BoucheEnHuitres(choice: 7), image4: BoucheEnHuitres(choice: 8), image5: BoucheEnHuitres(choice: 9), audio: "bouche en huitres")){
                     HStack {
                     Text("En savoir plus")
                     .font(.custom("Ruluko-Regular", size: 17))
@@ -78,7 +78,7 @@ struct TypeGestesBouche: View {
                 .foregroundColor(Color("verumBleu"))
                 .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .cornerRadius(60)
-                    NavigationLink(destination: Gesture(nom: LangueDansLaJoue(choice: 1), explication: LangueDansLaJoue(choice: 2), exemple: LangueDansLaJoue(choice: 3), images: LangueDansLaJoue(choice: 4), image1: LangueDansLaJoue(choice: 5), image2: LangueDansLaJoue(choice: 6), image3: LangueDansLaJoue(choice: 7), image4: LangueDansLaJoue(choice: 8), image5: LangueDansLaJoue(choice: 9))){
+                    NavigationLink(destination: Gesture(nom: LangueDansLaJoue(choice: 1), explication: LangueDansLaJoue(choice: 2), exemple: LangueDansLaJoue(choice: 3), images: LangueDansLaJoue(choice: 4), image1: LangueDansLaJoue(choice: 5), image2: LangueDansLaJoue(choice: 6), image3: LangueDansLaJoue(choice: 7), image4: LangueDansLaJoue(choice: 8), image5: LangueDansLaJoue(choice: 9), audio: "langue dans la joue")){
                     HStack {
                     Text("En savoir plus")
                     .font(.custom("Ruluko-Regular", size: 17))
@@ -118,7 +118,7 @@ struct TypeGestesBouche: View {
                     .foregroundColor(Color("verumBleu"))
                     .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .cornerRadius(60)
-                        NavigationLink(destination: Gesture(nom: MainsSurLaBouche(choice: 1), explication: MainsSurLaBouche(choice: 2), exemple: MainsSurLaBouche(choice: 3), images: MainsSurLaBouche(choice: 4), image1: MainsSurLaBouche(choice: 5), image2: MainsSurLaBouche(choice: 6), image3: MainsSurLaBouche(choice: 7), image4: MainsSurLaBouche(choice: 8), image5: MainsSurLaBouche(choice: 9))){
+                        NavigationLink(destination: Gesture(nom: MainsSurLaBouche(choice: 1), explication: MainsSurLaBouche(choice: 2), exemple: MainsSurLaBouche(choice: 3), images: MainsSurLaBouche(choice: 4), image1: MainsSurLaBouche(choice: 5), image2: MainsSurLaBouche(choice: 6), image3: MainsSurLaBouche(choice: 7), image4: MainsSurLaBouche(choice: 8), image5: MainsSurLaBouche(choice: 9), audio: "main sur la bouche")){
                         HStack {
                         Text("En savoir plus")
                         .font(.custom("Ruluko-Regular", size: 17))
@@ -158,7 +158,7 @@ struct TypeGestesBouche: View {
                     .foregroundColor(Color("verumBleu"))
                     .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .cornerRadius(60)
-                        NavigationLink(destination: Gesture(nom: MicroCaresseLevresInferieur(choice: 1), explication: MicroCaresseLevresInferieur(choice: 2), exemple: MicroCaresseLevresInferieur(choice: 3), images: MicroCaresseLevresInferieur(choice: 4), image1: MicroCaresseLevresInferieur(choice: 5), image2: MicroCaresseLevresInferieur(choice: 6), image3: MicroCaresseLevresInferieur(choice: 7), image4: MicroCaresseLevresInferieur(choice: 8), image5: MicroCaresseLevresInferieur(choice: 9))){
+                        NavigationLink(destination: Gesture(nom: MicroCaresseLevresInferieur(choice: 1), explication: MicroCaresseLevresInferieur(choice: 2), exemple: MicroCaresseLevresInferieur(choice: 3), images: MicroCaresseLevresInferieur(choice: 4), image1: MicroCaresseLevresInferieur(choice: 5), image2: MicroCaresseLevresInferieur(choice: 6), image3: MicroCaresseLevresInferieur(choice: 7), image4: MicroCaresseLevresInferieur(choice: 8), image5: MicroCaresseLevresInferieur(choice: 9), audio: "micro-caresse sur la lèvres inférieurs")){
                         HStack {
                         Text("En savoir plus")
                         .font(.custom("Ruluko-Regular", size: 17))

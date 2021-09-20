@@ -8,6 +8,7 @@
 import SwiftUI
 
 @main
+
 struct verum2App: App {
     
     let persistacontroller = PersistanceController.shared

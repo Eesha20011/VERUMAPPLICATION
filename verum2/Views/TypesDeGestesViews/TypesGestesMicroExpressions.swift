@@ -36,7 +36,7 @@ struct TypesGestesMicroExpressions: View {
                 .foregroundColor(Color("verumBleu"))
                 .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .cornerRadius(60)
-                    NavigationLink(destination: Gesture(nom: Joie(choice: 1), explication: Joie(choice: 2), exemple: Joie(choice: 3), images: Joie(choice: 4), image1: Joie(choice: 5), image2: Joie(choice: 6), image3: Joie(choice: 7), image4: Joie(choice: 8), image5: Joie(choice: 9))) {
+                    NavigationLink(destination: Gesture(nom: Joie(choice: 1), explication: Joie(choice: 2), exemple: Joie(choice: 3), images: Joie(choice: 4), image1: Joie(choice: 5), image2: Joie(choice: 6), image3: Joie(choice: 7), image4: Joie(choice: 8), image5: Joie(choice: 9), audio: "joie")) {
                     HStack {
                     Text("En savoir plus")
                     .font(.custom("Ruluko-Regular", size: 17))
@@ -77,7 +77,7 @@ struct TypesGestesMicroExpressions: View {
                 .foregroundColor(Color("verumBleu"))
                 .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .cornerRadius(60)
-                    NavigationLink(destination: Gesture(nom: Peur(choice: 1), explication: Peur(choice: 2), exemple: Peur(choice: 3), images: Peur(choice: 4), image1: Peur(choice: 5), image2: Peur(choice: 6), image3: Peur(choice: 7), image4: Peur(choice: 8), image5: Peur(choice: 9))) {
+                    NavigationLink(destination: Gesture(nom: Peur(choice: 1), explication: Peur(choice: 2), exemple: Peur(choice: 3), images: Peur(choice: 4), image1: Peur(choice: 5), image2: Peur(choice: 6), image3: Peur(choice: 7), image4: Peur(choice: 8), image5: Peur(choice: 9), audio: "peur")) {
                     HStack {
                     Text("En savoir plus")
                     .font(.custom("Ruluko-Regular", size: 17))
@@ -117,7 +117,7 @@ struct TypesGestesMicroExpressions: View {
                     .foregroundColor(Color("verumBleu"))
                     .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .cornerRadius(60)
-                        NavigationLink(destination: Gesture(nom: Tristesse(choice: 1), explication: Tristesse(choice: 2), exemple: Tristesse(choice: 3), images: Tristesse(choice: 4), image1: Tristesse(choice: 5), image2: Tristesse(choice: 6), image3: Tristesse(choice: 7), image4: Tristesse(choice: 8), image5: Tristesse(choice: 9))) {
+                        NavigationLink(destination: Gesture(nom: Tristesse(choice: 1), explication: Tristesse(choice: 2), exemple: Tristesse(choice: 3), images: Tristesse(choice: 4), image1: Tristesse(choice: 5), image2: Tristesse(choice: 6), image3: Tristesse(choice: 7), image4: Tristesse(choice: 8), image5: Tristesse(choice: 9), audio: "tristesse")) {
                         HStack {
                         Text("En savoir plus")
                         .font(.custom("Ruluko-Regular", size: 17))
@@ -157,7 +157,7 @@ struct TypesGestesMicroExpressions: View {
                     .foregroundColor(Color("verumBleu"))
                     .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .cornerRadius(60)
-                        NavigationLink(destination: Gesture(nom: Colere(choice: 1), explication: Colere(choice: 2), exemple: Colere(choice: 3), images: Colere(choice: 4), image1: Colere(choice: 5), image2: Colere(choice: 6), image3: Colere(choice: 7), image4: Colere(choice: 8), image5: Colere(choice: 9))) {
+                        NavigationLink(destination: Gesture(nom: Colere(choice: 1), explication: Colere(choice: 2), exemple: Colere(choice: 3), images: Colere(choice: 4), image1: Colere(choice: 5), image2: Colere(choice: 6), image3: Colere(choice: 7), image4: Colere(choice: 8), image5: Colere(choice: 9), audio: "colère")) {
                         HStack {
                         Text("En savoir plus")
                         .font(.custom("Ruluko-Regular", size: 17))
@@ -197,7 +197,7 @@ struct TypesGestesMicroExpressions: View {
                     .foregroundColor(Color("verumBleu"))
                     .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .cornerRadius(60)
-                        NavigationLink(destination: Gesture(nom: Degout(choice: 1), explication: Degout(choice: 2), exemple: Degout(choice: 3), images: Degout(choice: 4), image1: Degout(choice: 5), image2: Degout(choice: 6), image3: Degout(choice: 7), image4: Degout(choice: 8), image5: Degout(choice: 9))) {
+                        NavigationLink(destination: Gesture(nom: Degout(choice: 1), explication: Degout(choice: 2), exemple: Degout(choice: 3), images: Degout(choice: 4), image1: Degout(choice: 5), image2: Degout(choice: 6), image3: Degout(choice: 7), image4: Degout(choice: 8), image5: Degout(choice: 9), audio: "dégoût")) {
                         HStack {
                         Text("En savoir plus")
                         .font(.custom("Ruluko-Regular", size: 17))
@@ -237,7 +237,7 @@ struct TypesGestesMicroExpressions: View {
                     .foregroundColor(Color("verumBleu"))
                     .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .cornerRadius(60)
-                        NavigationLink(destination: Gesture(nom: Mepris(choice: 1), explication: Mepris(choice: 2), exemple: Mepris(choice: 3), images: Mepris(choice: 4), image1: Mepris(choice: 5), image2: Mepris(choice: 6), image3: Mepris(choice: 7), image4: Mepris(choice: 8), image5: Mepris(choice: 9))) {
+                        NavigationLink(destination: Gesture(nom: Mepris(choice: 1), explication: Mepris(choice: 2), exemple: Mepris(choice: 3), images: Mepris(choice: 4), image1: Mepris(choice: 5), image2: Mepris(choice: 6), image3: Mepris(choice: 7), image4: Mepris(choice: 8), image5: Mepris(choice: 9), audio: "mépris")) {
                         HStack {
                         Text("En savoir plus")
                         .font(.custom("Ruluko-Regular", size: 17))
@@ -277,7 +277,7 @@ struct TypesGestesMicroExpressions: View {
                     .foregroundColor(Color("verumBleu"))
                     .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .cornerRadius(60)
-                        NavigationLink(destination: Gesture(nom: Surprise(choice: 1), explication: Surprise(choice: 2), exemple: Surprise(choice: 3), images: Surprise(choice: 4), image1: Surprise(choice: 5), image2: Surprise(choice: 6), image3: Surprise(choice: 7), image4: Surprise(choice: 8), image5: Surprise(choice: 9))) {
+                        NavigationLink(destination: Gesture(nom: Surprise(choice: 1), explication: Surprise(choice: 2), exemple: Surprise(choice: 3), images: Surprise(choice: 4), image1: Surprise(choice: 5), image2: Surprise(choice: 6), image3: Surprise(choice: 7), image4: Surprise(choice: 8), image5: Surprise(choice: 9), audio: "surprise")) {
                         HStack {
                         Text("En savoir plus")
                         .font(.custom("Ruluko-Regular", size: 17))

@@ -37,7 +37,7 @@ struct TypesGestesBras: View {
                 .foregroundColor(Color("verumBleu"))
                 .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .cornerRadius(60)
-                    NavigationLink(destination: Gesture(nom: BrasCroise(choice: 1), explication: BrasCroise(choice: 2), exemple: BrasCroise(choice: 3), images: BrasCroise(choice: 4), image1: BrasCroise(choice: 5), image2: BrasCroise(choice: 6), image3: BrasCroise(choice: 7), image4: BrasCroise(choice: 8), image5: BrasCroise(choice: 9))) {
+                    NavigationLink(destination: Gesture(nom: BrasCroise(choice: 1), explication: BrasCroise(choice: 2), exemple: BrasCroise(choice: 3), images: BrasCroise(choice: 4), image1: BrasCroise(choice: 5), image2: BrasCroise(choice: 6), image3: BrasCroise(choice: 7), image4: BrasCroise(choice: 8), image5: BrasCroise(choice: 9), audio: "croisés des bras")) {
                     HStack {
                     Text("En savoir plus")
                     .font(.custom("Ruluko-Regular", size: 17))
@@ -78,7 +78,7 @@ struct TypesGestesBras: View {
                 .foregroundColor(Color("verumBleu"))
                 .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .cornerRadius(60)
-                    NavigationLink(destination: Gesture(nom: BrasAppuyeSurLaTable(choice: 1), explication: BrasAppuyeSurLaTable(choice: 2), exemple: BrasAppuyeSurLaTable(choice: 3), images: BrasAppuyeSurLaTable(choice: 4), image1: BrasAppuyeSurLaTable(choice: 5), image2: BrasAppuyeSurLaTable(choice: 6), image3: BrasAppuyeSurLaTable(choice: 7), image4: BrasAppuyeSurLaTable(choice: 8), image5: BrasAppuyeSurLaTable(choice: 9))) {
+                    NavigationLink(destination: Gesture(nom: BrasAppuyeSurLaTable(choice: 1), explication: BrasAppuyeSurLaTable(choice: 2), exemple: BrasAppuyeSurLaTable(choice: 3), images: BrasAppuyeSurLaTable(choice: 4), image1: BrasAppuyeSurLaTable(choice: 5), image2: BrasAppuyeSurLaTable(choice: 6), image3: BrasAppuyeSurLaTable(choice: 7), image4: BrasAppuyeSurLaTable(choice: 8), image5: BrasAppuyeSurLaTable(choice: 9), audio: "bras appuyé sur la table")) {
                     HStack {
                     Text("En savoir plus")
                     .font(.custom("Ruluko-Regular", size: 17))

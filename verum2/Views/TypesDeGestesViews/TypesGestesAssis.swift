@@ -37,7 +37,7 @@ struct TypesGestesAssis: View {
                 .foregroundColor(Color("verumBleu"))
                 .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .cornerRadius(60)
-                    NavigationLink(destination: Gesture(nom: PositionAvantDroit(choice: 1), explication: PositionAvantDroit(choice: 2), exemple: PositionAvantDroit(choice: 3), images: PositionAvantDroit(choice: 4), image1: PositionAvantDroit(choice: 5), image2: PositionAvantDroit(choice: 6), image3: PositionAvantDroit(choice: 7), image4: PositionAvantDroit(choice: 8), image5: PositionAvantDroit(choice: 9))) {
+                    NavigationLink(destination: Gesture(nom: PositionAvantDroit(choice: 1), explication: PositionAvantDroit(choice: 2), exemple: PositionAvantDroit(choice: 3), images: PositionAvantDroit(choice: 4), image1: PositionAvantDroit(choice: 5), image2: PositionAvantDroit(choice: 6), image3: PositionAvantDroit(choice: 7), image4: PositionAvantDroit(choice: 8), image5: PositionAvantDroit(choice: 9), audio: "position avant droit")) {
                         
                     HStack {
                     Text("En savoir plus")
@@ -79,7 +79,7 @@ struct TypesGestesAssis: View {
                 .foregroundColor(Color("verumBleu"))
                 .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 .cornerRadius(60)
-                    NavigationLink(destination: Gesture(nom: PositionArriereGauche(choice: 1), explication: PositionArriereGauche(choice: 2), exemple: PositionArriereGauche(choice: 3), images: PositionArriereGauche(choice: 4), image1: PositionArriereGauche(choice: 5), image2: PositionArriereGauche(choice: 6), image3: PositionArriereGauche(choice: 7), image4: PositionArriereGauche(choice: 8), image5: PositionArriereGauche(choice: 9))) {
+                    NavigationLink(destination: Gesture(nom: PositionArriereGauche(choice: 1), explication: PositionArriereGauche(choice: 2), exemple: PositionArriereGauche(choice: 3), images: PositionArriereGauche(choice: 4), image1: PositionArriereGauche(choice: 5), image2: PositionArriereGauche(choice: 6), image3: PositionArriereGauche(choice: 7), image4: PositionArriereGauche(choice: 8), image5: PositionArriereGauche(choice: 9), audio: "position arrière gauche")) {
                     HStack {
                     Text("En savoir plus")
                     .font(.custom("Ruluko-Regular", size: 17))
@@ -119,7 +119,7 @@ struct TypesGestesAssis: View {
                     .foregroundColor(Color("verumBleu"))
                     .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .cornerRadius(60)
-                        NavigationLink(destination: Gesture(nom: PositionAuCentre(choice: 1), explication: PositionAuCentre(choice: 2), exemple: PositionAuCentre(choice: 3), images: PositionAuCentre(choice: 4), image1: PositionAuCentre(choice: 5), image2: PositionAuCentre(choice: 6), image3: PositionAuCentre(choice: 7), image4: PositionAuCentre(choice: 8), image5: PositionAuCentre(choice: 9))) {
+                        NavigationLink(destination: Gesture(nom: PositionAuCentre(choice: 1), explication: PositionAuCentre(choice: 2), exemple: PositionAuCentre(choice: 3), images: PositionAuCentre(choice: 4), image1: PositionAuCentre(choice: 5), image2: PositionAuCentre(choice: 6), image3: PositionAuCentre(choice: 7), image4: PositionAuCentre(choice: 8), image5: PositionAuCentre(choice: 9), audio: "position au centre")) {
                         HStack {
                         Text("En savoir plus")
                         .font(.custom("Ruluko-Regular", size: 17))
@@ -159,7 +159,7 @@ struct TypesGestesAssis: View {
                     .foregroundColor(Color("verumBleu"))
                     .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .cornerRadius(60)
-                        NavigationLink(destination: Gesture(nom: MainsDerriereLaTete(choice: 1), explication: MainsDerriereLaTete(choice: 2), exemple: MainsDerriereLaTete(choice: 3), images: MainsDerriereLaTete(choice: 4), image1: MainsDerriereLaTete(choice: 5), image2: MainsDerriereLaTete(choice: 6), image3: MainsDerriereLaTete(choice: 7), image4: MainsDerriereLaTete(choice: 8), image5: MainsDerriereLaTete(choice: 9))) {
+                        NavigationLink(destination: Gesture(nom: MainsDerriereLaTete(choice: 1), explication: MainsDerriereLaTete(choice: 2), exemple: MainsDerriereLaTete(choice: 3), images: MainsDerriereLaTete(choice: 4), image1: MainsDerriereLaTete(choice: 5), image2: MainsDerriereLaTete(choice: 6), image3: MainsDerriereLaTete(choice: 7), image4: MainsDerriereLaTete(choice: 8), image5: MainsDerriereLaTete(choice: 9), audio: "main derrière la tête")) {
                         HStack {
                         Text("En savoir plus")
                         .font(.custom("Ruluko-Regular", size: 17))
@@ -199,7 +199,7 @@ struct TypesGestesAssis: View {
                     .foregroundColor(Color("verumBleu"))
                     .frame(width: 200, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     .cornerRadius(60)
-                        NavigationLink(destination: Gesture(nom: JambesEcartes(choice: 1), explication: JambesEcartes(choice: 2), exemple: JambesEcartes(choice: 3), images: JambesEcartes(choice: 4), image1: JambesEcartes(choice: 5), image2: JambesEcartes(choice: 6), image3: JambesEcartes(choice: 7), image4: JambesEcartes(choice: 8), image5: JambesEcartes(choice: 9))) {
+                        NavigationLink(destination: Gesture(nom: JambesEcartes(choice: 1), explication: JambesEcartes(choice: 2), exemple: JambesEcartes(choice: 3), images: JambesEcartes(choice: 4), image1: JambesEcartes(choice: 5), image2: JambesEcartes(choice: 6), image3: JambesEcartes(choice: 7), image4: JambesEcartes(choice: 8), image5: JambesEcartes(choice: 9), audio: "jambes écartées")) {
                         HStack {
                         Text("En savoir plus")
                         .font(.custom("Ruluko-Regular", size: 17))

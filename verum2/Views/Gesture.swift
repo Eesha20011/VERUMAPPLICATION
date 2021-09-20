@@ -6,8 +6,11 @@
 //
 
 import SwiftUI
+import AVFoundation
+
 
 struct Gesture: View{
+   
     
     var nom: String
     var explication: String
@@ -18,6 +21,7 @@ struct Gesture: View{
     var image3: String
     var image4: String
     var image5: String
+    var audio: String
  
     
     
@@ -41,11 +45,19 @@ struct Gesture: View{
                     VStack {
                     Spacer()
                         .frame(height: 250)
-                    Image(systemName: "mic.circle")
+                        Button(action: {
+                            playsound(Sound: audio)
+                        }) {
+                        Image(systemName: "mic.circle")
                     .font(.system(size: 40))
+                    .foregroundColor(.black)
+                        }
+                    
+                       
                     }
-                    }
+                        }
                 }
+                
                 
                 ZStack {
                 
@@ -188,9 +200,10 @@ struct Gesture: View{
 struct Gesture_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            Gesture(nom: MainsAuFront(choice: 1), explication: MainsAuFront(choice: 2), exemple: MainsAuFront(choice: 3), images: MainsAuFront(choice: 4), image1: MainsAuFront(choice: 5), image2: MainsAuFront(choice: 6), image3: MainsAuFront(choice: 7), image4: MainsAuFront(choice: 8), image5: MainsAuFront(choice: 9))
+            Gesture(nom: MainsAuFront(choice: 1), explication: MainsAuFront(choice: 2), exemple: MainsAuFront(choice: 3), images: MainsAuFront(choice: 4), image1: MainsAuFront(choice: 5), image2: MainsAuFront(choice: 6), image3: MainsAuFront(choice: 7), image4: MainsAuFront(choice: 8), image5: MainsAuFront(choice: 9), audio: "Ancré au sol")
         }
     }
 }
+
 
 //Fuctions order: nom, explication, exemple, imagePrincipale, image1, image2, image3, image4, image5
