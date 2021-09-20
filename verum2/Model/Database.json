@@ -22,11 +22,11 @@
             "exemple": "exemple2",
             "attitude": "Relationnel",
             "image": "Axe_latéral_gauche",
-            "image1": "test",
-            "image2": "test",
-            "image3": "test",
-            "image4": "test",
-            "image5": "test"
+            "image1": "axe_lateral1",
+            "image2": "axe_lateral2",
+            "image3": "axe_lateral3",
+            "image4": "axe_lateral4",
+            "image5": "axe_lateral5"
         },
         {
             "id": 3,
@@ -35,8 +35,8 @@
             "exemple": "exemple3",
             "attitude": "Vigilant",
             "image": "Axe_rotatif_droit",
-            "image1": "test",
-            "image2": "test",
+            "image1": "axe_rotatifd1",
+            "image2": "axe_rotatifd2",
             "image3": "test",
             "image4": "test",
             "image5": "test"
@@ -188,11 +188,11 @@
                "exemple": "concousicont",
                "attitude": "slow1",
                "image": "Yeux_de_sanpaku",
-               "image1": "test",
-               "image2": "test",
-               "image3": "test",
-               "image4": "test",
-               "image5": "test"
+               "image1": "sanpaku1",
+               "image2": "sanpaku2",
+               "image3": "sanpaku3",
+               "image4": "sanpaku4",
+               "image5": "sanpaku5"
            },
            {
                "id": 4,
@@ -390,10 +390,10 @@
                "exemple": "exemple1",
                "attitude": "slow1",
                "image": "Mains_en_V",
-               "image1": "test",
-               "image2": "test",
-               "image3": "test",
-               "image4": "test",
+               "image1": "V1",
+               "image2": "V2",
+               "image3": "V3",
+               "image4": "V4",
                "image5": "test"
            },
            {
@@ -645,7 +645,7 @@
                "exemple": "exemple1",
                "attitude": "slow1",
                "image": "Jambe",
-               "image1": "test",
+               "image1": "jambe1",
                "image2": "test",
                "image3": "test",
                "image4": "test",
@@ -658,7 +658,7 @@
                "exemple": "concousicont",
                "attitude": "slow1",
                "image": "Joue",
-               "image1": "test",
+               "image1": "joue1",
                "image2": "test",
                "image3": "test",
                "image4": "test",
