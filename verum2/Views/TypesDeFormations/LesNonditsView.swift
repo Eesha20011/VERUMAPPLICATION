@@ -9,113 +9,243 @@ import SwiftUI
 
 struct LesNonditsView: View {
     var body: some View {
-        VStack {
         ZStack {
-            Rectangle()
-                .foregroundColor((Color("verumBleu")))
-                .frame(width: 400, height: 70, alignment: .center)
-                .cornerRadius(/*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/)
-        Text("Les Non-dits")
-            .font(.custom("Ruluko-Regular", size: 40))
-            .foregroundColor(.white)
-       
-        }
-            ZStack {
+            Color("verumBleu")
+                .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+            VStack {
+                VStack(spacing: 20) {
+                    ZStack {
                 Rectangle()
-                    .foregroundColor((Color("Color1")))
-                    .frame(width: 350, height: 100, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                    .cornerRadius(20)
-                VStack{
-                Text("L'objectif de la formation")
-                    .font(.title2)
-                    .foregroundColor((Color("verumBleu")))
-                Text("L'apprentissage")
-                }
-            .foregroundColor(.white)
-            .frame(width: 300, height: 10, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-            }
-            HStack{
-                VStack {
-                    Image("humain")
-                        .resizable()
-                        .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-            Text("PLAN DE COURS")
-                .font(.title2)
-                .foregroundColor((Color("verumBleu")))
+                    .foregroundColor(Color("red"))
+                    .frame(width: 400, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        HStack {
+                        Text("LES NON-DITS")
+                .font(.system(size: 30, weight: .heavy, design: .default))
+                            Image("humain")
+                                .resizable()
+                                .frame(width: 105, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        }
+                    }
+            Text("Objectif de la formation")
+                    HStack{
+                    HStack(spacing: 15) {
                     ZStack{
-                    Rectangle()
-                .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                .cornerRadius(20)
-                .foregroundColor((Color("Color2")))
-                        Text("Participer")
-                            .foregroundColor(.white)
+                        Rectangle()
+                            .foregroundColor(.orange)
+                            .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            .cornerRadius(20)
+                        VStack {
+            Image(systemName: "person.2.circle")
+                .font(.system(size: 50))
+                .foregroundColor(.white)
+                Text("Communication")
+                    .font(.system(size: 13))
+                        }
+                        
                     }
-                }
-                ZStack{
-                   
-               Rectangle()
-                .frame(width: 200, height: 400, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                .foregroundColor((Color("verumBleu")))
-                .cornerRadius(20)
-                    ScrollView(.vertical) {
-                    VStack {
-                        Spacer()
-                            .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 100, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        Group {
-                    Text("1 -> Mot de bienvenue  et présentation")
+                        ZStack{
+                            Rectangle()
+                                .foregroundColor(.green)
+                                .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                                .cornerRadius(20)
+                            VStack {
+                Image(systemName: "book.circle")
+                    .font(.system(size: 50))
                     .foregroundColor(.white)
-                        .frame(width: 180, height:50 , alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        Text("2 -> Fonctionnement    cognitif")
-                        .foregroundColor(.white)
-                            .frame(width: 180, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        Text("3 -> Méthodologie        synergologique")
-                        .foregroundColor(.white)
-                            .frame(width: 180, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        Text("4 -> Micro                      -démangeaison       ")
-                            .foregroundColor(.white)
-                            .frame(width: 180, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        Text("5 -> Exercice       micro-démangeaison corps)")
-                            .foregroundColor(.white)
-                            .frame(width: 185, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        Text("6 -> Exercice -    micro-démangeaison tête")
-                            .foregroundColor(.white)
-                            .frame(width: 185, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        Text("PAUSE")
-                            .foregroundColor(.white)
-                        Text("7 -> Exercice de calcul             ")
-                            .foregroundColor(.white)
-                            .frame(width: 185, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        Text("8 -> Mouvements           oculaires")
-                            .foregroundColor(.white)
-                            .frame(width: 185, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        }
-                        Group{
-                        Text("9 -> Clignements des paupières (Neuro-cognitif, Psychoaffectif, Neuro-moteur)                  ")
-                            .foregroundColor(.white)
-                            .frame(width: 185, height: 100, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                            Text("10 -> Les yeux                 ")
-                                .foregroundColor(.white)
-                                .frame(width: 185, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                            Text("11 -> La bouche              ")
-                                .foregroundColor(.white)
-                                .frame(width: 185, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                            Text("12 -> Exercice:                message en silence")
-                                .foregroundColor(.white)
-                                .frame(width: 185, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                            Text("13 -> Article sur  les       mères (Exercice photo de bébés)")
-                                .foregroundColor(.white)
-                                .frame(width: 185, height: 80, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                            Text("14 -> Les 3 S (Spéculaire, Spéculatif, Spectaculaire)")
-                                .foregroundColor(.white)
-                                .frame(width: 185, height: 80, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                            Spacer()
-                                .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 100, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    Text("Aprentissage")
+                                .font(.system(size: 13))
+                            }
                         }
                     }
-                    }
+                        Spacer()
+                            .frame(width: 100, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                }
                 }
                 
+            
+                
+        .foregroundColor(.white)
+        .font(.custom("Ruluko-Regular", size: 30))
+                Spacer()
+                    .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                
+             
+                ZStack {
+                   
+            Rectangle()
+                .foregroundColor(.white)
+                .cornerRadius(40)
+                    ScrollView(.vertical) {
+                    VStack(alignment: .leading, spacing: 5) {
+                        Spacer()
+                            .frame(width: 20, height: 20, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        
+                        HStack {
+                            Spacer()
+                                .frame(width: 60, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        Text("PLAN DE COURS")
+                .foregroundColor(Color("verumBleu"))
+                .font(.custom("Ruluko-Regular", size: 30))
+                        }
+           
+                
+            Text("Module 4")
+                .foregroundColor(Color("verumBleu"))
+                .font(.custom("Ruluko-Regular", size: 30))
+                       
+                        HStack {
+                            Image(systemName: "1.circle")
+                                .font(.system(size: 25))
+                                .foregroundColor(Color("verumBleu"))
+                        Text("Mot de bienvenue")
+                    .foregroundColor(Color("verumBleu"))
+                    .font(.custom("Ruluko-Regular", size: 25))
+                        }
+                        HStack(alignment: .top) {
+                            Image(systemName: "2.circle")
+                                .font(.system(size: 25))
+                                .foregroundColor(Color("verumBleu"))
+                        Text("Fonctionnement cognitif")
+                    .foregroundColor(Color("verumBleu"))
+                    .font(.custom("Ruluko-Regular", size: 25))
+                            
+                        }
+                        Group{
+                        
+                        HStack {
+                            Image(systemName: "3.circle")
+                                .font(.system(size: 25))
+                                .foregroundColor(Color("verumBleu"))
+                        Text("Méthodologie synergologique")
+                    .foregroundColor(Color("verumBleu"))
+                    .font(.custom("Ruluko-Regular", size: 25))
+                        }
+                        
+                            HStack {
+                                Image(systemName: "4.circle")
+                                    .font(.system(size: 25))
+                                    .foregroundColor(Color("verumBleu"))
+                            Text("Micro démangeaison")
+                        .foregroundColor(Color("verumBleu"))
+                        .font(.custom("Ruluko-Regular", size: 25))
+                            }
+                            HStack(alignment: .top) {
+                                Image(systemName: "5.circle")
+                                    .font(.system(size: 25))
+                                    .foregroundColor(Color("verumBleu"))
+                            Text("Exercises")
+                        .foregroundColor(Color("verumBleu"))
+                        .font(.custom("Ruluko-Regular", size: 25))
+                            }
+                            Group{
+                            HStack {
+                                Spacer()
+                                    .frame(width: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            VStack(alignment: .leading) {
+                            Text("- Micro-démangeaison corps")
+                        .foregroundColor(Color("verumBleu"))
+                        .font(.custom("Ruluko-Regular", size: 25))
+                            Text("- Micro-démangeaison tête")
+                        .foregroundColor(Color("verumBleu"))
+                        .font(.custom("Ruluko-Regular", size: 25))
+                         
+                            }
+                            }
+                            HStack(alignment: .top) {
+                                Image(systemName: "6.circle")
+                                    .font(.system(size: 25))
+                                    .foregroundColor(Color("verumBleu"))
+                            Text("Exercise de calcul")
+                        .foregroundColor(Color("verumBleu"))
+                        .font(.custom("Ruluko-Regular", size: 25))
+                            }
+                           
+                            }
+                            Group{
+                            HStack(alignment: .top) {
+                                Image(systemName: "7.circle")
+                                    .font(.system(size: 25))
+                                    .foregroundColor(Color("verumBleu"))
+                            Text("Mouvements oculaires")
+                        .foregroundColor(Color("verumBleu"))
+                        .font(.custom("Ruluko-Regular", size: 25))
+                            }
+                            
+                            }
+                            HStack(alignment: .top) {
+                                Image(systemName: "8.circle")
+                                    .font(.system(size: 25))
+                                    .foregroundColor(Color("verumBleu"))
+                            Text("Clignements des paupières")
+                        .foregroundColor(Color("verumBleu"))
+                        .font(.custom("Ruluko-Regular", size: 25))
+                            }
+                            HStack {
+                                Spacer()
+                                    .frame(width: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            VStack(alignment: .leading) {
+                            Text("- Neuro-cognitif")
+                        .foregroundColor(Color("verumBleu"))
+                        .font(.custom("Ruluko-Regular", size: 25))
+                            Text("- Psychoaffectif")
+                        .foregroundColor(Color("verumBleu"))
+                        .font(.custom("Ruluko-Regular", size: 25))
+                                Text("- Neuro-moteur")
+                            .foregroundColor(Color("verumBleu"))
+                            .font(.custom("Ruluko-Regular", size: 25))
+                         
+                            }
+                            }
+                            HStack(alignment: .top) {
+                                Image(systemName: "9.circle")
+                                    .font(.system(size: 25))
+                                    .foregroundColor(Color("verumBleu"))
+                            Text("Protocole de lecture VERUM")
+                        .foregroundColor(Color("verumBleu"))
+                        .font(.custom("Ruluko-Regular", size: 25))
+                            }
+                            HStack(alignment: .top) {
+                                Image(systemName: "10.circle")
+                                    .font(.system(size: 25))
+                                    .foregroundColor(Color("verumBleu"))
+                            Text("Axes de tête")
+                        .foregroundColor(Color("verumBleu"))
+                        .font(.custom("Ruluko-Regular", size: 25))
+                            }
+                            
+                    }
+                            
+                           Spacer()
+                            .frame(width: 50, height: 10, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        HStack {
+                            Spacer()
+                             .frame(width: 100, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        ZStack {
+                      Rectangle()
+                        .foregroundColor(Color("verumBleu"))
+                        .frame(width: 150, height: 80, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        .cornerRadius(30)
+                            Text("Participer")
+                                .foregroundColor(.white)
+                                .font(.custom("Ruluko-Regular", size: 25))
+                            
+                        }
+                        }
+                        Spacer()
+                         .frame(width: 50, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        }
+                        
+                    
+                       
+                    
+                    
+                }
+             
+              
+                 
+                }
             }
+        
         }
     }
 }
