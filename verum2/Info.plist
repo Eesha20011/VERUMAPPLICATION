@@ -4,6 +4,8 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
+		<string>Product Sans Bold.ttf</string>
+		<string>Product Sans Regular.ttf</string>
 		<string>Ruluko-Regular.ttf</string>
 		<string>OpenSans-Light.ttf</string>
 	</array>

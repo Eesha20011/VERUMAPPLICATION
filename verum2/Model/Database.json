@@ -1,6 +1,6 @@
 [
   {
-   "id": 1, "Section": "La Tête", "Image" : "Tete_section", "Gestes":
+   "id": 1, "Section": "Tête", "Image" : "Tete_section", "Gestes":
      [
         {
             "id": 1,
@@ -96,7 +96,7 @@
         ]
      },
      {
-      "id": 2, "Section": "La Bouche", "Image" : "Bouche_section", "Gestes":
+      "id": 2, "Section": "Bouche", "Image" : "Bouche_section", "Gestes":
         [
                 {
                "id": 1,
@@ -153,7 +153,7 @@
            ]
 },
      {
-      "id": 3, "Section": "Les Yeux", "Image" : "Yeux_section", "Gestes":
+      "id": 3, "Section": "Yeux", "Image" : "Yeux_section", "Gestes":
         [
                 {
                "id": 1,
@@ -306,7 +306,7 @@
            ]
 },
      {
-      "id": 5, "Section": "Le Cou", "Image" : "Cou_section", "Gestes":
+      "id": 5, "Section": "Cou", "Image" : "Cou_section", "Gestes":
         [
                 {
                "id": 1,
@@ -350,7 +350,7 @@
            ]
 },
      {
-      "id": 6, "Section": "Les Bras", "Image" : "Bras_section", "Gestes":
+      "id": 6, "Section": "Bras", "Image" : "Bras_section", "Gestes":
         [
                 {
                "id": 1,
@@ -381,7 +381,7 @@
            ]
 },
      {
-      "id": 7, "Section": "Les Mains", "Image" : "Mains_section", "Gestes":
+      "id": 7, "Section": "Mains", "Image" : "Mains_section", "Gestes":
         [
                 {
                "id": 1,
@@ -478,7 +478,7 @@
            ]
 },
      {
-      "id": 8, "Section": "Les Jambes", "Image" : "Jambes_section", "Gestes":
+      "id": 8, "Section": "Jambes", "Image" : "Jambes_section", "Gestes":
         [
                 {
                "id": 1,
@@ -592,7 +592,7 @@
            ]
 },
      {
-      "id": 10, "Section": "Les Pieds", "Image" : "Pieds_section", "Gestes":
+      "id": 10, "Section": "Pieds", "Image" : "Pieds_section", "Gestes":
         [
             {
                "id": 1,

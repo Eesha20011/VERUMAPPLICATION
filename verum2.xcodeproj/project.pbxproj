@@ -114,14 +114,7 @@
 		AC3279E126F6B3B00033CE48 /* position au centre.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC3279AF26F6B3B00033CE48 /* position au centre.mp3 */; };
 		AC3279E226F6B3B00033CE48 /* auto-contact au genou.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC3279B026F6B3B00033CE48 /* auto-contact au genou.mp3 */; };
 		AC3279E426F789EC0033CE48 /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3279E326F789EC0033CE48 /* AudioController.swift */; };
-		ACEB705026FBAA2F0009FD71 /* autocontact au menton.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACEB704F26FBAA2F0009FD71 /* autocontact au menton.mp3 */; };
-		ACEB705226FBAA530009FD71 /* axe lateral gauche.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACEB705126FBAA530009FD71 /* axe lateral gauche.mp3 */; };
-		ACEB705426FBAA5E0009FD71 /* axe rotatif droit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACEB705326FBAA5E0009FD71 /* axe rotatif droit.mp3 */; };
-		ACEB705626FBAA690009FD71 /* Axe sagittal supérieur.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACEB705526FBAA690009FD71 /* Axe sagittal supérieur.mp3 */; };
-		ACEB705826FBAA850009FD71 /* bloquer les oreilles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACEB705726FBAA850009FD71 /* bloquer les oreilles.mp3 */; };
-		ACEB705A26FBAA9A0009FD71 /* bouche en huitres.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACEB705926FBAA9A0009FD71 /* bouche en huitres.mp3 */; };
-		ACEB705C26FBAAB70009FD71 /* main au front.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACEB705B26FBAAB70009FD71 /* main au front.mp3 */; };
-		ACEB705E26FBAAC20009FD71 /* toucher des cheveux.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACEB705D26FBAAC20009FD71 /* toucher des cheveux.mp3 */; };
+		AC6312242702719200A6BA12 /* Product Sans Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC6312232702719200A6BA12 /* Product Sans Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -234,14 +227,8 @@
 		AC3279AF26F6B3B00033CE48 /* position au centre.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "position au centre.mp3"; path = "../../../audio mp3/position au centre.mp3"; sourceTree = "<group>"; };
 		AC3279B026F6B3B00033CE48 /* auto-contact au genou.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "auto-contact au genou.mp3"; path = "../../../audio mp3/auto-contact au genou.mp3"; sourceTree = "<group>"; };
 		AC3279E326F789EC0033CE48 /* AudioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioController.swift; sourceTree = "<group>"; };
-		ACEB704F26FBAA2F0009FD71 /* autocontact au menton.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "autocontact au menton.mp3"; path = "../../../../wetransfer_autocontact-au-menton-mp3_2021-09-21_2101/autocontact au menton.mp3"; sourceTree = "<group>"; };
-		ACEB705126FBAA530009FD71 /* axe lateral gauche.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "axe lateral gauche.mp3"; path = "../../../../wetransfer_autocontact-au-menton-mp3_2021-09-21_2101/axe lateral gauche.mp3"; sourceTree = "<group>"; };
-		ACEB705326FBAA5E0009FD71 /* axe rotatif droit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "axe rotatif droit.mp3"; path = "../../../../wetransfer_autocontact-au-menton-mp3_2021-09-21_2101/axe rotatif droit.mp3"; sourceTree = "<group>"; };
-		ACEB705526FBAA690009FD71 /* Axe sagittal supérieur.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Axe sagittal supérieur.mp3"; path = "../../../../wetransfer_autocontact-au-menton-mp3_2021-09-21_2101/Axe sagittal supérieur.mp3"; sourceTree = "<group>"; };
-		ACEB705726FBAA850009FD71 /* bloquer les oreilles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "bloquer les oreilles.mp3"; path = "../../../../wetransfer_autocontact-au-menton-mp3_2021-09-21_2101/bloquer les oreilles.mp3"; sourceTree = "<group>"; };
-		ACEB705926FBAA9A0009FD71 /* bouche en huitres.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "bouche en huitres.mp3"; path = "../../../../wetransfer_autocontact-au-menton-mp3_2021-09-21_2101/bouche en huitres.mp3"; sourceTree = "<group>"; };
-		ACEB705B26FBAAB70009FD71 /* main au front.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "main au front.mp3"; path = "../../../../wetransfer_autocontact-au-menton-mp3_2021-09-21_2101/main au front.mp3"; sourceTree = "<group>"; };
-		ACEB705D26FBAAC20009FD71 /* toucher des cheveux.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "toucher des cheveux.mp3"; path = "../../../../wetransfer_autocontact-au-menton-mp3_2021-09-21_2101/toucher des cheveux.mp3"; sourceTree = "<group>"; };
+		AC6312222702714A00A6BA12 /* Product Sans Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Product Sans Regular.ttf"; sourceTree = "<group>"; };
+		AC6312232702719200A6BA12 /* Product Sans Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Product Sans Bold.ttf"; path = "../../Product Sans Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -325,6 +312,8 @@
 		4F54AD57265EB70600038514 /* verum2 */ = {
 			isa = PBXGroup;
 			children = (
+				AC6312232702719200A6BA12 /* Product Sans Bold.ttf */,
+				AC6312222702714A00A6BA12 /* Product Sans Regular.ttf */,
 				AC32797E26F6B3970033CE48 /* audios */,
 				4F54AD5C265EB70F00038514 /* Assets.xcassets */,
 				4F54AD58265EB70600038514 /* verum2App.swift */,
@@ -432,15 +421,9 @@
 				AC3279A626F6B3B00033CE48 /* Auto-contact au cou.mp3 */,
 				AC3279B026F6B3B00033CE48 /* auto-contact au genou.mp3 */,
 				AC32799826F6B3B00033CE48 /* avant-bras.mp3 */,
-				ACEB704F26FBAA2F0009FD71 /* autocontact au menton.mp3 */,
-				ACEB705126FBAA530009FD71 /* axe lateral gauche.mp3 */,
 				AC32798E26F6B3B00033CE48 /* bras appuyé sur la table.mp3 */,
-				ACEB705926FBAA9A0009FD71 /* bouche en huitres.mp3 */,
 				AC32799926F6B3B00033CE48 /* colère.mp3 */,
-				ACEB705326FBAA5E0009FD71 /* axe rotatif droit.mp3 */,
-				ACEB705726FBAA850009FD71 /* bloquer les oreilles.mp3 */,
 				AC3279AB26F6B3B00033CE48 /* croisés des bras.mp3 */,
-				ACEB705526FBAA690009FD71 /* Axe sagittal supérieur.mp3 */,
 				AC3279A026F6B3B00033CE48 /* croisés des jambes.mp3 */,
 				AC32799A26F6B3B00033CE48 /* déglutition.mp3 */,
 				AC32799526F6B3B00033CE48 /* dégoût.mp3 */,
@@ -455,7 +438,6 @@
 				AC3279A126F6B3B00033CE48 /* langue dans la joue.mp3 */,
 				AC32798726F6B3B00033CE48 /* main barrière.mp3 */,
 				AC32799326F6B3B00033CE48 /* main derrière la tête.mp3 */,
-				ACEB705B26FBAAB70009FD71 /* main au front.mp3 */,
 				AC32799226F6B3B00033CE48 /* main en berceau.mp3 */,
 				AC32798826F6B3B00033CE48 /* main en évantail.mp3 */,
 				AC3279A926F6B3B00033CE48 /* main en v.mp3 */,
@@ -465,7 +447,6 @@
 				AC32799726F6B3B00033CE48 /* mépris.mp3 */,
 				AC32799F26F6B3B00033CE48 /* micro-caresse sur la lèvres inférieurs.mp3 */,
 				AC32798F26F6B3B00033CE48 /* mobilité.mp3 */,
-				ACEB705D26FBAAC20009FD71 /* toucher des cheveux.mp3 */,
 				AC32797F26F6B3B00033CE48 /* nez.mp3 */,
 				AC32798226F6B3B00033CE48 /* peur.mp3 */,
 				AC32798026F6B3B00033CE48 /* pied d'enfants.mp3 */,
@@ -543,7 +524,6 @@
 				AC3279B726F6B3B00033CE48 /* tristesse.mp3 in Resources */,
 				4F54AD60265EB70F00038514 /* Preview Assets.xcassets in Resources */,
 				AC3279BF26F6B3B00033CE48 /* jambes écartées.mp3 in Resources */,
-				ACEB705E26FBAAC20009FD71 /* toucher des cheveux.mp3 in Resources */,
 				AC3279D426F6B3B00033CE48 /* main sur la bouche.mp3 in Resources */,
 				AC3279B826F6B3B00033CE48 /* pied retroussé.mp3 in Resources */,
 				AC3279D626F6B3B00033CE48 /* joue.mp3 in Resources */,
@@ -554,8 +534,6 @@
 				AC3279C326F6B3B00033CE48 /* gestes d'engramme.mp3 in Resources */,
 				AC3279B526F6B3B00033CE48 /* jambes..mp3 in Resources */,
 				AC3279C726F6B3B00033CE48 /* dégoût.mp3 in Resources */,
-				ACEB705026FBAA2F0009FD71 /* autocontact au menton.mp3 in Resources */,
-				ACEB705C26FBAAB70009FD71 /* main au front.mp3 in Resources */,
 				AC3279C226F6B3B00033CE48 /* position avant droit.mp3 in Resources */,
 				4F54AD5D265EB70F00038514 /* Assets.xcassets in Resources */,
 				AC3279C526F6B3B00033CE48 /* main derrière la tête.mp3 in Resources */,
@@ -567,7 +545,6 @@
 				AC3279D026F6B3B00033CE48 /* main ouvertes.mp3 in Resources */,
 				AC3279BC26F6B3B00033CE48 /* yeux de sanpaku.mp3 in Resources */,
 				AC3279BA26F6B3B00033CE48 /* main en évantail.mp3 in Resources */,
-				ACEB705A26FBAA9A0009FD71 /* bouche en huitres.mp3 in Resources */,
 				AC3279D126F6B3B00033CE48 /* micro-caresse sur la lèvres inférieurs.mp3 in Resources */,
 				AC3279D826F6B3B00033CE48 /* Auto-contact au cou.mp3 in Resources */,
 				AC3279E226F6B3B00033CE48 /* auto-contact au genou.mp3 in Resources */,
@@ -577,11 +554,9 @@
 				AC3279DD26F6B3B00033CE48 /* croisés des bras.mp3 in Resources */,
 				AC3279C126F6B3B00033CE48 /* mobilité.mp3 in Resources */,
 				AC3279B426F6B3B00033CE48 /* peur.mp3 in Resources */,
-				ACEB705626FBAA690009FD71 /* Axe sagittal supérieur.mp3 in Resources */,
+				AC6312242702719200A6BA12 /* Product Sans Bold.ttf in Resources */,
 				AC3279C826F6B3B00033CE48 /* joie.mp3 in Resources */,
-				ACEB705426FBAA5E0009FD71 /* axe rotatif droit.mp3 in Resources */,
 				AC3279BD26F6B3B00033CE48 /* double croissement des jambes.mp3 in Resources */,
-				ACEB705826FBAA850009FD71 /* bloquer les oreilles.mp3 in Resources */,
 				AC3279C926F6B3B00033CE48 /* mépris.mp3 in Resources */,
 				AC3279D926F6B3B00033CE48 /* regard vers le haut.mp3 in Resources */,
 				AC3279B926F6B3B00033CE48 /* main barrière.mp3 in Resources */,
@@ -589,7 +564,6 @@
 				AC3279C426F6B3B00033CE48 /* main en berceau.mp3 in Resources */,
 				AC3279B226F6B3B00033CE48 /* pied d'enfants.mp3 in Resources */,
 				4F07EF482671B38B008C862B /* Database.json in Resources */,
-				ACEB705226FBAA530009FD71 /* axe lateral gauche.mp3 in Resources */,
 				AC3279C026F6B3B00033CE48 /* bras appuyé sur la table.mp3 in Resources */,
 				AC3279DB26F6B3B00033CE48 /* main en v.mp3 in Resources */,
 			);
