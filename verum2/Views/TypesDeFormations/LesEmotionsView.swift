@@ -9,101 +9,253 @@ import SwiftUI
 
 struct LesEmotionsView: View {
     var body: some View {
-        VStack {
         ZStack {
-            Rectangle()
-                .foregroundColor((Color("verumBleu")))
-                .frame(width: 400, height: 70, alignment: .center)
-                .cornerRadius(/*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/)
-        Text("Les Émotions")
-            .font(.custom("Ruluko-Regular", size: 40))
-            .foregroundColor(.white)
-       
-        }
-            ZStack {
+            Color("bleu")
+                .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+            VStack {
+                VStack(spacing: 20) {
+                    ZStack {
                 Rectangle()
-                    .foregroundColor((Color("Color1")))
-                    .frame(width: 350, height: 250, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                    .cornerRadius(20)
-                VStack{
-                Text("L'objectif de la formation")
-                    .font(.title2)
-                    .foregroundColor((Color("verumBleu")))
-                Text("L’humain est constamment habité par une émotion qui change au rythme de ses pensées ou ses activités. Bien reconnaître l’émotion permet une meilleure compréhension de l’autre nous permettant de réagir adéquatement. ")
-                }
-            .foregroundColor(.white)
-            .frame(width: 300, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-            }
-            HStack{
-                VStack {
-                    Image("charte")
-                        .resizable()
-                        .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-            Text("PLAN DE COURS")
-                .font(.title2)
-                .foregroundColor((Color("verumBleu")))
-                    ZStack{
-                    Rectangle()
-                .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                .cornerRadius(20)
-                .foregroundColor((Color("Color2")))
-                        Text("Participer")
-                            .foregroundColor(.white)
-                    }
-                }
-                ZStack{
-                   
-               Rectangle()
-                .frame(width: 200, height: 400, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                .foregroundColor((Color("verumBleu")))
-                .cornerRadius(20)
-                    ScrollView(.vertical) {
-                    VStack {
-                        Spacer()
-                            .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 20, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        Group {
-                    Text("1 -> Mot de bienvenue   et présentation")
-                    .foregroundColor(.white)
-                        .frame(width: 180, height:50 , alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        Text("2 -> Émotions et la         communication non verbale")
-                        .foregroundColor(.white)
-                            .frame(width: 180, height: 100, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        Text("3 -> Dr Paul Ekman,       pionnier dans l'étude des émotions")
-                        .foregroundColor(.white)
-                            .frame(width: 180, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        Text("4 -> Exercice -                 reconnaitre les émotions")
-                            .foregroundColor(.white)
-                            .frame(width: 180, height: 80, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        Text("5 -> Les 7 émotions universelles (Joie, Peur, Surprise, Colère, Mépris, Dégoût, Tristesse)")
-                            .foregroundColor(.white)
-                            .frame(width: 185, height: 120, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        Text("6 -> La lecture du profil HBDI (Présentation du profil HBDI, Remise du profil individuel)")
-                            .foregroundColor(.white)
-                            .frame(width: 185, height: 100, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        Text("7 -> Micro-expression   ")
-                            .foregroundColor(.white)
-                            .frame(width: 185, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        Text("8 -> Charte                     émotionnelle   ")
-                            .foregroundColor(.white)
-                            .frame(width: 185, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        Text("9 -> Que dit votre          image virtuelle ?  ")
-                            .foregroundColor(.white)
-                            .frame(width: 185, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .foregroundColor(Color("pink"))
+                    .frame(width: 400, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        
+                        HStack {
+                        Text("LES ÉMOTIONS")
+                                .font(.custom("Product Sans Regular", size: 30))
+                            Image("humain")
+                                .resizable()
+                                .frame(width: 105, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                         }
-                        Text("10 -> Les espace            mentaux")
-                            .foregroundColor(.white)
-                            .frame(width: 185, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        Text("11 -> Biais de confiance")
-                            .foregroundColor(.white)
-                            .frame(width: 185, height: 30, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        Spacer()
-                            .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    }
+            Text("Objectif de la formation")
+                        .font(.custom("Product Sans Regular", size: 30))
+                    HStack{
+                    HStack(spacing: 15) {
+                    ZStack{
+                        Rectangle()
+                            .foregroundColor(.orange)
+                            .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            .cornerRadius(20)
+                        VStack {
+            Image(systemName: "person.2.circle")
+                .font(.system(size: 50))
+                .foregroundColor(.white)
+                Text("Communication")
+                    .font(.system(size: 13))
+                        }
                         
                     }
+                        ZStack{
+                            Rectangle()
+                                .foregroundColor(.green)
+                                .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                                .cornerRadius(20)
+                            VStack {
+                Image(systemName: "book.circle")
+                    .font(.system(size: 50))
+                    .foregroundColor(.white)
+                    Text("Aprentissage")
+                                .font(.system(size: 13))
+                            }
+                        }
                     }
+                        Spacer()
+                            .frame(width: 100, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                }
                 }
                 
+            
+                
+        .foregroundColor(.white)
+        .font(.custom("Ruluko-Regular", size: 30))
+                Spacer()
+                    .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                
+             
+                ZStack {
+                   
+            Rectangle()
+                .foregroundColor(.white)
+                .cornerRadius(40)
+                    ScrollView(.vertical) {
+                    VStack(alignment: .leading, spacing: 5) {
+                        Spacer()
+                            .frame(width: 20, height: 20, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        
+                        HStack {
+                            Spacer()
+                                .frame(width: 60, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        Text("PLAN DE COURS")
+                .foregroundColor(Color("verumBleu"))
+                .font(.custom("Product Sans Bold", size: 30))
+                        }
+           
+                
+            Text("Module 5")
+                .foregroundColor(Color("verumBleu"))
+                .font(.custom("Ruluko-Regular", size: 30))
+                       
+                        HStack {
+                            Image(systemName: "1.circle")
+                                .font(.system(size: 25))
+                                .foregroundColor(Color("verumBleu"))
+                        Text("Mot de bienvenue")
+                    .foregroundColor(Color("verumBleu"))
+                    .font(.custom("Ruluko-Regular", size: 25))
+                        }
+                        HStack(alignment: .top) {
+                            Image(systemName: "2.circle")
+                                .font(.system(size: 25))
+                                .foregroundColor(Color("verumBleu"))
+                        Text("Émotions et la communication non verbale")
+                    .foregroundColor(Color("verumBleu"))
+                    .font(.custom("Ruluko-Regular", size: 25))
+                            
+                        }
+                        Group{
+                        
+                            HStack(alignment: .top) {
+                            Image(systemName: "3.circle")
+                                .font(.system(size: 25))
+                                .foregroundColor(Color("verumBleu"))
+                        Text("Dr Paul Ekman, pionnier dans l'étude des émotions")
+                    .foregroundColor(Color("verumBleu"))
+                    .font(.custom("Ruluko-Regular", size: 25))
+                        }
+                        
+                            HStack {
+                                Image(systemName: "4.circle")
+                                    .font(.system(size: 25))
+                                    .foregroundColor(Color("verumBleu"))
+                            Text("Exercise")
+                        .foregroundColor(Color("verumBleu"))
+                        .font(.custom("Ruluko-Regular", size: 25))
+                            }
+                            HStack(alignment: .top) {
+                                Image(systemName: "5.circle")
+                                    .font(.system(size: 25))
+                                    .foregroundColor(Color("verumBleu"))
+                            Text("Les 7 émotions universelles")
+                        .foregroundColor(Color("verumBleu"))
+                        .font(.custom("Ruluko-Regular", size: 25))
+                            }
+                            Group{
+                            HStack {
+                                Spacer()
+                                    .frame(width: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            VStack(alignment: .leading) {
+                            Text("- Joie")
+                        .foregroundColor(Color("verumBleu"))
+                        .font(.custom("Ruluko-Regular", size: 25))
+                            Text("- Peur")
+                        .foregroundColor(Color("verumBleu"))
+                        .font(.custom("Ruluko-Regular", size: 25))
+                                Text("- Surprise")
+                            .foregroundColor(Color("verumBleu"))
+                            .font(.custom("Ruluko-Regular", size: 25))
+                                Text("- Colère")
+                            .foregroundColor(Color("verumBleu"))
+                            .font(.custom("Ruluko-Regular", size: 25))
+                                Text("- Mépris")
+                            .foregroundColor(Color("verumBleu"))
+                            .font(.custom("Ruluko-Regular", size: 25))
+                                Text("- Dégoût")
+                            .foregroundColor(Color("verumBleu"))
+                            .font(.custom("Ruluko-Regular", size: 25))
+                                Text("- Tristesse")
+                            .foregroundColor(Color("verumBleu"))
+                            .font(.custom("Ruluko-Regular", size: 25))
+                         
+                            }
+                            }
+                            HStack(alignment: .top) {
+                                Image(systemName: "6.circle")
+                                    .font(.system(size: 25))
+                                    .foregroundColor(Color("verumBleu"))
+                            Text("Micro-expression")
+                        .foregroundColor(Color("verumBleu"))
+                        .font(.custom("Ruluko-Regular", size: 25))
+                            }
+                           
+                            }
+                            Group{
+                            HStack(alignment: .top) {
+                                Image(systemName: "7.circle")
+                                    .font(.system(size: 25))
+                                    .foregroundColor(Color("verumBleu"))
+                            Text("Dissimulation de l'émotion")
+                        .foregroundColor(Color("verumBleu"))
+                        .font(.custom("Ruluko-Regular", size: 25))
+                            }
+                            
+                            }
+                            HStack(alignment: .top) {
+                                Image(systemName: "8.circle")
+                                    .font(.system(size: 25))
+                                    .foregroundColor(Color("verumBleu"))
+                            Text("Charte émotionnelle")
+                        .foregroundColor(Color("verumBleu"))
+                        .font(.custom("Ruluko-Regular", size: 25))
+                            }
+                            
+                            HStack(alignment: .top) {
+                                Image(systemName: "9.circle")
+                                    .font(.system(size: 25))
+                                    .foregroundColor(Color("verumBleu"))
+                            Text("Que dit votre image virtuelle?")
+                        .foregroundColor(Color("verumBleu"))
+                        .font(.custom("Ruluko-Regular", size: 25))
+                            }
+                            HStack(alignment: .top) {
+                                Image(systemName: "10.circle")
+                                    .font(.system(size: 25))
+                                    .foregroundColor(Color("verumBleu"))
+                            Text("Les espace mentaux")
+                        .foregroundColor(Color("verumBleu"))
+                        .font(.custom("Ruluko-Regular", size: 25))
+                            }
+                            HStack(alignment: .top) {
+                                Image(systemName: "11.circle")
+                                    .font(.system(size: 25))
+                                    .foregroundColor(Color("verumBleu"))
+                            Text("Bais de confiance")
+                        .foregroundColor(Color("verumBleu"))
+                        .font(.custom("Ruluko-Regular", size: 25))
+                            }
+                            
+                    }
+                            
+                           Spacer()
+                            .frame(width: 50, height: 10, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        HStack {
+                            Spacer()
+                             .frame(width: 100, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        ZStack {
+                      Rectangle()
+                        .foregroundColor(Color("bleu"))
+                        .frame(width: 150, height: 80, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        .cornerRadius(30)
+                            Text("Participer")
+                                .foregroundColor(.white)
+                                .font(.custom("Product Sans Bold", size: 25))
+                            
+                        }
+                        }
+                        Spacer()
+                         .frame(width: 50, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        }
+                        
+                    
+                       
+                    
+                    
+                }
+             
+              
+                 
+                }
             }
+        
         }
     }
 }

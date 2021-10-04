@@ -32,13 +32,14 @@ struct Gesture: View{
             ScrollView {
             VStack {
                 Text(nom)
-            .font(.custom("Ruluko-Regular", size: 30))
-            .foregroundColor(Color("verumBleu"))
+            .font(.custom("Product Sans Bold", size: 30))
+            .foregroundColor(Color("bleu"))
     
                 ZStack {
                 Image(images)
                     .resizable()
                     .frame(width: 350, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .cornerRadius(50)
                     HStack {
                     Spacer()
                         .frame(width: 300)
@@ -63,7 +64,7 @@ struct Gesture: View{
                 
                 Rectangle()
                     .frame(width: 350, height: 350)
-                    .foregroundColor(Color("verumBleu"))
+                    .foregroundColor(Color("bleu"))
                     .cornerRadius(40)
                     
                     VStack {
@@ -105,53 +106,13 @@ struct Gesture: View{
                 
                 }
                 }
-                ZStack {
-                
-                Rectangle()
-                    .frame(width: 350, height: 350)
-                    .foregroundColor(Color("verumBleu"))
-                    .cornerRadius(40)
-                    
-                    VStack {
-                    Spacer()
-                        .frame( height: 20, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                    HStack {
-                            Spacer()
-                                .frame(width: 1, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                            HStack {
-                    Text("Exemple")
-                    .font(.custom("Ruluko-Regular", size: 25))
-                    .foregroundColor(Color.white)
-                    Image(systemName: "text.magnifyingglass")
-                                .foregroundColor(.white)
-                                .font(.system(size: 20))
-                            }
-                        }
-                    Spacer()
-                        .frame(height: 10, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        ZStack {
-                            VStack {
-                        Rectangle()
-                            .foregroundColor(.white)
-                            .frame(width: 300, height: 260, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                            .cornerRadius(20)
-                        Spacer()
-                            .frame(height: 15, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                            }
-                
-                     
-                            ExpandableText(exemple, lineLimit: 6)
-                                .frame(width: 260, height: 300, alignment: .center)
-                                .fixedSize(horizontal: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/, vertical: false)
-                        
-                    }
-                    }
+               
                 }
                 
                 ZStack {
                 
                 Rectangle()
-                    .foregroundColor(Color("verumBleu"))
+                    .foregroundColor(Color("bleu"))
                     .frame(width: 350, height: 45)
                     .cornerRadius(40)
                     HStack {
@@ -195,7 +156,7 @@ struct Gesture: View{
             }
         }
     }
-}
+
 
 struct Gesture_Previews: PreviewProvider {
     static var previews: some View {

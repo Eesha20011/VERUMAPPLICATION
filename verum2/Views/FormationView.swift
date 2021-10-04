@@ -18,8 +18,8 @@ struct FormationView: View {
                 .frame(width: 20, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
             VStack {
         Text("Formations")
-            .font(.custom("Ruluko-Regular", size: 40))
-            .foregroundColor(Color("verumBleu"))
+            .font(.custom("Product Sans Bold", size: 40))
+            .foregroundColor(Color("bleu"))
                 ScrollView {
                     VStack(alignment: .leading, spacing: 20){
                     ScrollView(.vertical) {

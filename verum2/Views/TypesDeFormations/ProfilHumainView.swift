@@ -10,23 +10,24 @@ import SwiftUI
 struct ProfilHumainView: View {
     var body: some View {
         ZStack {
-            Color("verumBleu")
+            Color("bleu")
                 .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             VStack {
                 VStack(spacing: 20) {
                     ZStack {
                 Rectangle()
-                    .foregroundColor(.green)
+                    .foregroundColor(Color("vert"))
                     .frame(width: 400, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                         HStack {
                         Text("PROFIL HUMAIN HBDI")
-                .font(.system(size: 30, weight: .heavy, design: .default))
+                                .font(.custom("Product Sans Regular", size: 30))
                             Image("cercle")
                                 .resizable()
                                 .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                         }
                     }
             Text("Objectif de la formation")
+                        .font(.custom("Product Sans Regular", size: 30))
                     HStack{
                     HStack(spacing: 15) {
                     ZStack{
@@ -45,7 +46,7 @@ struct ProfilHumainView: View {
                     }
                         ZStack{
                             Rectangle()
-                                .foregroundColor(.green)
+                                .foregroundColor(.pink)
                                 .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                                 .cornerRadius(20)
                             VStack {
@@ -85,7 +86,7 @@ struct ProfilHumainView: View {
                                 .frame(width: 60, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                         Text("PLAN DE COURS")
                 .foregroundColor(Color("verumBleu"))
-                .font(.custom("Ruluko-Regular", size: 30))
+                .font(.custom("Product Sans Bold", size: 30))
                         }
            
                 
@@ -211,12 +212,12 @@ struct ProfilHumainView: View {
                              .frame(width: 100, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                         ZStack {
                       Rectangle()
-                        .foregroundColor(Color("verumBleu"))
+                        .foregroundColor(Color("bleu"))
                         .frame(width: 150, height: 80, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                         .cornerRadius(30)
                             Text("Participer")
                                 .foregroundColor(.white)
-                                .font(.custom("Ruluko-Regular", size: 25))
+                                .font(.custom("Product Sans Bold", size: 25))
                             
                         }
                         }

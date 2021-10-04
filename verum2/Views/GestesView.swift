@@ -38,6 +38,10 @@ struct GestesView: View {
                 }
                 Spacer()
                     .frame(width: 50, height: 50, alignment: .center)
+                Rectangle()
+                    .foregroundColor(Color("bleu"))
+                    .frame(width: 350, height: 50, alignment: .center)
+                    .cornerRadius(22)
                 ZStack {
                     HStack{
                 Text("Gestes")
@@ -430,7 +434,6 @@ struct GestesView: View {
                                                 .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                                                 .cornerRadius(50)
                                                 .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
-                                    
                                         Text(Gestes11(choice: 2))
                                                 .font(.custom("Product Sans Bold", size: 30))
                                                 .foregroundColor(.white)
