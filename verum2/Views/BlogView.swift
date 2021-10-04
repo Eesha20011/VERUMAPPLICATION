@@ -20,45 +20,15 @@ struct BlogView: View {
             VStack {
                 //Ttitle of the page
             Text("Blogue")
-                .font(.custom("Ruluko-Regular", size: 40))
-                .foregroundColor(Color("verumBleu"))
+                .font(.custom("Product Sans Bold", size: 40))
+                .foregroundColor(Color("bleu"))
                 //Subtitle of the page
-            Text("Abonnez-vous pour les dernières mises à jour envoyées directement dans votre boîte de réception")
-                .font(.custom("Ruluko-Regular", size: 20))
-                .foregroundColor(Color.gray)
-                .frame(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                .padding()
-                .multilineTextAlignment(.center)
-                //Text field that lets the user write their email adresse
-                ZStack {
-                    Rectangle()
-                        .frame(width: 325, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        .foregroundColor(Color("verumBleu"))
-                        .cornerRadius(40)
-                    Rectangle()
-                        .frame(width: 300, height: 30, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        .foregroundColor(Color.white)
-                        .cornerRadius(40)
-                    HStack {
-                    Spacer()
-                        .frame(width: 55)
-                    let email = UserDetails(context: managedObjectContext)
-                        TextField("Your email here", text: Binding(get: { email.email ?? "" }, set: { email.email = $0 }))
-                    .font(.custom("Ruluko-Regular", size: 20))
-                    }
+            
                 
-                }
             Spacer()
                 .frame(height: 20)
                 //Button that lets the user submit the email adress that they've written
-                ZStack {
-            Rectangle()
-                    .frame(width: 150, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                    .foregroundColor(Color("verumBleu"))
-                    .cornerRadius(40)
-            Text("Abonnez-vous")
-                .foregroundColor(.white)
-                }
+                
             Spacer()
                 .frame(height: 20, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 ZStack {
@@ -83,7 +53,7 @@ struct BlogView: View {
                                     .frame(width: 235)
                                 }
                     Text("La synercologie démontrée par 3 posture corporelles")
-                        .foregroundColor(Color("verumBleu"))
+                        .foregroundColor(Color("bleu"))
                         .bold()
                             }
                 
@@ -113,17 +83,29 @@ struct BlogView: View {
                                     .frame(width: 235)
                                 }
                     Text("Comment améliorer ses compétences relationnelles?           ")
-                        .foregroundColor(Color("verumBleu"))
+                        .foregroundColor(Color("bleu"))
                         .bold()
                             }
                 
                         }
+                            
                         }
                     }
+                    
                
+                }
+                ZStack {
+            Rectangle()
+                    .frame(width: 150, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .foregroundColor(Color("bleu"))
+                    .cornerRadius(40)
+            Text("Abonnez-vous")
+                .foregroundColor(.white)
+                .font(.custom("Product Sans Bold", size: 15))
                 }
             }
             }
+           
         }
             
     }

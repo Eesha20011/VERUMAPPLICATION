@@ -22,7 +22,7 @@ struct LesEmotionsView: View {
                         HStack {
                         Text("LES ÉMOTIONS")
                                 .font(.custom("Product Sans Regular", size: 30))
-                            Image("humain")
+                            Image("charte")
                                 .resizable()
                                 .frame(width: 105, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                         }

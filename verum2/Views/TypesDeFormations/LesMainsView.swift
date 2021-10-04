@@ -117,7 +117,7 @@ struct LesMainsView: View {
                             Spacer()
                                 .frame(width: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                         VStack(alignment: .leading) {
-                        Text("- Mains rn couteaux")
+                        Text("- Mains en couteaux")
                     .foregroundColor(Color("verumBleu"))
                     .font(.custom("Ruluko-Regular", size: 25))
                         Text("- Mains en prise")

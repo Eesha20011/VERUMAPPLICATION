@@ -23,6 +23,15 @@ struct FormationView: View {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 20){
                     ScrollView(.vertical) {
+                        HStack{
+                            NavigationLink(destination: ProfilHumainView()) {
+                        Image("Programme")
+                            .resizable()
+                            .frame(width: 340, height: 210, alignment: .center)
+                            }
+                            Spacer()
+                              
+                        }
                         HStack(spacing: 20) {
                             NavigationLink(destination: ProfilHumainView()) {
                         Image("testimage")
@@ -92,6 +101,39 @@ struct FormationView: View {
                         .frame(width: 160, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                         .cornerRadius(20)
                             }
+                    }
+                        HStack(spacing: 20) {
+                            
+                       
+                                Link(destination: URL(string: "https://verum.ca/demystifier-votre-cerveau-2/")!) {
+                        Image("corporelle")
+                            .resizable()
+                            .frame(width: 160, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            .cornerRadius(20)
+                                }
+                            Link(destination: URL(string: "https://verum.ca/demystifier-votre-cerveau-2/")!) {
+                    Image("2")
+                        .resizable()
+                        .frame(width: 160, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        .cornerRadius(20)
+                            }
+                            
+                    }
+                        HStack(spacing: 20) {
+                            
+                       
+                                Link(destination: URL(string: "https://verum.ca/demystifier-votre-cerveau-2/")!) {
+                        Image("3")
+                            .resizable()
+                            .frame(width: 160, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            .cornerRadius(20)
+                                }
+                            Link(destination: URL(string: "https://verum.ca/demystifier-votre-cerveau-2/")!) {
+                    Spacer()
+                        .frame(width: 160, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                       
+                            }
+                            
                     }
                                 }
        

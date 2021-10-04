@@ -16,7 +16,7 @@ struct LesNonditsView: View {
                 VStack(spacing: 20) {
                     ZStack {
                 Rectangle()
-                    .foregroundColor(Color("red"))
+                    .foregroundColor(Color("rouge_foncé"))
                     .frame(width: 400, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                         HStack {
                         Text("LES NON-DITS")

@@ -16,13 +16,13 @@ struct StressViews: View {
                 VStack(spacing: 20) {
                     ZStack {
                 Rectangle()
-                    .foregroundColor(Color("bleu_foncé"))
+                    .foregroundColor(Color("red_mensonge"))
                     .frame(width: 400, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                         
                         HStack {
-                        Text("LES MAINS")
+                        Text("STRESS ET MENSONGE")
                                 .font(.custom("Product Sans Regular", size: 30))
-                            Image("triangle")
+                            Image("sqaure")
                                 .resizable()
                                 .frame(width: 105, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                         }
@@ -91,7 +91,7 @@ struct StressViews: View {
                         }
            
                 
-            Text("Module 3")
+            Text("Module 7")
                 .foregroundColor(Color("verumBleu"))
                 .font(.custom("Ruluko-Regular", size: 30))
                        
@@ -107,7 +107,7 @@ struct StressViews: View {
                             Image(systemName: "2.circle")
                                 .font(.system(size: 25))
                                 .foregroundColor(Color("verumBleu"))
-                        Text("L'approche VERUM")
+                        Text("Le mensonge, un manque d'espace de confiance")
                     .foregroundColor(Color("verumBleu"))
                     .font(.custom("Ruluko-Regular", size: 25))
                             
@@ -120,78 +120,35 @@ struct StressViews: View {
                             Image(systemName: "3.circle")
                                 .font(.system(size: 25))
                                 .foregroundColor(Color("verumBleu"))
-                        Text("Contexte théorique des figures d'autorité")
+                        Text("Stress ou mensonge")
                     .foregroundColor(Color("verumBleu"))
                     .font(.custom("Ruluko-Regular", size: 25))
                         }
-                            HStack {
-                                Spacer()
-                                    .frame(width: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                            VStack(alignment: .leading) {
-                            Text("- Assertivité")
-                        .foregroundColor(Color("verumBleu"))
-                        .font(.custom("Ruluko-Regular", size: 25))
-                            Text("- Figures d'autorité")
-                        .foregroundColor(Color("verumBleu"))
-                        .font(.custom("Ruluko-Regular", size: 25))
-                            }
-                                
-                            }
+                            
                         
                             HStack(alignment: .top) {
                                 Image(systemName: "4.circle")
                                     .font(.system(size: 25))
                                     .foregroundColor(Color("verumBleu"))
                             
-                            Text("Interagir face aux figures d'autorité")
+                            Text("Types de mensonge")
                         .foregroundColor(Color("verumBleu"))
                         .font(.custom("Ruluko-Regular", size: 25))
                             }
-                            HStack {
-                                Spacer()
-                                    .frame(width: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                            VStack(alignment: .leading) {
-                            Text("- Dominant")
-                        .foregroundColor(Color("verumBleu"))
-                        .font(.custom("Ruluko-Regular", size: 25))
-                            Text("- Méfiant")
-                        .foregroundColor(Color("verumBleu"))
-                        .font(.custom("Ruluko-Regular", size: 25))
-                                Text("- Hyper-conciliant")
-                            .foregroundColor(Color("verumBleu"))
-                            .font(.custom("Ruluko-Regular", size: 25))
-                            }
-                                
-                            }
+                            
                             HStack(alignment: .top) {
                                 Image(systemName: "5.circle")
                                     .font(.system(size: 25))
                                     .foregroundColor(Color("verumBleu"))
-                            Text("Observation du langage corporel des figures d'autorité")
+                            Text("Qualité de présence")
                         .foregroundColor(Color("verumBleu"))
                         .font(.custom("Ruluko-Regular", size: 25))
-                            }
-                            HStack {
-                                Spacer()
-                                    .frame(width: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                            VStack(alignment: .leading) {
-                            Text("- Dominant")
-                        .foregroundColor(Color("verumBleu"))
-                        .font(.custom("Ruluko-Regular", size: 25))
-                            Text("- Méfiant")
-                        .foregroundColor(Color("verumBleu"))
-                        .font(.custom("Ruluko-Regular", size: 25))
-                                Text("- Hyper-conciliant")
-                            .foregroundColor(Color("verumBleu"))
-                            .font(.custom("Ruluko-Regular", size: 25))
-                            }
-                                
                             }
                             HStack(alignment: .top) {
                                 Image(systemName: "6.circle")
                                     .font(.system(size: 25))
                                     .foregroundColor(Color("verumBleu"))
-                            Text("Positions corporelles : assis & debout")
+                            Text("Exercise")
                         .foregroundColor(Color("verumBleu"))
                         .font(.custom("Ruluko-Regular", size: 25))
                             }
@@ -201,24 +158,11 @@ struct StressViews: View {
                                 Image(systemName: "7.circle")
                                     .font(.system(size: 25))
                                     .foregroundColor(Color("verumBleu"))
-                            Text("Les boucles de rétroactions principales")
+                            Text("Mensonges des figures d'autorité")
                         .foregroundColor(Color("verumBleu"))
                         .font(.custom("Ruluko-Regular", size: 25))
                             }
-                                HStack {
-                                    Spacer()
-                                        .frame(width: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                VStack(alignment: .leading) {
-                                Text("- Les jambes")
-                            .foregroundColor(Color("verumBleu"))
-                            .font(.custom("Ruluko-Regular", size: 25))
-                                Text("- Les bras")
-                            .foregroundColor(Color("verumBleu"))
-                            .font(.custom("Ruluko-Regular", size: 25))
-                                   
-                                }
-                                    
-                                }
+                                
                            
                             }
                             Group{
@@ -226,7 +170,7 @@ struct StressViews: View {
                                 Image(systemName: "8.circle")
                                     .font(.system(size: 25))
                                     .foregroundColor(Color("verumBleu"))
-                            Text("Exercise")
+                            Text("Dissymétrie du visage")
                         .foregroundColor(Color("verumBleu"))
                         .font(.custom("Ruluko-Regular", size: 25))
                             }
@@ -234,7 +178,23 @@ struct StressViews: View {
                                     Image(systemName: "9.circle")
                                         .font(.system(size: 25))
                                         .foregroundColor(Color("verumBleu"))
-                                Text("Biais d'anachronisme")
+                                Text("Biais de conformité")
+                            .foregroundColor(Color("verumBleu"))
+                            .font(.custom("Ruluko-Regular", size: 25))
+                                }
+                                HStack(alignment: .top) {
+                                    Image(systemName: "9.circle")
+                                        .font(.system(size: 25))
+                                        .foregroundColor(Color("verumBleu"))
+                                Text("Biais d'innocence")
+                            .foregroundColor(Color("verumBleu"))
+                            .font(.custom("Ruluko-Regular", size: 25))
+                                }
+                                HStack(alignment: .top) {
+                                    Image(systemName: "9.circle")
+                                        .font(.system(size: 25))
+                                        .foregroundColor(Color("verumBleu"))
+                                Text("Intimidation silencieuse")
                             .foregroundColor(Color("verumBleu"))
                             .font(.custom("Ruluko-Regular", size: 25))
                                 }
