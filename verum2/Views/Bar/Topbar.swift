@@ -28,14 +28,14 @@ struct Topbar<Content: View> : View {
             Color.white
         VStack {
             Text("Gestes")
-                .font(.custom("Ruluko-Regular", size: 38))
-                .foregroundColor(Color("verumBleu"))
+                .font(.custom("Product Sans Bold", size: 38))
+                .foregroundColor(Color("bleu"))
             Picker("", selection: $selectedTab) {
                 Text("Gestes de " + gestes2[number].Section).tag(0)
                 Text("Parcours").tag(1)
             }
             .pickerStyle(SegmentedPickerStyle())
-            .background(Color("verumBleu"))
+            .background(Color("bleu"))
 
             switch(selectedTab) {
                 case 0: destinationView
