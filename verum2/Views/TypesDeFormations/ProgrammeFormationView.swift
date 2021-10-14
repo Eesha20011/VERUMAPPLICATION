@@ -1,13 +1,13 @@
 //
-//  FiguresDAutoritesView.swift
+//  ProgrammeFormationView.swift
 //  verum2
 //
-//  Created by Eesha Patel on 2021-09-12.
+//  Created by Eesha on 2021-10-13.
 //
 
 import SwiftUI
 
-struct FiguresDAutoritesView: View {
+struct ProgrammeFormationView: View {
     var body: some View {
         ZStack {
             Color("bleu")
@@ -16,15 +16,13 @@ struct FiguresDAutoritesView: View {
                 VStack(spacing: 20) {
                     ZStack {
                 Rectangle()
-                    .foregroundColor(Color("bleu_foncé"))
+                            .foregroundColor(.black)
                     .frame(width: 400, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                         
                         HStack {
-                        Text("FIGURES D'AUTORITÉ ")
+                        Text("PROGRAMME DE FORMATION EN LANGAGE CORPOREL")
                                 .font(.custom("Product Sans Regular", size: 30))
-                            Image("triangle")
-                                .resizable()
-                                .frame(width: 105, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            
                         }
                     }
             Text("Objectif de la formation")
@@ -77,6 +75,9 @@ struct FiguresDAutoritesView: View {
             Rectangle()
                 .foregroundColor(.white)
                 .cornerRadius(40)
+                    HStack {
+                        Spacer()
+                            .frame(width: 10, height: 200, alignment: .center)
                     ScrollView(.vertical) {
                     VStack(alignment: .leading, spacing: 5) {
                         Spacer()
@@ -89,17 +90,15 @@ struct FiguresDAutoritesView: View {
                 .foregroundColor(Color("verumBleu"))
                 .font(.custom("Product Sans Bold", size: 30))
                         }
-           
-                
-            Text("Module 3")
-                .foregroundColor(Color("verumBleu"))
-                .font(.custom("Ruluko-Regular", size: 30))
+                        Text("Sessions")
+                            .foregroundColor(Color("verumBleu"))
+                            .font(.custom("Ruluko-Regular", size: 30))
                        
-                        HStack {
+                        HStack(alignment: .top){
                             Image(systemName: "1.circle")
                                 .font(.system(size: 25))
                                 .foregroundColor(Color("verumBleu"))
-                        Text("Mot de bienvenue")
+                        Text("Mieux se connaitre pour mieux communiquer")
                     .foregroundColor(Color("verumBleu"))
                     .font(.custom("Ruluko-Regular", size: 25))
                         }
@@ -107,7 +106,7 @@ struct FiguresDAutoritesView: View {
                             Image(systemName: "2.circle")
                                 .font(.system(size: 25))
                                 .foregroundColor(Color("verumBleu"))
-                        Text("L'approche VERUM")
+                        Text("Diversité culturelle et de genre. Pour y voir clair!")
                     .foregroundColor(Color("verumBleu"))
                     .font(.custom("Ruluko-Regular", size: 25))
                             
@@ -120,105 +119,54 @@ struct FiguresDAutoritesView: View {
                             Image(systemName: "3.circle")
                                 .font(.system(size: 25))
                                 .foregroundColor(Color("verumBleu"))
-                        Text("Contexte théorique des figures d'autorité")
+                        Text("Les bases du langage corporelle")
                     .foregroundColor(Color("verumBleu"))
                     .font(.custom("Ruluko-Regular", size: 25))
                         }
-                            HStack {
-                                Spacer()
-                                    .frame(width: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                            VStack(alignment: .leading) {
-                            Text("- Assertivité")
-                        .foregroundColor(Color("verumBleu"))
-                        .font(.custom("Ruluko-Regular", size: 25))
-                            Text("- Figures d'autorité")
-                        .foregroundColor(Color("verumBleu"))
-                        .font(.custom("Ruluko-Regular", size: 25))
-                            }
-                                
-                            }
+    
+                            
                         
                             HStack(alignment: .top) {
                                 Image(systemName: "4.circle")
                                     .font(.system(size: 25))
                                     .foregroundColor(Color("verumBleu"))
                             
-                            Text("Interagir face aux figures d'autorité")
+                            Text("Lexique corporel, partie 1")
                         .foregroundColor(Color("verumBleu"))
                         .font(.custom("Ruluko-Regular", size: 25))
                             }
-                            HStack {
-                                Spacer()
-                                    .frame(width: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                            VStack(alignment: .leading) {
-                            Text("- Dominant")
-                        .foregroundColor(Color("verumBleu"))
-                        .font(.custom("Ruluko-Regular", size: 25))
-                            Text("- Méfiant")
-                        .foregroundColor(Color("verumBleu"))
-                        .font(.custom("Ruluko-Regular", size: 25))
-                                Text("- Hyper-conciliant")
-                            .foregroundColor(Color("verumBleu"))
-                            .font(.custom("Ruluko-Regular", size: 25))
-                            }
-                                
-                            }
+                        
+                            
                             HStack(alignment: .top) {
                                 Image(systemName: "5.circle")
                                     .font(.system(size: 25))
                                     .foregroundColor(Color("verumBleu"))
-                            Text("Observation du langage corporel des figures d'autorité")
+                            Text("Lexique corporel, partie 2")
                         .foregroundColor(Color("verumBleu"))
                         .font(.custom("Ruluko-Regular", size: 25))
                             }
-                            HStack {
-                                Spacer()
-                                    .frame(width: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                            VStack(alignment: .leading) {
-                            Text("- Dominant")
-                        .foregroundColor(Color("verumBleu"))
-                        .font(.custom("Ruluko-Regular", size: 25))
-                            Text("- Méfiant")
-                        .foregroundColor(Color("verumBleu"))
-                        .font(.custom("Ruluko-Regular", size: 25))
-                                Text("- Hyper-conciliant")
-                            .foregroundColor(Color("verumBleu"))
-                            .font(.custom("Ruluko-Regular", size: 25))
-                            }
-                                
-                            }
+                            
                             HStack(alignment: .top) {
                                 Image(systemName: "6.circle")
                                     .font(.system(size: 25))
                                     .foregroundColor(Color("verumBleu"))
-                            Text("Positions corporelles : assis & debout")
+                            Text("Lexique corporel, partie 3")
                         .foregroundColor(Color("verumBleu"))
                         .font(.custom("Ruluko-Regular", size: 25))
                             }
+                          
                             Group{
                            
                             HStack(alignment: .top) {
                                 Image(systemName: "7.circle")
                                     .font(.system(size: 25))
                                     .foregroundColor(Color("verumBleu"))
-                            Text("Les boucles de rétroactions principales")
+                            Text("Figures d'autorité(Stratégie relationelle)")
                         .foregroundColor(Color("verumBleu"))
                         .font(.custom("Ruluko-Regular", size: 25))
                             }
-                                HStack {
-                                    Spacer()
-                                        .frame(width: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                VStack(alignment: .leading) {
-                                Text("- Les jambes")
-                            .foregroundColor(Color("verumBleu"))
-                            .font(.custom("Ruluko-Regular", size: 25))
-                                Text("- Les bras")
-                            .foregroundColor(Color("verumBleu"))
-                            .font(.custom("Ruluko-Regular", size: 25))
-                                   
-                                }
-                                    
-                                }
+                                
+                                
                            
                             }
                             Group{
@@ -226,18 +174,13 @@ struct FiguresDAutoritesView: View {
                                 Image(systemName: "8.circle")
                                     .font(.system(size: 25))
                                     .foregroundColor(Color("verumBleu"))
-                            Text("Exercise")
+                            Text("Création de lien de confiance en affaires")
                         .foregroundColor(Color("verumBleu"))
                         .font(.custom("Ruluko-Regular", size: 25))
                             }
-                                HStack(alignment: .top) {
-                                    Image(systemName: "9.circle")
-                                        .font(.system(size: 25))
-                                        .foregroundColor(Color("verumBleu"))
-                                Text("Biais d'anachronisme")
-                            .foregroundColor(Color("verumBleu"))
-                            .font(.custom("Ruluko-Regular", size: 25))
-                                }
+                                
+                                
+                                
                             
                             }
                             
@@ -279,14 +222,13 @@ struct FiguresDAutoritesView: View {
                 }
             }
         
-        }
+                }}
         }
     }
 }
 
-
-struct FiguresDAutoritesView_Previews: PreviewProvider {
+struct ProgrammeFormationView_Previews: PreviewProvider {
     static var previews: some View {
-        FiguresDAutoritesView()
+        ProgrammeFormationView()
     }
 }

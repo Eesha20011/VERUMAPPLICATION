@@ -115,6 +115,10 @@
 		AC3279E226F6B3B00033CE48 /* auto-contact au genou.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC3279B026F6B3B00033CE48 /* auto-contact au genou.mp3 */; };
 		AC3279E426F789EC0033CE48 /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3279E326F789EC0033CE48 /* AudioController.swift */; };
 		AC6312242702719200A6BA12 /* Product Sans Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC6312232702719200A6BA12 /* Product Sans Bold.ttf */; };
+		ACADBDAD271768D000683EB1 /* Immo-CommunicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADBDAC271768D000683EB1 /* Immo-CommunicationView.swift */; };
+		ACADBDAF27176B7B00683EB1 /* LangageCorporelleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADBDAE27176B7B00683EB1 /* LangageCorporelleView.swift */; };
+		ACADBDB127176D2C00683EB1 /* ProgrammeFormationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADBDB027176D2C00683EB1 /* ProgrammeFormationView.swift */; };
+		ACADBDB327177F8300683EB1 /* QueteDeVeritéView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADBDB227177F8300683EB1 /* QueteDeVeritéView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -229,6 +233,10 @@
 		AC3279E326F789EC0033CE48 /* AudioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioController.swift; sourceTree = "<group>"; };
 		AC6312222702714A00A6BA12 /* Product Sans Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Product Sans Regular.ttf"; sourceTree = "<group>"; };
 		AC6312232702719200A6BA12 /* Product Sans Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Product Sans Bold.ttf"; path = "../../Product Sans Bold.ttf"; sourceTree = "<group>"; };
+		ACADBDAC271768D000683EB1 /* Immo-CommunicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Immo-CommunicationView.swift"; sourceTree = "<group>"; };
+		ACADBDAE27176B7B00683EB1 /* LangageCorporelleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangageCorporelleView.swift; sourceTree = "<group>"; };
+		ACADBDB027176D2C00683EB1 /* ProgrammeFormationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammeFormationView.swift; sourceTree = "<group>"; };
+		ACADBDB227177F8300683EB1 /* QueteDeVeritéView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QueteDeVeritéView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -289,6 +297,10 @@
 				4F4BBE8C26EE6F5800757298 /* LesMainsView.swift */,
 				4F4BBE8E26EE72F300757298 /* FiguresDAutoritesView.swift */,
 				4F4BBE9026EE756200757298 /* StressViews.swift */,
+				ACADBDAC271768D000683EB1 /* Immo-CommunicationView.swift */,
+				ACADBDAE27176B7B00683EB1 /* LangageCorporelleView.swift */,
+				ACADBDB027176D2C00683EB1 /* ProgrammeFormationView.swift */,
+				ACADBDB227177F8300683EB1 /* QueteDeVeritéView.swift */,
 			);
 			path = TypesDeFormations;
 			sourceTree = "<group>";
@@ -594,10 +606,13 @@
 				4F6748F8266AC148001E8EEE /* BlogView.swift in Sources */,
 				4F6748FC266AC17E001E8EEE /* GestesView.swift in Sources */,
 				4F0C5DE62683C18E00369914 /* Topbar.swift in Sources */,
+				ACADBDAD271768D000683EB1 /* Immo-CommunicationView.swift in Sources */,
 				4FA3B0DE26ADD0F30068BAC6 /* GestureYeuxController.swift in Sources */,
+				ACADBDB127176D2C00683EB1 /* ProgrammeFormationView.swift in Sources */,
 				4FECA6B526C99A29008274B8 /* ParcoursBouche.swift in Sources */,
 				4F0C5DE82683C2E900369914 /* ParcoursTeteView.swift in Sources */,
 				4F0D5C6826BD889800105510 /* SageView.swift in Sources */,
+				ACADBDAF27176B7B00683EB1 /* LangageCorporelleView.swift in Sources */,
 				4F909E892688E52700F5C0F9 /* TypesGestesBras.swift in Sources */,
 				4F4BBE8D26EE6F5800757298 /* LesMainsView.swift in Sources */,
 				4F440A5426ACD5EA0006B47B /* GestureBoucheController.swift in Sources */,
@@ -606,6 +621,7 @@
 				4F0D5C6426BC8A5C00105510 /* DecideurView.swift in Sources */,
 				4FA3B0E426ADD5990068BAC6 /* GesuteMainsController.swift in Sources */,
 				4F0D5C6626BC96D200105510 /* RelationelleView.swift in Sources */,
+				ACADBDB327177F8300683EB1 /* QueteDeVeritéView.swift in Sources */,
 				4FECA6B726C99ADF008274B8 /* ParcoursYeux.swift in Sources */,
 				4F4BBE8F26EE72F300757298 /* FiguresDAutoritesView.swift in Sources */,
 				4FA3B0E026ADD38B0068BAC6 /* GestureCouController.swift in Sources */,

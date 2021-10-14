@@ -24,33 +24,56 @@ struct FormationView: View {
                     VStack(alignment: .leading, spacing: 20){
                     ScrollView(.vertical) {
                         HStack{
-                            NavigationLink(destination: ProfilHumainView()) {
-                        Image("Programme")
+                            NavigationLink(destination: ProgrammeFormationView()) {
+                        Image("Prog Formation Corporel")
                             .resizable()
                             .frame(width: 340, height: 210, alignment: .center)
+                            .cornerRadius(20)
                             }
                             Spacer()
                               
                         }
-                        HStack(spacing: 20) {
+                        HStack{
                             NavigationLink(destination: ProfilHumainView()) {
-                        Image("testimage")
+                        Image("Leçon non verbale")
                             .resizable()
-                            .frame(width: 160, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            .frame(width: 340, height: 210, alignment: .center)
                             .cornerRadius(20)
-                                }
-                        
-                            
-                        
-                            NavigationLink(destination: FiguresDAutoritesView()) {
-                        Image("FiguresDautorite")
-                            .resizable()
-                            .frame(width: 160, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                            .cornerRadius(20)
-                                }
+                            }
                             Spacer()
-                                .frame(width: 5, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                              
                         }
+                        HStack{
+                            NavigationLink(destination: Immo_CommunicationView()) {
+                        Image("Immo-Communications")
+                            .resizable()
+                            .frame(width: 340, height: 210, alignment: .center)
+                            .cornerRadius(20)
+                            }
+                            Spacer()
+                              
+                        }
+                        HStack{
+                            NavigationLink(destination: LangageCorporelleView()) {
+                        Image("Langage corporel en immobilier")
+                            .resizable()
+                            .frame(width: 340, height: 210, alignment: .center)
+                            .cornerRadius(20)
+                            }
+                            Spacer()
+                              
+                        }
+                        HStack{
+                            NavigationLink(destination: ProfilHumainView()) {
+                        Image("HBDI")
+                            .resizable()
+                            .frame(width: 340, height: 210, alignment: .center)
+                            .cornerRadius(20)
+                            }
+                            Spacer()
+                              
+                        }
+                        
                     }
                 
                     
@@ -89,41 +112,25 @@ struct FormationView: View {
                         HStack(spacing: 20) {
                             
                        
-                                Link(destination: URL(string: "https://verum.ca/demystifier-votre-cerveau-2/")!) {
+                            NavigationLink(destination: QueteDeVerite_View()) {
                         Image("QueteDeVerite")
                             .resizable()
                             .frame(width: 160, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                             .cornerRadius(20)
                                 }
-                            Link(destination: URL(string: "https://verum.ca/demystifier-votre-cerveau-2/")!) {
+                            NavigationLink(destination: StressViews()) {
                     Image("StressEtMensonges")
                         .resizable()
                         .frame(width: 160, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                         .cornerRadius(20)
                             }
                     }
+                        
                         HStack(spacing: 20) {
                             
                        
-                                Link(destination: URL(string: "https://verum.ca/demystifier-votre-cerveau-2/")!) {
-                        Image("corporelle")
-                            .resizable()
-                            .frame(width: 160, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                            .cornerRadius(20)
-                                }
-                            Link(destination: URL(string: "https://verum.ca/demystifier-votre-cerveau-2/")!) {
-                    Image("2")
-                        .resizable()
-                        .frame(width: 160, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        .cornerRadius(20)
-                            }
-                            
-                    }
-                        HStack(spacing: 20) {
-                            
-                       
-                                Link(destination: URL(string: "https://verum.ca/demystifier-votre-cerveau-2/")!) {
-                        Image("3")
+                            NavigationLink(destination: FiguresDAutoritesView()) {
+                        Image("FiguresDautorite")
                             .resizable()
                             .frame(width: 160, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                             .cornerRadius(20)
