@@ -8,7 +8,17 @@
 import SwiftUI
 
 struct ParcoursCou: View {
-    @State var progressValue: Float = 0.0
+    @FetchRequest(entity: ProgressOfEach.entity(),sortDescriptors: [])
+   var progress2: FetchedResults<ProgressOfEach>
+  //  @State private var progress: Float = 0
+    func fetchCou() -> Float {
+     var cou: Float = 0.0
+        for progress in progress2 {
+           cou = progress.cou
+       }
+     return cou
+}
+    
     var body: some View {
         ZStack {
                     Color("Color4")
@@ -19,23 +29,11 @@ struct ParcoursCou: View {
                                 .foregroundColor(.white)
                                 .frame(width: 300, height: 359, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                                 .cornerRadius(20)
-                                ProgressBar(progress: self.$progressValue)
+                                ProgressBar(progress: fetchCou())
                             VStack {
                                 Spacer()
                                     .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 500, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                Button(action: {
-                                                self.incrementProgress()
-                                            }) {
-                                                HStack {
-                                                    Image(systemName: "plus.rectangle.fill")
-                                                    Text("Increment")
-                                                }
-                                                .padding(15.0)
-                                                .overlay(
-                                                    RoundedRectangle(cornerRadius: 15.0)
-                                                        .stroke(lineWidth: 2.0)
-                                                )
-                                            }
+                                
                             }
                             
                             
@@ -43,10 +41,7 @@ struct ParcoursCou: View {
 
             }
     }
-    func incrementProgress() {
-        let randomValue = progressForEachGesture(Nombre: 3).randomElement()!
-        self.progressValue += randomValue
-    }
+   
 }
 
 struct ParcoursCou_Previews: PreviewProvider {

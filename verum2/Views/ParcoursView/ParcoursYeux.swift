@@ -8,7 +8,17 @@
 import SwiftUI
 
 struct ParcoursYeux: View {
-    @State var progressValue: Float = 0.0
+    @FetchRequest(entity: ProgressOfEach.entity(),sortDescriptors: [])
+   var progress2: FetchedResults<ProgressOfEach>
+  //  @State private var progress: Float = 0
+    func fetchYeux() -> Float {
+     var yeux: Float = 0.0
+        for progress in progress2 {
+           yeux = progress.yeux
+       }
+     return yeux
+}
+    
     var body: some View {
         ZStack {
                     Color("Color4")
@@ -19,23 +29,11 @@ struct ParcoursYeux: View {
                                 .foregroundColor(.white)
                                 .frame(width: 300, height: 359, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                                 .cornerRadius(20)
-                                ProgressBar(progress: self.$progressValue)
+                                ProgressBar(progress: fetchYeux())
                             VStack {
                                 Spacer()
                                     .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 500, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                Button(action: {
-                                                self.incrementProgress()
-                                            }) {
-                                                HStack {
-                                                    Image(systemName: "plus.rectangle.fill")
-                                                    Text("Increment")
-                                                }
-                                                .padding(15.0)
-                                                .overlay(
-                                                    RoundedRectangle(cornerRadius: 15.0)
-                                                        .stroke(lineWidth: 2.0)
-                                                )
-                                            }
+                                
                             }
                             
                             
@@ -43,10 +41,7 @@ struct ParcoursYeux: View {
 
             }
     }
-    func incrementProgress() {
-        let randomValue = progressForEachGesture(Nombre: 4).randomElement()!
-        self.progressValue += randomValue
-    }
+   
 }
 
 struct ParcoursYeux_Previews: PreviewProvider {

@@ -14,8 +14,13 @@
 		4F0D5C6626BC96D200105510 /* RelationelleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D5C6526BC96D200105510 /* RelationelleView.swift */; };
 		4F0D5C6826BD889800105510 /* SageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D5C6726BD889800105510 /* SageView.swift */; };
 		4F0D5C6A26BD8A4100105510 /* VigilantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D5C6926BD8A4100105510 /* VigilantView.swift */; };
+		4F279F5726E7C4E10028DEFA /* ProfilHumainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F279F5626E7C4E10028DEFA /* ProfilHumainView.swift */; };
 		4F2951F4269694C7001A68DD /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2951F3269694C7001A68DD /* ArticleView.swift */; };
 		4F440A5426ACD5EA0006B47B /* GestureBoucheController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F440A5326ACD5EA0006B47B /* GestureBoucheController.swift */; };
+		4F4BBE8B26EE6C3200757298 /* LesEmotionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BBE8A26EE6C3200757298 /* LesEmotionsView.swift */; };
+		4F4BBE8D26EE6F5800757298 /* LesMainsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BBE8C26EE6F5800757298 /* LesMainsView.swift */; };
+		4F4BBE8F26EE72F300757298 /* FiguresDAutoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BBE8E26EE72F300757298 /* FiguresDAutoritesView.swift */; };
+		4F4BBE9126EE756200757298 /* StressViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4BBE9026EE756200757298 /* StressViews.swift */; };
 		4F54AD59265EB70600038514 /* verum2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F54AD58265EB70600038514 /* verum2App.swift */; };
 		4F54AD5D265EB70F00038514 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F54AD5C265EB70F00038514 /* Assets.xcassets */; };
 		4F54AD60265EB70F00038514 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F54AD5F265EB70F00038514 /* Preview Assets.xcassets */; };
@@ -37,6 +42,8 @@
 		4F909E8F2688ED7A00F5C0F9 /* TypesGestesAssis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F909E8E2688ED7900F5C0F9 /* TypesGestesAssis.swift */; };
 		4F909E912688F05B00F5C0F9 /* TypesGestesPieds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F909E902688F05B00F5C0F9 /* TypesGestesPieds.swift */; };
 		4F909E932688F2F900F5C0F9 /* TypesGestesMicroDémangeaisons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F909E922688F2F900F5C0F9 /* TypesGestesMicroDémangeaisons.swift */; };
+		4F998F1D26EE61E3005E7399 /* LesFondamentauxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F998F1C26EE61E3005E7399 /* LesFondamentauxView.swift */; };
+		4F998F1F26EE675F005E7399 /* LesNonditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F998F1E26EE675F005E7399 /* LesNonditsView.swift */; };
 		4FA3B0DC26ADD0AB0068BAC6 /* GestureMicroExpressionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3B0DB26ADD0AB0068BAC6 /* GestureMicroExpressionController.swift */; };
 		4FA3B0DE26ADD0F30068BAC6 /* GestureYeuxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3B0DD26ADD0F30068BAC6 /* GestureYeuxController.swift */; };
 		4FA3B0E026ADD38B0068BAC6 /* GestureCouController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3B0DF26ADD38B0068BAC6 /* GestureCouController.swift */; };
@@ -64,6 +71,54 @@
 		4FFA137F26ABAE0A00064FEB /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFA137E26ABAE0A00064FEB /* SwiftUIView.swift */; };
 		4FFA138126ABB27E00064FEB /* GestureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFA138026ABB27E00064FEB /* GestureViewModel.swift */; };
 		4FFA138326ABB7A900064FEB /* GestureTeteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFA138226ABB7A900064FEB /* GestureTeteController.swift */; };
+		AC3279B126F6B3B00033CE48 /* nez.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32797F26F6B3B00033CE48 /* nez.mp3 */; };
+		AC3279B226F6B3B00033CE48 /* pied d'enfants.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32798026F6B3B00033CE48 /* pied d'enfants.mp3 */; };
+		AC3279B326F6B3B00033CE48 /* dos.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32798126F6B3B00033CE48 /* dos.mp3 */; };
+		AC3279B426F6B3B00033CE48 /* peur.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32798226F6B3B00033CE48 /* peur.mp3 */; };
+		AC3279B526F6B3B00033CE48 /* jambes..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32798326F6B3B00033CE48 /* jambes..mp3 */; };
+		AC3279B726F6B3B00033CE48 /* tristesse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32798526F6B3B00033CE48 /* tristesse.mp3 */; };
+		AC3279B826F6B3B00033CE48 /* pied retroussé.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32798626F6B3B00033CE48 /* pied retroussé.mp3 */; };
+		AC3279B926F6B3B00033CE48 /* main barrière.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32798726F6B3B00033CE48 /* main barrière.mp3 */; };
+		AC3279BA26F6B3B00033CE48 /* main en évantail.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32798826F6B3B00033CE48 /* main en évantail.mp3 */; };
+		AC3279BC26F6B3B00033CE48 /* yeux de sanpaku.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32798A26F6B3B00033CE48 /* yeux de sanpaku.mp3 */; };
+		AC3279BD26F6B3B00033CE48 /* double croissement des jambes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32798B26F6B3B00033CE48 /* double croissement des jambes.mp3 */; };
+		AC3279BF26F6B3B00033CE48 /* jambes écartées.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32798D26F6B3B00033CE48 /* jambes écartées.mp3 */; };
+		AC3279C026F6B3B00033CE48 /* bras appuyé sur la table.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32798E26F6B3B00033CE48 /* bras appuyé sur la table.mp3 */; };
+		AC3279C126F6B3B00033CE48 /* mobilité.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32798F26F6B3B00033CE48 /* mobilité.mp3 */; };
+		AC3279C226F6B3B00033CE48 /* position avant droit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32799026F6B3B00033CE48 /* position avant droit.mp3 */; };
+		AC3279C326F6B3B00033CE48 /* gestes d'engramme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32799126F6B3B00033CE48 /* gestes d'engramme.mp3 */; };
+		AC3279C426F6B3B00033CE48 /* main en berceau.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32799226F6B3B00033CE48 /* main en berceau.mp3 */; };
+		AC3279C526F6B3B00033CE48 /* main derrière la tête.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32799326F6B3B00033CE48 /* main derrière la tête.mp3 */; };
+		AC3279C626F6B3B00033CE48 /* main lavées.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32799426F6B3B00033CE48 /* main lavées.mp3 */; };
+		AC3279C726F6B3B00033CE48 /* dégoût.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32799526F6B3B00033CE48 /* dégoût.mp3 */; };
+		AC3279C826F6B3B00033CE48 /* joie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32799626F6B3B00033CE48 /* joie.mp3 */; };
+		AC3279C926F6B3B00033CE48 /* mépris.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32799726F6B3B00033CE48 /* mépris.mp3 */; };
+		AC3279CA26F6B3B00033CE48 /* avant-bras.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32799826F6B3B00033CE48 /* avant-bras.mp3 */; };
+		AC3279CB26F6B3B00033CE48 /* colère.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32799926F6B3B00033CE48 /* colère.mp3 */; };
+		AC3279CC26F6B3B00033CE48 /* déglutition.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32799A26F6B3B00033CE48 /* déglutition.mp3 */; };
+		AC3279CD26F6B3B00033CE48 /* position arrière gauche.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32799B26F6B3B00033CE48 /* position arrière gauche.mp3 */; };
+		AC3279CF26F6B3B00033CE48 /* surprise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32799D26F6B3B00033CE48 /* surprise.mp3 */; };
+		AC3279D026F6B3B00033CE48 /* main ouvertes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32799E26F6B3B00033CE48 /* main ouvertes.mp3 */; };
+		AC3279D126F6B3B00033CE48 /* micro-caresse sur la lèvres inférieurs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC32799F26F6B3B00033CE48 /* micro-caresse sur la lèvres inférieurs.mp3 */; };
+		AC3279D226F6B3B00033CE48 /* croisés des jambes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC3279A026F6B3B00033CE48 /* croisés des jambes.mp3 */; };
+		AC3279D326F6B3B00033CE48 /* langue dans la joue.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC3279A126F6B3B00033CE48 /* langue dans la joue.mp3 */; };
+		AC3279D426F6B3B00033CE48 /* main sur la bouche.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC3279A226F6B3B00033CE48 /* main sur la bouche.mp3 */; };
+		AC3279D526F6B3B00033CE48 /* regard vers le bas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC3279A326F6B3B00033CE48 /* regard vers le bas.mp3 */; };
+		AC3279D626F6B3B00033CE48 /* joue.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC3279A426F6B3B00033CE48 /* joue.mp3 */; };
+		AC3279D826F6B3B00033CE48 /* Auto-contact au cou.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC3279A626F6B3B00033CE48 /* Auto-contact au cou.mp3 */; };
+		AC3279D926F6B3B00033CE48 /* regard vers le haut.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC3279A726F6B3B00033CE48 /* regard vers le haut.mp3 */; };
+		AC3279DB26F6B3B00033CE48 /* main en v.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC3279A926F6B3B00033CE48 /* main en v.mp3 */; };
+		AC3279DC26F6B3B00033CE48 /* Ancré au sol.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC3279AA26F6B3B00033CE48 /* Ancré au sol.mp3 */; };
+		AC3279DD26F6B3B00033CE48 /* croisés des bras.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC3279AB26F6B3B00033CE48 /* croisés des bras.mp3 */; };
+		AC3279DE26F6B3B00033CE48 /* fermer les yeux avec les doigts.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC3279AC26F6B3B00033CE48 /* fermer les yeux avec les doigts.mp3 */; };
+		AC3279E126F6B3B00033CE48 /* position au centre.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC3279AF26F6B3B00033CE48 /* position au centre.mp3 */; };
+		AC3279E226F6B3B00033CE48 /* auto-contact au genou.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC3279B026F6B3B00033CE48 /* auto-contact au genou.mp3 */; };
+		AC3279E426F789EC0033CE48 /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3279E326F789EC0033CE48 /* AudioController.swift */; };
+		AC6312242702719200A6BA12 /* Product Sans Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC6312232702719200A6BA12 /* Product Sans Bold.ttf */; };
+		ACADBDAD271768D000683EB1 /* Immo-CommunicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADBDAC271768D000683EB1 /* Immo-CommunicationView.swift */; };
+		ACADBDAF27176B7B00683EB1 /* LangageCorporelleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADBDAE27176B7B00683EB1 /* LangageCorporelleView.swift */; };
+		ACADBDB127176D2C00683EB1 /* ProgrammeFormationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADBDB027176D2C00683EB1 /* ProgrammeFormationView.swift */; };
+		ACADBDB327177F8300683EB1 /* QueteDeVeritéView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACADBDB227177F8300683EB1 /* QueteDeVeritéView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,8 +129,13 @@
 		4F0D5C6526BC96D200105510 /* RelationelleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationelleView.swift; sourceTree = "<group>"; };
 		4F0D5C6726BD889800105510 /* SageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SageView.swift; sourceTree = "<group>"; };
 		4F0D5C6926BD8A4100105510 /* VigilantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VigilantView.swift; sourceTree = "<group>"; };
+		4F279F5626E7C4E10028DEFA /* ProfilHumainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilHumainView.swift; sourceTree = "<group>"; };
 		4F2951F3269694C7001A68DD /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
 		4F440A5326ACD5EA0006B47B /* GestureBoucheController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureBoucheController.swift; sourceTree = "<group>"; };
+		4F4BBE8A26EE6C3200757298 /* LesEmotionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesEmotionsView.swift; sourceTree = "<group>"; };
+		4F4BBE8C26EE6F5800757298 /* LesMainsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesMainsView.swift; sourceTree = "<group>"; };
+		4F4BBE8E26EE72F300757298 /* FiguresDAutoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiguresDAutoritesView.swift; sourceTree = "<group>"; };
+		4F4BBE9026EE756200757298 /* StressViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressViews.swift; sourceTree = "<group>"; };
 		4F54AD55265EB70600038514 /* verum2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = verum2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F54AD58265EB70600038514 /* verum2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verum2App.swift; sourceTree = "<group>"; };
 		4F54AD5C265EB70F00038514 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -99,6 +159,8 @@
 		4F909E8E2688ED7900F5C0F9 /* TypesGestesAssis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesGestesAssis.swift; sourceTree = "<group>"; };
 		4F909E902688F05B00F5C0F9 /* TypesGestesPieds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesGestesPieds.swift; sourceTree = "<group>"; };
 		4F909E922688F2F900F5C0F9 /* TypesGestesMicroDémangeaisons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TypesGestesMicroDémangeaisons.swift"; sourceTree = "<group>"; };
+		4F998F1C26EE61E3005E7399 /* LesFondamentauxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesFondamentauxView.swift; sourceTree = "<group>"; };
+		4F998F1E26EE675F005E7399 /* LesNonditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesNonditsView.swift; sourceTree = "<group>"; };
 		4FA3B0DB26ADD0AB0068BAC6 /* GestureMicroExpressionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureMicroExpressionController.swift; sourceTree = "<group>"; };
 		4FA3B0DD26ADD0F30068BAC6 /* GestureYeuxController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureYeuxController.swift; sourceTree = "<group>"; };
 		4FA3B0DF26ADD38B0068BAC6 /* GestureCouController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureCouController.swift; sourceTree = "<group>"; };
@@ -126,6 +188,55 @@
 		4FFA137E26ABAE0A00064FEB /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		4FFA138026ABB27E00064FEB /* GestureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureViewModel.swift; sourceTree = "<group>"; };
 		4FFA138226ABB7A900064FEB /* GestureTeteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureTeteController.swift; sourceTree = "<group>"; };
+		AC32797F26F6B3B00033CE48 /* nez.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nez.mp3; path = "../../../audio mp3/nez.mp3"; sourceTree = "<group>"; };
+		AC32798026F6B3B00033CE48 /* pied d'enfants.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "pied d'enfants.mp3"; path = "../../../audio mp3/pied d'enfants.mp3"; sourceTree = "<group>"; };
+		AC32798126F6B3B00033CE48 /* dos.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = dos.mp3; path = "../../../audio mp3/dos.mp3"; sourceTree = "<group>"; };
+		AC32798226F6B3B00033CE48 /* peur.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = peur.mp3; path = "../../../audio mp3/peur.mp3"; sourceTree = "<group>"; };
+		AC32798326F6B3B00033CE48 /* jambes..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = jambes..mp3; path = "../../../audio mp3/jambes..mp3"; sourceTree = "<group>"; };
+		AC32798526F6B3B00033CE48 /* tristesse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = tristesse.mp3; path = "../../../audio mp3/tristesse.mp3"; sourceTree = "<group>"; };
+		AC32798626F6B3B00033CE48 /* pied retroussé.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "pied retroussé.mp3"; path = "../../../audio mp3/pied retroussé.mp3"; sourceTree = "<group>"; };
+		AC32798726F6B3B00033CE48 /* main barrière.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "main barrière.mp3"; path = "../../../audio mp3/main barrière.mp3"; sourceTree = "<group>"; };
+		AC32798826F6B3B00033CE48 /* main en évantail.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "main en évantail.mp3"; path = "../../../audio mp3/main en évantail.mp3"; sourceTree = "<group>"; };
+		AC32798A26F6B3B00033CE48 /* yeux de sanpaku.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "yeux de sanpaku.mp3"; path = "../../../audio mp3/yeux de sanpaku.mp3"; sourceTree = "<group>"; };
+		AC32798B26F6B3B00033CE48 /* double croissement des jambes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "double croissement des jambes.mp3"; path = "../../../audio mp3/double croissement des jambes.mp3"; sourceTree = "<group>"; };
+		AC32798D26F6B3B00033CE48 /* jambes écartées.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "jambes écartées.mp3"; path = "../../../audio mp3/jambes écartées.mp3"; sourceTree = "<group>"; };
+		AC32798E26F6B3B00033CE48 /* bras appuyé sur la table.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "bras appuyé sur la table.mp3"; path = "../../../audio mp3/bras appuyé sur la table.mp3"; sourceTree = "<group>"; };
+		AC32798F26F6B3B00033CE48 /* mobilité.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "mobilité.mp3"; path = "../../../audio mp3/mobilité.mp3"; sourceTree = "<group>"; };
+		AC32799026F6B3B00033CE48 /* position avant droit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "position avant droit.mp3"; path = "../../../audio mp3/position avant droit.mp3"; sourceTree = "<group>"; };
+		AC32799126F6B3B00033CE48 /* gestes d'engramme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "gestes d'engramme.mp3"; path = "../../../audio mp3/gestes d'engramme.mp3"; sourceTree = "<group>"; };
+		AC32799226F6B3B00033CE48 /* main en berceau.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "main en berceau.mp3"; path = "../../../audio mp3/main en berceau.mp3"; sourceTree = "<group>"; };
+		AC32799326F6B3B00033CE48 /* main derrière la tête.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "main derrière la tête.mp3"; path = "../../../audio mp3/main derrière la tête.mp3"; sourceTree = "<group>"; };
+		AC32799426F6B3B00033CE48 /* main lavées.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "main lavées.mp3"; path = "../../../audio mp3/main lavées.mp3"; sourceTree = "<group>"; };
+		AC32799526F6B3B00033CE48 /* dégoût.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "dégoût.mp3"; path = "../../../audio mp3/dégoût.mp3"; sourceTree = "<group>"; };
+		AC32799626F6B3B00033CE48 /* joie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = joie.mp3; path = "../../../audio mp3/joie.mp3"; sourceTree = "<group>"; };
+		AC32799726F6B3B00033CE48 /* mépris.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "mépris.mp3"; path = "../../../audio mp3/mépris.mp3"; sourceTree = "<group>"; };
+		AC32799826F6B3B00033CE48 /* avant-bras.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "avant-bras.mp3"; path = "../../../audio mp3/avant-bras.mp3"; sourceTree = "<group>"; };
+		AC32799926F6B3B00033CE48 /* colère.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "colère.mp3"; path = "../../../audio mp3/colère.mp3"; sourceTree = "<group>"; };
+		AC32799A26F6B3B00033CE48 /* déglutition.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "déglutition.mp3"; path = "../../../audio mp3/déglutition.mp3"; sourceTree = "<group>"; };
+		AC32799B26F6B3B00033CE48 /* position arrière gauche.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "position arrière gauche.mp3"; path = "../../../audio mp3/position arrière gauche.mp3"; sourceTree = "<group>"; };
+		AC32799D26F6B3B00033CE48 /* surprise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = surprise.mp3; path = "../../../audio mp3/surprise.mp3"; sourceTree = "<group>"; };
+		AC32799E26F6B3B00033CE48 /* main ouvertes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "main ouvertes.mp3"; path = "../../../audio mp3/main ouvertes.mp3"; sourceTree = "<group>"; };
+		AC32799F26F6B3B00033CE48 /* micro-caresse sur la lèvres inférieurs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "micro-caresse sur la lèvres inférieurs.mp3"; path = "../../../audio mp3/micro-caresse sur la lèvres inférieurs.mp3"; sourceTree = "<group>"; };
+		AC3279A026F6B3B00033CE48 /* croisés des jambes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "croisés des jambes.mp3"; path = "../../../audio mp3/croisés des jambes.mp3"; sourceTree = "<group>"; };
+		AC3279A126F6B3B00033CE48 /* langue dans la joue.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "langue dans la joue.mp3"; path = "../../../audio mp3/langue dans la joue.mp3"; sourceTree = "<group>"; };
+		AC3279A226F6B3B00033CE48 /* main sur la bouche.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "main sur la bouche.mp3"; path = "../../../audio mp3/main sur la bouche.mp3"; sourceTree = "<group>"; };
+		AC3279A326F6B3B00033CE48 /* regard vers le bas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "regard vers le bas.mp3"; path = "../../../audio mp3/regard vers le bas.mp3"; sourceTree = "<group>"; };
+		AC3279A426F6B3B00033CE48 /* joue.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = joue.mp3; path = "../../../audio mp3/joue.mp3"; sourceTree = "<group>"; };
+		AC3279A626F6B3B00033CE48 /* Auto-contact au cou.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Auto-contact au cou.mp3"; path = "../../../audio mp3/Auto-contact au cou.mp3"; sourceTree = "<group>"; };
+		AC3279A726F6B3B00033CE48 /* regard vers le haut.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "regard vers le haut.mp3"; path = "../../../audio mp3/regard vers le haut.mp3"; sourceTree = "<group>"; };
+		AC3279A926F6B3B00033CE48 /* main en v.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "main en v.mp3"; path = "../../../audio mp3/main en v.mp3"; sourceTree = "<group>"; };
+		AC3279AA26F6B3B00033CE48 /* Ancré au sol.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Ancré au sol.mp3"; path = "../../../audio mp3/Ancré au sol.mp3"; sourceTree = "<group>"; };
+		AC3279AB26F6B3B00033CE48 /* croisés des bras.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "croisés des bras.mp3"; path = "../../../audio mp3/croisés des bras.mp3"; sourceTree = "<group>"; };
+		AC3279AC26F6B3B00033CE48 /* fermer les yeux avec les doigts.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "fermer les yeux avec les doigts.mp3"; path = "../../../audio mp3/fermer les yeux avec les doigts.mp3"; sourceTree = "<group>"; };
+		AC3279AF26F6B3B00033CE48 /* position au centre.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "position au centre.mp3"; path = "../../../audio mp3/position au centre.mp3"; sourceTree = "<group>"; };
+		AC3279B026F6B3B00033CE48 /* auto-contact au genou.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "auto-contact au genou.mp3"; path = "../../../audio mp3/auto-contact au genou.mp3"; sourceTree = "<group>"; };
+		AC3279E326F789EC0033CE48 /* AudioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioController.swift; sourceTree = "<group>"; };
+		AC6312222702714A00A6BA12 /* Product Sans Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Product Sans Regular.ttf"; sourceTree = "<group>"; };
+		AC6312232702719200A6BA12 /* Product Sans Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Product Sans Bold.ttf"; path = "../../Product Sans Bold.ttf"; sourceTree = "<group>"; };
+		ACADBDAC271768D000683EB1 /* Immo-CommunicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Immo-CommunicationView.swift"; sourceTree = "<group>"; };
+		ACADBDAE27176B7B00683EB1 /* LangageCorporelleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangageCorporelleView.swift; sourceTree = "<group>"; };
+		ACADBDB027176D2C00683EB1 /* ProgrammeFormationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammeFormationView.swift; sourceTree = "<group>"; };
+		ACADBDB227177F8300683EB1 /* QueteDeVeritéView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QueteDeVeritéView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +253,7 @@
 		4F07EF422671AEFD008C862B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4F279F5526E7C4C80028DEFA /* TypesDeFormations */,
 				4F0C9B4826C9EC8E003FA701 /* Bar */,
 				4FECA6B326C99999008274B8 /* ParcoursView */,
 				4FDE934D26C95D3300DBCFCA /* AttitudeViews */,
@@ -175,6 +287,24 @@
 			path = Bar;
 			sourceTree = "<group>";
 		};
+		4F279F5526E7C4C80028DEFA /* TypesDeFormations */ = {
+			isa = PBXGroup;
+			children = (
+				4F279F5626E7C4E10028DEFA /* ProfilHumainView.swift */,
+				4F998F1C26EE61E3005E7399 /* LesFondamentauxView.swift */,
+				4F998F1E26EE675F005E7399 /* LesNonditsView.swift */,
+				4F4BBE8A26EE6C3200757298 /* LesEmotionsView.swift */,
+				4F4BBE8C26EE6F5800757298 /* LesMainsView.swift */,
+				4F4BBE8E26EE72F300757298 /* FiguresDAutoritesView.swift */,
+				4F4BBE9026EE756200757298 /* StressViews.swift */,
+				ACADBDAC271768D000683EB1 /* Immo-CommunicationView.swift */,
+				ACADBDAE27176B7B00683EB1 /* LangageCorporelleView.swift */,
+				ACADBDB027176D2C00683EB1 /* ProgrammeFormationView.swift */,
+				ACADBDB227177F8300683EB1 /* QueteDeVeritéView.swift */,
+			);
+			path = TypesDeFormations;
+			sourceTree = "<group>";
+		};
 		4F54AD4C265EB70600038514 = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +324,9 @@
 		4F54AD57265EB70600038514 /* verum2 */ = {
 			isa = PBXGroup;
 			children = (
+				AC6312232702719200A6BA12 /* Product Sans Bold.ttf */,
+				AC6312222702714A00A6BA12 /* Product Sans Regular.ttf */,
+				AC32797E26F6B3970033CE48 /* audios */,
 				4F54AD5C265EB70F00038514 /* Assets.xcassets */,
 				4F54AD58265EB70600038514 /* verum2App.swift */,
 				4F54AD61265EB70F00038514 /* Info.plist */,
@@ -227,9 +360,11 @@
 				4FA3B0E326ADD5990068BAC6 /* GesuteMainsController.swift */,
 				4FA3B0E526ADD6F90068BAC6 /* GestureJambesController.swift */,
 				4FA3B0E726ADD81E0068BAC6 /* GestureAssisController.swift */,
+				4FECA6B126C963F3008274B8 /* PersistanceController.swift */,
 				4FA3B0E926AE07200068BAC6 /* GesturePiedsController.swift */,
 				4FA3B0EB26AE08000068BAC6 /* GestureMicroDemangeaisonsController.swift */,
 				4F773F1B26AA3E7B00EE9AE6 /* GestesController.swift */,
+				AC3279E326F789EC0033CE48 /* AudioController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -237,7 +372,6 @@
 		4F773EFB26A66DBE00EE9AE6 /* TypesDeGestesViews */ = {
 			isa = PBXGroup;
 			children = (
-				4FECA6B126C963F3008274B8 /* PersistanceController.swift */,
 				4FA742CC2682D2220049DEA5 /* TypeGestesTete.swift */,
 				4F909E842688E1F500F5C0F9 /* TypesGestesMicroExpressions.swift */,
 				4F909E802688DD3200F5C0F9 /* TypeGestesBouche.swift */,
@@ -290,6 +424,55 @@
 				4FECA6C626C99C73008274B8 /* ParcoursMicrodemangeaisons.swift */,
 			);
 			path = ParcoursView;
+			sourceTree = "<group>";
+		};
+		AC32797E26F6B3970033CE48 /* audios */ = {
+			isa = PBXGroup;
+			children = (
+				AC3279AA26F6B3B00033CE48 /* Ancré au sol.mp3 */,
+				AC3279A626F6B3B00033CE48 /* Auto-contact au cou.mp3 */,
+				AC3279B026F6B3B00033CE48 /* auto-contact au genou.mp3 */,
+				AC32799826F6B3B00033CE48 /* avant-bras.mp3 */,
+				AC32798E26F6B3B00033CE48 /* bras appuyé sur la table.mp3 */,
+				AC32799926F6B3B00033CE48 /* colère.mp3 */,
+				AC3279AB26F6B3B00033CE48 /* croisés des bras.mp3 */,
+				AC3279A026F6B3B00033CE48 /* croisés des jambes.mp3 */,
+				AC32799A26F6B3B00033CE48 /* déglutition.mp3 */,
+				AC32799526F6B3B00033CE48 /* dégoût.mp3 */,
+				AC32798126F6B3B00033CE48 /* dos.mp3 */,
+				AC32798B26F6B3B00033CE48 /* double croissement des jambes.mp3 */,
+				AC3279AC26F6B3B00033CE48 /* fermer les yeux avec les doigts.mp3 */,
+				AC32799126F6B3B00033CE48 /* gestes d'engramme.mp3 */,
+				AC32798D26F6B3B00033CE48 /* jambes écartées.mp3 */,
+				AC32798326F6B3B00033CE48 /* jambes..mp3 */,
+				AC32799626F6B3B00033CE48 /* joie.mp3 */,
+				AC3279A426F6B3B00033CE48 /* joue.mp3 */,
+				AC3279A126F6B3B00033CE48 /* langue dans la joue.mp3 */,
+				AC32798726F6B3B00033CE48 /* main barrière.mp3 */,
+				AC32799326F6B3B00033CE48 /* main derrière la tête.mp3 */,
+				AC32799226F6B3B00033CE48 /* main en berceau.mp3 */,
+				AC32798826F6B3B00033CE48 /* main en évantail.mp3 */,
+				AC3279A926F6B3B00033CE48 /* main en v.mp3 */,
+				AC32799426F6B3B00033CE48 /* main lavées.mp3 */,
+				AC32799E26F6B3B00033CE48 /* main ouvertes.mp3 */,
+				AC3279A226F6B3B00033CE48 /* main sur la bouche.mp3 */,
+				AC32799726F6B3B00033CE48 /* mépris.mp3 */,
+				AC32799F26F6B3B00033CE48 /* micro-caresse sur la lèvres inférieurs.mp3 */,
+				AC32798F26F6B3B00033CE48 /* mobilité.mp3 */,
+				AC32797F26F6B3B00033CE48 /* nez.mp3 */,
+				AC32798226F6B3B00033CE48 /* peur.mp3 */,
+				AC32798026F6B3B00033CE48 /* pied d'enfants.mp3 */,
+				AC32798626F6B3B00033CE48 /* pied retroussé.mp3 */,
+				AC32799B26F6B3B00033CE48 /* position arrière gauche.mp3 */,
+				AC3279AF26F6B3B00033CE48 /* position au centre.mp3 */,
+				AC32799026F6B3B00033CE48 /* position avant droit.mp3 */,
+				AC3279A326F6B3B00033CE48 /* regard vers le bas.mp3 */,
+				AC3279A726F6B3B00033CE48 /* regard vers le haut.mp3 */,
+				AC32799D26F6B3B00033CE48 /* surprise.mp3 */,
+				AC32798526F6B3B00033CE48 /* tristesse.mp3 */,
+				AC32798A26F6B3B00033CE48 /* yeux de sanpaku.mp3 */,
+			);
+			path = audios;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,9 +532,52 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC3279CB26F6B3B00033CE48 /* colère.mp3 in Resources */,
+				AC3279B726F6B3B00033CE48 /* tristesse.mp3 in Resources */,
 				4F54AD60265EB70F00038514 /* Preview Assets.xcassets in Resources */,
+				AC3279BF26F6B3B00033CE48 /* jambes écartées.mp3 in Resources */,
+				AC3279D426F6B3B00033CE48 /* main sur la bouche.mp3 in Resources */,
+				AC3279B826F6B3B00033CE48 /* pied retroussé.mp3 in Resources */,
+				AC3279D626F6B3B00033CE48 /* joue.mp3 in Resources */,
+				AC3279CD26F6B3B00033CE48 /* position arrière gauche.mp3 in Resources */,
+				AC3279DC26F6B3B00033CE48 /* Ancré au sol.mp3 in Resources */,
+				AC3279CA26F6B3B00033CE48 /* avant-bras.mp3 in Resources */,
+				AC3279E126F6B3B00033CE48 /* position au centre.mp3 in Resources */,
+				AC3279C326F6B3B00033CE48 /* gestes d'engramme.mp3 in Resources */,
+				AC3279B526F6B3B00033CE48 /* jambes..mp3 in Resources */,
+				AC3279C726F6B3B00033CE48 /* dégoût.mp3 in Resources */,
+				AC3279C226F6B3B00033CE48 /* position avant droit.mp3 in Resources */,
 				4F54AD5D265EB70F00038514 /* Assets.xcassets in Resources */,
+				AC3279C526F6B3B00033CE48 /* main derrière la tête.mp3 in Resources */,
+				AC3279DE26F6B3B00033CE48 /* fermer les yeux avec les doigts.mp3 in Resources */,
+				AC3279C626F6B3B00033CE48 /* main lavées.mp3 in Resources */,
+				AC3279B126F6B3B00033CE48 /* nez.mp3 in Resources */,
+				AC3279CC26F6B3B00033CE48 /* déglutition.mp3 in Resources */,
+				AC3279D326F6B3B00033CE48 /* langue dans la joue.mp3 in Resources */,
+				AC3279D026F6B3B00033CE48 /* main ouvertes.mp3 in Resources */,
+				AC3279BC26F6B3B00033CE48 /* yeux de sanpaku.mp3 in Resources */,
+				AC3279BA26F6B3B00033CE48 /* main en évantail.mp3 in Resources */,
+				AC3279D126F6B3B00033CE48 /* micro-caresse sur la lèvres inférieurs.mp3 in Resources */,
+				AC3279D826F6B3B00033CE48 /* Auto-contact au cou.mp3 in Resources */,
+				AC3279E226F6B3B00033CE48 /* auto-contact au genou.mp3 in Resources */,
+				AC3279B326F6B3B00033CE48 /* dos.mp3 in Resources */,
+				AC3279D526F6B3B00033CE48 /* regard vers le bas.mp3 in Resources */,
+				AC3279CF26F6B3B00033CE48 /* surprise.mp3 in Resources */,
+				AC3279DD26F6B3B00033CE48 /* croisés des bras.mp3 in Resources */,
+				AC3279C126F6B3B00033CE48 /* mobilité.mp3 in Resources */,
+				AC3279B426F6B3B00033CE48 /* peur.mp3 in Resources */,
+				AC6312242702719200A6BA12 /* Product Sans Bold.ttf in Resources */,
+				AC3279C826F6B3B00033CE48 /* joie.mp3 in Resources */,
+				AC3279BD26F6B3B00033CE48 /* double croissement des jambes.mp3 in Resources */,
+				AC3279C926F6B3B00033CE48 /* mépris.mp3 in Resources */,
+				AC3279D926F6B3B00033CE48 /* regard vers le haut.mp3 in Resources */,
+				AC3279B926F6B3B00033CE48 /* main barrière.mp3 in Resources */,
+				AC3279D226F6B3B00033CE48 /* croisés des jambes.mp3 in Resources */,
+				AC3279C426F6B3B00033CE48 /* main en berceau.mp3 in Resources */,
+				AC3279B226F6B3B00033CE48 /* pied d'enfants.mp3 in Resources */,
 				4F07EF482671B38B008C862B /* Database.json in Resources */,
+				AC3279C026F6B3B00033CE48 /* bras appuyé sur la table.mp3 in Resources */,
+				AC3279DB26F6B3B00033CE48 /* main en v.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +588,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F4BBE9126EE756200757298 /* StressViews.swift in Sources */,
 				4F773F1C26AA3E7B00EE9AE6 /* GestesController.swift in Sources */,
 				4F909E812688DD3200F5C0F9 /* TypeGestesBouche.swift in Sources */,
 				4F6748FA266AC158001E8EEE /* AttitudeView.swift in Sources */,
@@ -375,22 +602,31 @@
 				4FA3B0E226ADD4790068BAC6 /* GestureBrasController.swift in Sources */,
 				4F909E8F2688ED7A00F5C0F9 /* TypesGestesAssis.swift in Sources */,
 				4F6748F6266AC127001E8EEE /* FormationView.swift in Sources */,
+				4F998F1D26EE61E3005E7399 /* LesFondamentauxView.swift in Sources */,
 				4F6748F8266AC148001E8EEE /* BlogView.swift in Sources */,
 				4F6748FC266AC17E001E8EEE /* GestesView.swift in Sources */,
 				4F0C5DE62683C18E00369914 /* Topbar.swift in Sources */,
+				ACADBDAD271768D000683EB1 /* Immo-CommunicationView.swift in Sources */,
 				4FA3B0DE26ADD0F30068BAC6 /* GestureYeuxController.swift in Sources */,
+				ACADBDB127176D2C00683EB1 /* ProgrammeFormationView.swift in Sources */,
 				4FECA6B526C99A29008274B8 /* ParcoursBouche.swift in Sources */,
 				4F0C5DE82683C2E900369914 /* ParcoursTeteView.swift in Sources */,
 				4F0D5C6826BD889800105510 /* SageView.swift in Sources */,
+				ACADBDAF27176B7B00683EB1 /* LangageCorporelleView.swift in Sources */,
 				4F909E892688E52700F5C0F9 /* TypesGestesBras.swift in Sources */,
+				4F4BBE8D26EE6F5800757298 /* LesMainsView.swift in Sources */,
 				4F440A5426ACD5EA0006B47B /* GestureBoucheController.swift in Sources */,
+				4F279F5726E7C4E10028DEFA /* ProfilHumainView.swift in Sources */,
 				4FA3B0E826ADD81E0068BAC6 /* GestureAssisController.swift in Sources */,
 				4F0D5C6426BC8A5C00105510 /* DecideurView.swift in Sources */,
 				4FA3B0E426ADD5990068BAC6 /* GesuteMainsController.swift in Sources */,
 				4F0D5C6626BC96D200105510 /* RelationelleView.swift in Sources */,
+				ACADBDB327177F8300683EB1 /* QueteDeVeritéView.swift in Sources */,
 				4FECA6B726C99ADF008274B8 /* ParcoursYeux.swift in Sources */,
+				4F4BBE8F26EE72F300757298 /* FiguresDAutoritesView.swift in Sources */,
 				4FA3B0E026ADD38B0068BAC6 /* GestureCouController.swift in Sources */,
 				4F909E8B2688E64000F5C0F9 /* TypesGestesMains.swift in Sources */,
+				AC3279E426F789EC0033CE48 /* AudioController.swift in Sources */,
 				4F909E852688E1F500F5C0F9 /* TypesGestesMicroExpressions.swift in Sources */,
 				4FECA6BB26C99B45008274B8 /* ParcoursCou.swift in Sources */,
 				4FECA6C126C99BF1008274B8 /* ParcoursJambes.swift in Sources */,
@@ -407,6 +643,7 @@
 				4FECA6C526C99C41008274B8 /* ParcoursPieds.swift in Sources */,
 				4FA3B0EC26AE08000068BAC6 /* GestureMicroDemangeaisonsController.swift in Sources */,
 				4FECA6B226C963F3008274B8 /* PersistanceController.swift in Sources */,
+				4F4BBE8B26EE6C3200757298 /* LesEmotionsView.swift in Sources */,
 				4FFA138126ABB27E00064FEB /* GestureViewModel.swift in Sources */,
 				4F909E8D2688E80B00F5C0F9 /* TypesGestesJambes.swift in Sources */,
 				4FD553C12674514600506B2F /* data.swift in Sources */,
@@ -414,6 +651,7 @@
 				4FA742CD2682D2220049DEA5 /* TypeGestesTete.swift in Sources */,
 				4F909E932688F2F900F5C0F9 /* TypesGestesMicroDémangeaisons.swift in Sources */,
 				4F909E912688F05B00F5C0F9 /* TypesGestesPieds.swift in Sources */,
+				4F998F1F26EE675F005E7399 /* LesNonditsView.swift in Sources */,
 				4FFA138326ABB7A900064FEB /* GestureTeteController.swift in Sources */,
 				4FD553BF2673F3E000506B2F /* Gesture.swift in Sources */,
 			);

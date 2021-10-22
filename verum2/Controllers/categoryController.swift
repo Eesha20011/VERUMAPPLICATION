@@ -12,7 +12,10 @@ import CoreData
 
 
 
+
 extension Bundle {
+    
+    
     //Takes a json file (string) and returns a type []
     
     
@@ -134,7 +137,7 @@ func progressForEachGesture(Nombre: Int) -> Array<Float> {
 
 //Progress view
 struct ProgressBar: View {
-    @Binding var progress: Float
+     var progress: Float
     
     var body: some View {
         ZStack {
@@ -149,14 +152,14 @@ struct ProgressBar: View {
                 .foregroundColor(.gray)
             
             Circle()
-                .trim(from: 0.0, to: CGFloat(min(self.progress, 1.0)))
+                .trim(from: 0.0, to: CGFloat(min(progress, 1.0)))
                 .stroke(style: StrokeStyle(lineWidth: 50.0, lineCap: .round, lineJoin: .round))
                 .foregroundColor(Color("verumBleu"))
                 .rotationEffect(Angle(degrees: 270.0))
                 .animation(.linear)
                 .frame(width: 200, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
 
-            Text(String(format: "%.0f %%", min(self.progress, 1.0)*100.0))
+            Text(String(format: "%.0f %%", min(progress, 1.0)*100.0))
                 .font(.largeTitle)
                 .foregroundColor(Color("verumBleu"))
             VStack {

@@ -8,6 +8,7 @@
 import SwiftUI
 
 @main
+
 struct verum2App: App {
     
     let persistacontroller = PersistanceController.shared
@@ -15,6 +16,7 @@ struct verum2App: App {
     @Environment(\.scenePhase) var scenePhase
     
     var body: some Scene {
+        
         WindowGroup {
             MainView()
                 .environment(\.managedObjectContext, persistacontroller.container.viewContext)

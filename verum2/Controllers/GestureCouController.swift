@@ -7,6 +7,7 @@
 
 import Foundation
 
+
 func Mobilite(choice: Int) -> String{
     var whatever : String = ""
     let boucheUn = GestureViewModel(nom: gestes2[4].Gestes[0].nomenclature, explication: gestes2[4].Gestes[0].explication, exemple: gestes2[4].Gestes[0].exemple, imagePrincipale: gestes2[4].Gestes[0].image, imageExemple1: gestes2[4].Gestes[0].image1, imageExemple2: gestes2[4].Gestes[0].image2, imageExemple3: gestes2[4].Gestes[0].image3, imageExemple4: gestes2[4].Gestes[0].image4, imageExemple5: gestes2[4].Gestes[0].image5)

@@ -1,6 +1,6 @@
 [
   {
-   "id": 1, "Section": "La Tête", "Image" : "Tete_section", "Gestes":
+   "id": 1, "Section": "Tête", "Image" : "Tete_section", "Gestes":
      [
         {
             "id": 1,
@@ -22,11 +22,11 @@
             "exemple": "exemple2",
             "attitude": "Relationnel",
             "image": "Axe_latéral_gauche",
-            "image1": "test",
-            "image2": "test",
-            "image3": "test",
-            "image4": "test",
-            "image5": "test"
+            "image1": "axe_lateral1",
+            "image2": "axe_lateral2",
+            "image3": "axe_lateral3",
+            "image4": "axe_lateral4",
+            "image5": "axe_lateral5"
         },
         {
             "id": 3,
@@ -35,8 +35,8 @@
             "exemple": "exemple3",
             "attitude": "Vigilant",
             "image": "Axe_rotatif_droit",
-            "image1": "test",
-            "image2": "test",
+            "image1": "axe_rotatifd1",
+            "image2": "axe_rotatifd2",
             "image3": "test",
             "image4": "test",
             "image5": "test"
@@ -96,7 +96,7 @@
         ]
      },
      {
-      "id": 2, "Section": "La Bouche", "Image" : "Bouche_section", "Gestes":
+      "id": 2, "Section": "Bouche", "Image" : "Bouche_section", "Gestes":
         [
                 {
                "id": 1,
@@ -153,7 +153,7 @@
            ]
 },
      {
-      "id": 3, "Section": "Les Yeux", "Image" : "Yeux_section", "Gestes":
+      "id": 3, "Section": "Yeux", "Image" : "Yeux_section", "Gestes":
         [
                 {
                "id": 1,
@@ -188,11 +188,11 @@
                "exemple": "concousicont",
                "attitude": "slow1",
                "image": "Yeux_de_sanpaku",
-               "image1": "test",
-               "image2": "test",
-               "image3": "test",
-               "image4": "test",
-               "image5": "test"
+               "image1": "sanpaku1",
+               "image2": "sanpaku2",
+               "image3": "sanpaku3",
+               "image4": "sanpaku4",
+               "image5": "sanpaku5"
            },
            {
                "id": 4,
@@ -306,7 +306,7 @@
            ]
 },
      {
-      "id": 5, "Section": "Le Cou", "Image" : "Cou_section", "Gestes":
+      "id": 5, "Section": "Cou", "Image" : "Cou_section", "Gestes":
         [
                 {
                "id": 1,
@@ -350,7 +350,7 @@
            ]
 },
      {
-      "id": 6, "Section": "Les Bras", "Image" : "Bras_section", "Gestes":
+      "id": 6, "Section": "Bras", "Image" : "Bras_section", "Gestes":
         [
                 {
                "id": 1,
@@ -381,7 +381,7 @@
            ]
 },
      {
-      "id": 7, "Section": "Les Mains", "Image" : "Mains_section", "Gestes":
+      "id": 7, "Section": "Mains", "Image" : "Mains_section", "Gestes":
         [
                 {
                "id": 1,
@@ -390,10 +390,10 @@
                "exemple": "exemple1",
                "attitude": "slow1",
                "image": "Mains_en_V",
-               "image1": "test",
-               "image2": "test",
-               "image3": "test",
-               "image4": "test",
+               "image1": "V1",
+               "image2": "V2",
+               "image3": "V3",
+               "image4": "V4",
                "image5": "test"
            },
            {
@@ -478,7 +478,7 @@
            ]
 },
      {
-      "id": 8, "Section": "Les Jambes", "Image" : "Jambes_section", "Gestes":
+      "id": 8, "Section": "Jambes", "Image" : "Jambes_section", "Gestes":
         [
                 {
                "id": 1,
@@ -592,7 +592,7 @@
            ]
 },
      {
-      "id": 10, "Section": "Les Pieds", "Image" : "Pieds_section", "Gestes":
+      "id": 10, "Section": "Pieds", "Image" : "Pieds_section", "Gestes":
         [
             {
                "id": 1,
@@ -645,7 +645,7 @@
                "exemple": "exemple1",
                "attitude": "slow1",
                "image": "Jambe",
-               "image1": "test",
+               "image1": "jambe1",
                "image2": "test",
                "image3": "test",
                "image4": "test",
@@ -658,7 +658,7 @@
                "exemple": "concousicont",
                "attitude": "slow1",
                "image": "Joue",
-               "image1": "test",
+               "image1": "joue1",
                "image2": "test",
                "image3": "test",
                "image4": "test",

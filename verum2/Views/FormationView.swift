@@ -18,162 +18,130 @@ struct FormationView: View {
                 .frame(width: 20, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
             VStack {
         Text("Formations")
-            .font(.custom("Ruluko-Regular", size: 40))
-            .foregroundColor(Color("verumBleu"))
+            .font(.custom("Product Sans Bold", size: 40))
+            .foregroundColor(Color("bleu"))
                 ScrollView {
-                VStack(alignment: .leading){
-        Text("Courtier Immobilier")
-            .font(.system(size: 20))
-            .foregroundColor(.gray)
-                    ScrollView(.horizontal) {
-                        HStack(spacing: 20) {
-                            VStack {
-                                Link(destination: URL(string: "https://formations.verum.ca/immo-communication?_ga=2.58361642.1229261442.1625855577-1482722172.1623681128")!) {
-                        Image("immobilier1")
+                    VStack(alignment: .leading, spacing: 20){
+                    ScrollView(.vertical) {
+                        HStack{
+                            NavigationLink(destination: ProgrammeFormationView()) {
+                        Image("Prog Formation Corporel")
                             .resizable()
-                            .frame(width: 120, height: 120, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                            .cornerRadius(50)
-                                }
-                        Text("Autoformation Immo-Communication")
-                            .frame(width: 120, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                            .foregroundColor(Color("verumBleu"))
+                            .frame(width: 340, height: 210, alignment: .center)
+                            .cornerRadius(20)
                             }
-                            VStack {
-                                Link(destination: URL(string: "https://formations.verum.ca/reussir-vos-reunions-virtuelles?")!) {
-                        Image("immobilier2")
+                            Spacer()
+                              
+                        }
+                        HStack{
+                            NavigationLink(destination: ProfilHumainView()) {
+                        Image("Leçon non verbale")
                             .resizable()
-                            .frame(width: 120, height: 120, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                            .cornerRadius(50)
-                                }
-                            Text("Autoformation Langage corporel")
-                                .frame(width: 120, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                .foregroundColor(Color("verumBleu"))
-                            
+                            .frame(width: 340, height: 210, alignment: .center)
+                            .cornerRadius(20)
                             }
-                            VStack {
-                                Link(destination: URL(string: "https://formations.verum.ca/reussir-vos-reunions-virtuelles?")!) {
-                        Image("Avocat1")
+                            Spacer()
+                              
+                        }
+                        HStack{
+                            NavigationLink(destination: Immo_CommunicationView()) {
+                        Image("Immo-Communications")
                             .resizable()
-                            .frame(width: 120, height: 120, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                            .cornerRadius(45)
-                                }
-                        Text("Autoformation Démystifier votre cerveau")
-                            .frame(width: 120, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                            .foregroundColor(Color("verumBleu"))
+                            .frame(width: 340, height: 210, alignment: .center)
+                            .cornerRadius(20)
                             }
-                    }
+                            Spacer()
+                              
+                        }
+                        HStack{
+                            NavigationLink(destination: LangageCorporelleView()) {
+                        Image("Langage corporel en immobilier")
+                            .resizable()
+                            .frame(width: 340, height: 210, alignment: .center)
+                            .cornerRadius(20)
+                            }
+                            Spacer()
+                              
+                        }
+                        HStack{
+                            NavigationLink(destination: ProfilHumainView()) {
+                        Image("HBDI")
+                            .resizable()
+                            .frame(width: 340, height: 210, alignment: .center)
+                            .cornerRadius(20)
+                            }
+                            Spacer()
+                              
+                        }
+                        
                     }
                 
-        Text("Avocat")
-            .font(.system(size: 20))
-            .foregroundColor(.gray)
-                    ScrollView(.horizontal) {
+                    
                         HStack(spacing: 20) {
                             
-                            VStack {
-                                Link(destination: URL(string: "https://verum.ca/demystifier-votre-cerveau-2/")!) {
-                        Image("Avocat1")
+                       
+                            NavigationLink(destination: LesEmotionsView()){
+                        Image("LesEmotions")
                             .resizable()
-                            .frame(width: 120, height: 120, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                            .cornerRadius(45)
+                            .frame(width: 160, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            .cornerRadius(20)
                                 }
-                        Text("Autoformation Démystifier votre cerveau")
-                            .frame(width: 120, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                            .foregroundColor(Color("verumBleu"))
+                            NavigationLink(destination: LesFondamentauxView()) {
+                    Image("LesFondamentaux")
+                        .resizable()
+                        .frame(width: 160, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        .cornerRadius(20)
                             }
                     }
-                    }
-                   
+                        HStack(spacing: 20) {
                             
-                    Text("Concessionnaire automobile")
-                        .font(.system(size: 20))
-                        .foregroundColor(.gray)
-                                ScrollView(.horizontal) {
-                                    HStack(alignment: .firstTextBaseline, spacing: 20) {
-                                        VStack {
-                                            Link(destination: URL(string: "https://verum.ca/profil-humain-concessionnaire-automobile/")!) {
-                                    Image("automobile1")
-                                        .resizable()
-                                        .frame(width: 120, height: 120, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                        .cornerRadius(45)
-                                            }
-                                    Text("Les profils humains (webinaire)")
-                                        .frame(width: 120,alignment: .leading)
-                                        .foregroundColor(Color("verumBleu"))
-                                        .fixedSize(horizontal: false, vertical: true)
-                                        }
-                                            
-                                        VStack {
-                                            Link(destination: URL(string: "https://verum.ca/langage-corporel-concessionnaire-automobile/")!) {
-                                    Image("automobile1")
-                                        .resizable()
-                                        .frame(width: 120, height: 120, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                        .cornerRadius(45)
-                                            }
-                                    Text("Un regard sur votre client pour le servir")
-                                        .frame(width: 120,alignment: .leading)
-                                        .foregroundColor(Color("verumBleu"))
-                                        .fixedSize(horizontal: false, vertical: true)
-                                        }
-                                        VStack {
-                                            Link(destination: URL(string: "https://verum.ca/profil-humain-langage-corporel-strategies-ccaq/")!) {
-                                    Image("automobile1")
-                                        .resizable()
-                                        .frame(width: 120, height: 120, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                        .cornerRadius(45)
-                                            }
-                                    Text("Programme de formation")
-                                        .frame(width: 120,alignment: .leading)
-                                        .foregroundColor(Color("verumBleu"))
-                                        .fixedSize(horizontal: false, vertical: true)
-                                        }
+                       
+                            NavigationLink(destination: LesMainsView()) {
+                        Image("LesMains")
+                            .resizable()
+                            .frame(width: 160, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            .cornerRadius(20)
                                 }
+                            NavigationLink(destination: LesNonditsView()) {
+                    Image("LesNomsDits")
+                        .resizable()
+                        .frame(width: 160, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        .cornerRadius(20)
+                            }
+                    }
+                        HStack(spacing: 20) {
+                            
+                       
+                            NavigationLink(destination: QueteDeVerite_View()) {
+                        Image("QueteDeVerite")
+                            .resizable()
+                            .frame(width: 160, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            .cornerRadius(20)
                                 }
-                    Text("Public")
-                        .font(.system(size: 20))
-                        .foregroundColor(.gray)
-                                ScrollView(.horizontal) {
-                                    HStack(alignment: .firstTextBaseline,spacing: 20) {
-                                        VStack {
-                                            Link(destination: URL(string: "https://verum.ca/programme-de-formation-2/")!) {
-                                    Image("public1")
-                                        .resizable()
-                                        .frame(width: 120, height: 120, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                        .cornerRadius(45)
-                                            }
-                                    Text("Programme de formation")
-                                        .frame(width: 120,alignment: .leading)
-                                        .foregroundColor(Color("verumBleu"))
-                                        .fixedSize(horizontal: false, vertical: true)
-                                        }
-                                        VStack {
-                                            Link(destination: URL(string: "https://verum.ca/demystifier-votre-cerveau-2/")!) {
-                                    Image("Avocat1")
-                                        .resizable()
-                                        .frame(width: 120, height: 120, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                        .cornerRadius(45)
-                                                
-                                            }
-                                                
-                                    Text("Autoformation Démystifier votre cerveau")
-                                        .frame(width: 120,alignment: .leading)
-                                        .foregroundColor(Color("verumBleu"))
-                                        .fixedSize(horizontal: false, vertical: true)
-                                        }
-                                        VStack {
-                                            Link(destination: URL(string: "https://formations.verum.ca/reussir-vos-reunions-virtuelles?_ga=2.230828575.1229261442.1625855577-1482722172.1623681128")!) {
-                                    Image("immobilier2")
-                                        .resizable()
-                                        .frame(width: 120, height: 120, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                        .cornerRadius(45)
-                                            }
-                                    Text("Autoformation Langage corporel")
-                                        .frame(width: 120,alignment: .leading)
-                                        .foregroundColor(Color("verumBleu"))
-                                        .fixedSize(horizontal: false, vertical: true)
-                                        }
-                                            
+                            NavigationLink(destination: StressViews()) {
+                    Image("StressEtMensonges")
+                        .resizable()
+                        .frame(width: 160, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        .cornerRadius(20)
+                            }
+                    }
+                        
+                        HStack(spacing: 20) {
+                            
+                       
+                            NavigationLink(destination: FiguresDAutoritesView()) {
+                        Image("FiguresDautorite")
+                            .resizable()
+                            .frame(width: 160, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            .cornerRadius(20)
                                 }
+                            Link(destination: URL(string: "https://verum.ca/demystifier-votre-cerveau-2/")!) {
+                    Spacer()
+                        .frame(width: 160, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                       
+                            }
+                            
+                    }
                                 }
        
        
@@ -185,7 +153,7 @@ struct FormationView: View {
             }
         }
 }
-}
+
 
     
             

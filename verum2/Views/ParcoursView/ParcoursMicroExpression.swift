@@ -8,7 +8,17 @@
 import SwiftUI
 
 struct ParcoursMicroExpression: View {
-    @State var progressValue: Float = 0.0
+    @FetchRequest(entity: ProgressOfEach.entity(),sortDescriptors: [])
+   var progress2: FetchedResults<ProgressOfEach>
+//    @State private var progress: Float = 0
+    func fetchExpression() -> Float {
+     var expression: Float = 0.0
+        for progress in progress2 {
+           expression = progress.microExpression
+       }
+     return expression
+}
+   
     var body: some View {
         ZStack {
                     Color("Color4")
@@ -19,23 +29,11 @@ struct ParcoursMicroExpression: View {
                                 .foregroundColor(.white)
                                 .frame(width: 300, height: 359, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                                 .cornerRadius(20)
-                                ProgressBar(progress: self.$progressValue)
+                                ProgressBar(progress: fetchExpression())
                             VStack {
                                 Spacer()
                                     .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 500, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                                Button(action: {
-                                                self.incrementProgress()
-                                            }) {
-                                                HStack {
-                                                    Image(systemName: "plus.rectangle.fill")
-                                                    Text("Increment")
-                                                }
-                                                .padding(15.0)
-                                                .overlay(
-                                                    RoundedRectangle(cornerRadius: 15.0)
-                                                        .stroke(lineWidth: 2.0)
-                                                )
-                                            }
+                                
                             }
                             
                             
@@ -43,10 +41,7 @@ struct ParcoursMicroExpression: View {
 
             }
     }
-    func incrementProgress() {
-        let randomValue = progressForEachGesture(Nombre: 7).randomElement()!
-        self.progressValue += randomValue
-    }
+  
 }
 
 struct ParcoursMicroExpression_Previews: PreviewProvider {

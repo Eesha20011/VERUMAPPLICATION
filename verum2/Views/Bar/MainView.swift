@@ -11,7 +11,8 @@ struct MainView: View {
     init() {
        
         UITabBar.appearance().isTranslucent = false
-        UITabBar.appearance().barTintColor = UIColor(named: "verumBleu")
+        UITabBar.appearance().backgroundColor = UIColor.gray
+        UITabBar.appearance().backgroundColor = UIColor(named: "bleu")
     }
    var body: some View {
     NavigationView{
@@ -30,10 +31,7 @@ struct MainView: View {
                 .tabItem {
                     Label("Blog", systemImage: "newspaper")
                 }
-            AttitudeView()
-                .tabItem {
-                    Label("Attitudes", systemImage: "face.smiling")
-                }
+            
                 
     }
         .accentColor(.white)

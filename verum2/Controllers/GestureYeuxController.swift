@@ -8,8 +8,9 @@
 import Foundation
 
 func RegarderVersLeHaut(choice: Int) -> String{
-    var whatever : String = ""
+    var whatever : String = "ees"
     let boucheUn = GestureViewModel(nom: gestes2[2].Gestes[0].nomenclature, explication: gestes2[2].Gestes[0].explication, exemple: gestes2[2].Gestes[0].exemple, imagePrincipale: gestes2[2].Gestes[0].image, imageExemple1: gestes2[2].Gestes[0].image1, imageExemple2: gestes2[2].Gestes[0].image2, imageExemple3: gestes2[2].Gestes[0].image3, imageExemple4: gestes2[2].Gestes[0].image4, imageExemple5: gestes2[2].Gestes[0].image5)
+    
     if choice == 1 {
          whatever = boucheUn.nom
     } else if choice == 2 {
