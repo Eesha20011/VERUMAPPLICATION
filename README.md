@@ -10,6 +10,16 @@ This application is made of three parts. The first part consists of trainings th
 - Webkit 
 - Core Data
 
+Il s'agit de la première version de l'application IOS pour VERUM : https://verum.ca/fr/
+
+VERUM sert à sensibiliser les individus à observer, apprendre et appliquer les mouvements du corps. Il a le pouvoir de faire prendre conscience aux gens de l'importance de leur comportement inconscient. Cette application est composée de trois parties. La première partie consiste en des formations qui contiennent un lien direct vers le site VERUM à partir duquel l'utilisateur peut acheter des abonnements. La deuxième partie se compose de onze parties du corps différentes, dont cinquante mouvements au total. Cela comprend également une description détaillée de chaque mouvement. Le bonus est qu'il est assisté par un audio. Ce fichier audio MP3 permet à l'utilisateur d'effectuer plusieurs tâches tout en utilisant l'application. Ils peuvent analyser leur environnement et appliquer leurs apprentissages tout en utilisant l'application. Même si l'utilisateur ne se souvient pas de ses progrès, l'application les suit pour eux à l'aide de Core Data. La troisième partie est un blog contenant des articles auxquels l'utilisateur peut s'abonner.
+
+#Cadres
+
+Fondation AV
+Kit Web
+Données de base
+
 #Images of the UI 
 
 
