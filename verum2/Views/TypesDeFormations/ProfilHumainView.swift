@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import WebKit
 
 struct ProfilHumainView: View {
     var body: some View {
@@ -210,7 +211,10 @@ struct ProfilHumainView: View {
                         HStack {
                             Spacer()
                              .frame(width: 100, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        ZStack {
+                           
+                      
+                                Link(destination: URL(string: "https://verum.ca/fr/les-profils-humains-hbdi")!) {
+                                    ZStack {
                       Rectangle()
                         .foregroundColor(Color("bleu"))
                         .frame(width: 150, height: 80, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
@@ -220,6 +224,7 @@ struct ProfilHumainView: View {
                                 .font(.custom("Product Sans Bold", size: 25))
                             
                         }
+                            }
                         }
                         Spacer()
                          .frame(width: 50, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
